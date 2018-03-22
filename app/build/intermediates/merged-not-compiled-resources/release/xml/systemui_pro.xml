@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/fingerprint" >
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/fingerprint" android:key="nopin_fp" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" />
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/restrictedsecurity">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/AllowScreenshot"
+            android:key="is_flag_secure_disabled"
+            android:defaultValue="true"
+            android:summaryOn="@string/onallowscreenshot"
+            android:summaryOff="@string/offallowscreenshot" />
+    </PreferenceCategory>
+
+    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomIcons">
+     ks8mods.v2.prefs.ThumbnailListPreference
+            android:defaultValue="1"
+            android:key="asc_wifi"
+            android:title="@string/Wifiiconchooser"
+            app:drawableArray="@array/wifi_drawables"
+            app:entryList="@array/wifi_entries"
+            app:entryValuesList="@array/wifi_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+     ks8mods.v2.prefs.ThumbnailListPreference
+            android:defaultValue="1"
+            android:key="asc_arrow_wifi"
+            android:title="@string/WifiarrowChooser"
+            app:drawableArray="@array/wifiarrow_drawables"
+            app:entryList="@array/wifiarrow_entries"
+            app:entryValuesList="@array/wifiarrow_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+     ks8mods.v2.prefs.ThumbnailListPreference
+            android:defaultValue="1"
+            android:key="asc1_signal"
+            android:title="@string/Signalchooser"
+            app:drawableArray="@array/signal_drawables"
+            app:entryList="@array/signal_entries"
+            app:entryValuesList="@array/signal_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+     ks8mods.v2.prefs.ThumbnailListPreference
+            android:defaultValue="1"
+            android:key="asc1_signal_sim2"
+            android:title="@string/Signalchooser2"
+            app:drawableArray="@array/signal_drawables"
+            app:entryList="@array/signal_entries"
+            app:entryValuesList="@array/signal_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+     ks8mods.v2.prefs.ThumbnailListPreference
+            android:defaultValue="1"
+            android:key="asc_alarm"
+            android:title="@string/AlarmIconChooser"
+            app:drawableArray="@array/alarm_drawables"
+            app:entryList="@array/alarm_entries"
+            app:entryValuesList="@array/alarm_values"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"/>
+    </PreferenceCategory>-->
+
+</PreferenceScreen>

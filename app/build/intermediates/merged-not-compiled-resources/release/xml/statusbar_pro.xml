@@ -1,0 +1,213 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/StatusbarColors">
+     ks8mods.v2.prefs.MySwitchPreference
+            android:defaultValue="false"
+            android:key="is_global_sb_color"
+            android:summaryOff="@string/off"
+            android:summaryOn="@string/on"
+            android:title="@string/StatusbarColorsGlobal"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="global_sb_color"
+            android:dependency="is_global_sb_color"
+            android:title="@string/StatusbarColorGlobal"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="clock_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarClockColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="wifi_signal_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarWifiColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="mobile_signal_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarSignalColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="mobile_type_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarMobileColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="mobile_roaming_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarRoamingColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="airplane_mode_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarAirplaneColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="status_icons_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarStatusColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="notification_icons_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarNotificationColor"/>
+     ks8mods.v2.prefs.ColorPickerPreference
+            android:defaultValue="#ffffffff"
+            android:key="battery_percent_color"
+            app:reverseDependency="is_global_sb_color"
+            android:title="@string/StatusbarBatteryColor"/>
+    </PreferenceCategory>-->
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/StatusbarClockOptions" android:summary="Custom clock settings">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:icon="@drawable/tap" android:title="@string/Taponclock" android:key="tap_clock_launcher" android:defaultValue="true" android:summaryOn="@string/taptolanchapp" android:summaryOff="@string/TapClockLauncherisdisabled" app:packageNameToKill="com.android.systemui" app:isSilent="false" />
+        <com.boostermbkking.ks8mods.v2.prefs.IntentDialogPreference
+            android:key="press_clock_custom_app" android:title="@string/Taponclockapp" android:dependency="tap_clock_launcher" app:intentSeparator="\##" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/RightClock">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/showhide" android:key="clock_visibility" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/Seconds" android:key="show_seconds" android:dependency="clock_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/CenterClock">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/showhide" android:key="clockcenter_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/Seconds" android:key="showcenter_seconds" android:dependency="clockcenter_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/LeftClock">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/showhide" android:key="clockleft_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:title="@string/Seconds" android:key="showleft_seconds" android:dependency="clockleft_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/batterytoggle" android:summary="Custom clock settings">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:icon="@drawable/minit" android:title="@string/Minitbatteryshowhide" android:key="minit_battery_visible" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:icon="@drawable/batterystock" android:title="@string/Stockbatteryshowhide" android:key="stock_battery_visibility" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" app:packageNameToKill="com.android.systemui" app:isSilent="false"/>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/BatteryBar">
+        <PreferenceScreen android:title="@string/BatteryBar" android:icon="@drawable/battery">
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/battery4" android:entries="@array/battery_bar_entries" android:title="@string/BatteryBar" android:key="batterybar_viewed" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_values" />
+            <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                android:icon="@drawable/battery3" android:title="@string/Batterybaranimation" android:key="batterybar_animated_views" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/battery2" android:entries="@array/battery_bar_style_entries" android:title="@string/Batterybarstyle" android:key="batterybar_locations" android:summary="%s" android:defaultValue="1" android:entryValues="@array/battery_bar_style_values" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/battery5" android:entries="@array/battery_bar_thickness_entries" android:title="@string/Batterybarthick" android:key="batterybar_sized" android:summary="%s" android:defaultValue="2" android:entryValues="@array/battery_bar_thickness_values" />
+            <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                android:icon="@drawable/pantone" android:title="@string/Batterybarcolor" android:key="batterybar__color" android:summary="@string/Batterybarcolor2" android:defaultValue="#ffffffff" hexValue="true" alphaSlider="true" />
+            <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                android:icon="@drawable/pantone2" android:title="@string/ChargingColor" android:key="batterybar_charging_color" android:summary="@string/Batterybarcolor2" android:defaultValue="0xFFFFFFFF"  hexValue="true" alphaSlider="true"  />
+            <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                android:icon="@drawable/pantone3" android:title="@string/LowBatteryColorWarning" android:key="batterybar_low_warning_color" android:summary="@string/Batterybarcolor2" android:defaultValue="0xFFFFFFFF"  hexValue="true" alphaSlider="true"  />
+            <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                android:icon="@drawable/pantone4" android:title="@string/UseGradientColor" android:key="batterybar_switch_gradients" android:summary="Gradient of Middle &amp; Edges colors (set colors below)"  />
+            <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                android:icon="@drawable/pantone5" android:title="@string/EdgesGradientColor" android:key="batterybar_high_color" android:defaultValue="\#00000000"  android:dependency="batterybar_switch_gradients"/>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/VirtualButtonsLocktitle">
+        <PreferenceScreen android:icon="@drawable/padlock" android:title="@string/VirtualButtonsLock">
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/padlock" android:title="@string/Rightside" android:key="cocoyaya_rightcornerlock" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/lock" android:title="@string/Leftside" android:key="cocoyaya_leftcornerlock" android:defaultValue="true" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/lock2" android:title="@string/Center" android:key="cocoyaya_centerlock" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        </PreferenceScreen>
+         <PreferenceScreen android:icon="@drawable/home" android:title="@string/VirtualButtonsHome">
+             <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                 android:icon="@drawable/home" android:title="@string/Rightside" android:key="cocoyaya_rightcornerhome" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+             <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                 android:icon="@drawable/home2" android:title="@string/Leftside" android:key="cocoyaya_leftcornerhome" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+             <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                 android:icon="@drawable/home3" android:title="@string/Center" android:key="cocoyaya_centerhome" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+         </PreferenceScreen>
+        <PreferenceScreen android:icon="@drawable/bttf3" android:title="@string/VirtualButtonsRecents">
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/bttf" android:title="@string/Rightside" android:key="cocoyaya_rightcornertask" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/bttf2" android:title="@string/Leftside" android:key="cocoyaya_leftcornertask" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+            <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference
+                android:icon="@drawable/bttf3" android:title="@string/Center" android:key="cocoyaya_centertask" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Networktrafficpreferences">
+        <PreferenceScreen android:title="@string/Networktrafficpreferences" android:icon="@drawable/rocket">
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/database" android:title="@string/Displayedtrafficinfo" android:key="network_traffic_state" android:defaultValue="3" app:dependentValue="0" android:entryValues="@array/traffic_state_values" android:entries="@array/traffic_state_items"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                android:icon="@drawable/rocket" android:title="@string/DisplaydatainBytes" android:summaryOff="@string/DisplayedinBits" android:summaryOn="@string/DisplaydatainBytes" android:defaultValue="false" android:key="network_traffic_unit" android:dependency="network_traffic_state"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                android:icon="@drawable/press" android:title="@string/Showtrafficarrows" android:key="network_traffic_show_arrows" android:defaultValue="true" android:summaryOff="@string/off" android:summaryOn="@string/on" android:dependency="network_traffic_state"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/flask" android:title="@string/Arrows_position" android:key="network_traffic_arrows_position" android:dependency="network_traffic_show_arrows" android:defaultValue="0" android:entryValues="@array/arrow_position_values" android:entries="@array/arrow_position_entries"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                android:icon="@drawable/races" android:title="@string/Autohideonlowtraffic" android:key="network_traffic_autohide" android:defaultValue="false" android:summaryOff="Displayed always" android:summaryOn="Autohide enabled"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MySeekBarPreference
+                android:title="@string/Autohidethreshold" app:unitsValue="Kb" app:maxValue="100" android:key="network_traffic_threshold" android:defaultValue="10" android:dependency="network_traffic_autohide"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+                android:icon="@drawable/cogwheel" android:title="@string/Fontstyle" android:key="network_traffic_text_style" android:defaultValue="0" android:entries="@array/traffic_style_entries" android:entryValues="@array/traffic_style_entry_values"/>
+            <com.boostermbkking.ks8mods.v2.prefs.MySeekBarPreference
+                android:title="@string/Textsizescalefactor" android:key="network_traffic_scale" app:maxValue="10" android:defaultValue="10"/>
+            <PreferenceCategory android:title="@string/Networktrafficcolor" android:dependency="network_traffic_state">
+                <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+                    android:icon="@drawable/pantone" android:title="@string/Separatecolorsforelements" android:key="network_traffic_global_color" android:defaultValue="true" android:summaryOn="@string/Allelementscoloredseparately" android:summaryOff="@string/Globalcolorallelements"/>
+                <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                    android:icon="@drawable/pantone2" android:title="@string/Globalcolor" android:key="network_traffic_color" android:defaultValue="#ffffff"/>
+                <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                    android:icon="@drawable/pantone6" android:title="@string/Uploadtextcolor" android:defaultValue="#ffffff" android:key="network_traffic_upload_color" android:dependency="network_traffic_global_color"/>
+                <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                    android:icon="@drawable/pantone4" android:title="@string/Downloadtextcolor" android:defaultValue="#ffffff" android:key="network_traffic_download_color" android:dependency="network_traffic_global_color"/>
+                <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                    android:icon="@drawable/pantone5" android:title="@string/Trafficarrowscolor" android:key="network_traffic_arrow_color" android:defaultValue="#ffffff" android:dependency="network_traffic_global_color"/>
+            </PreferenceCategory>
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomLogoTitlePro" >
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
+            android:defaultValue="true"
+            android:key="z_logo_hide"
+            android:summaryOff="@string/off"
+            android:summaryOn="@string/on"
+            android:title="@string/LogoVisibility" />
+        <com.boostermbkking.ks8mods.v2.prefs.MyListPreference
+            app:dependentValue="1"
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"
+            android:defaultValue="11"
+            android:dependency="z_logo_hide"
+            android:entries="@array/custom_logo_type_entries"
+            android:entryValues="@array/custom_logo_type_values"
+            android:key="z_logo_type"
+            android:title="@string/CustomLogoType" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/WarningLogoSyze" >
+        <com.boostermbkking.ks8mods.v2.prefs.UriSelectionPreference
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"
+            android:key="z_logo_image_uri"
+            android:title="@string/SelectLogoFromGallery" />
+        <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+            app:isSilent="false"
+            app:packageNameToKill="com.android.systemui"
+            android:defaultValue="\#ffffffff"
+            android:dependency="z_logo_type"
+            android:key="z_logo_Color"
+            android:title="@string/LogoColors" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

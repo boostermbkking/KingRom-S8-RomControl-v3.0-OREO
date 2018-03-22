@@ -1,0 +1,676 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="backup_restore_items">
+        <item>Backup data</item>
+        <item>Restore data</item>
+    </string-array>
+    <string-array name="battery_bar_entries">
+        <item>Hide</item>
+        <item>Show</item>
+    </string-array>
+    <string-array name="battery_bar_style_entries">
+        <item>Regular</item>
+        <item>Center-mirrored</item>
+    </string-array>
+    <string-array name="battery_bar_style_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_entries">
+        <item>1 dp</item>
+        <item>2 dp</item>
+        <item>3 dp</item>
+        <item>4 dp</item>
+    </string-array>
+    <string-array name="battery_bar_thickness_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="battery_bar_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="clock_position_entries">
+        <item>Right clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="clock_position_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="crop_entries">
+        <item>Center crop</item>
+        <item>Center inside</item>
+        <item>Fit XY</item>
+    </string-array>
+    <string-array name="crop_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="custom_bg_type_entries">
+        <item>Image</item>
+        <item>Solid color</item>
+        <item>Gradient</item>
+    </string-array>
+    <string-array name="custom_bg_type_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dashboard_cat_columns_entries">
+        <item>1 Columns</item>
+        <item>2 Columns</item>
+    </string-array>
+    <string-array name="dashboard_cat_columns_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="dashboard_fav_columns_entries">
+        <item>1 Columns</item>
+        <item>2 Columns</item>
+        <item>3 Columns</item>
+        <item>4 Columns</item>
+    </string-array>
+    <string-array name="dashboard_fav_columns_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+    <string-array name="data_usage_gravity_entries">
+        <item>To end</item>
+        <item>Center horizontal</item>
+        <item>To start</item>
+    </string-array>
+    <string-array name="data_usage_gravity_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="data_usage_text_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="data_usage_text_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_entries">
+        <item>@string/dsb_gradient_filter_value_0</item>
+        <item>@string/dsb_gradient_filter_value_1</item>
+        <item>@string/dsb_gradient_filter_value_2</item>
+        <item>@string/dsb_gradient_filter_value_3</item>
+    </string-array>
+    <string-array name="dsb_gradient_filter_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="gradient_entries">
+        <item>Top to bottom</item>
+        <item>Bottom to top</item>
+        <item>Left to right</item>
+        <item>Right to left</item>
+    </string-array>
+    <string-array name="gradient_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="launcher_gesture_entries">
+        <item>Turn off the screen</item>
+        <item>Power menu</item>
+        <item>Recent applications</item>
+        <item>Volume +</item>
+        <item>Volume -</item>
+        <item>Dialer</item>
+        <item>Google search</item>
+        <item>Sound Mode: Sound / Vibration / Silent</item>
+        <item>Torchlight</item>
+        <item>Screenshot</item>
+        <item>Notifications panel</item>
+        <item>Switch Wi-Fi</item>
+        <item>Switch Mobile data</item>
+        <item>Switch Bluetooth</item>
+        <item>Clear memory</item>
+        <item>Disable</item>
+    </string-array>
+    <string-array name="launcher_gesture_values">
+        <item>0</item>
+        <item>1</item>
+        <item>4</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>23</item>
+        <item>999</item>
+    </string-array>
+    <string-array name="lockscreen_notif_entries">
+        <item>2 max shown</item>
+        <item>3 (Stock)</item>
+        <item>4 max shown</item>
+        <item>5 max shown</item>
+    </string-array>
+    <string-array name="lockscreen_notif_values">
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+    <string-array name="nav_drawer_items">
+        <item>SystemUI Mods</item>
+        <item>Phone Mods</item>
+        <item>Framework and General</item>
+        <item>Lockscreen Mods</item>
+        <item>Useful Apps</item>
+        <item>Set Theme</item>
+    </string-array>
+    <string-array name="shape_entries">
+        <item>Stock shape</item>
+        <item>Rounded corners</item>
+    </string-array>
+    <string-array name="shape_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="some_entries">
+        <item>Right clock</item>
+        <item>Center Clock</item>
+        <item>Left Clock</item>
+    </string-array>
+    <string-array name="some_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="test_list_entries">
+        <item>One</item>
+        <item>Two</item>
+        <item>Three</item>
+        <item>"Let's make twenty"</item>
+    </string-array>
+    <string-array name="test_list_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="theme_items">
+        <item>Light theme</item>
+        <item>Dark theme</item>
+    </string-array>
+    <array name="thumbnail_drawables">
+        <item>@drawable/logo</item>
+        <item>@drawable/logo</item>
+    </array>
+    <string-array name="thumbnail_items">
+        <item>Icon 1</item>
+        <item>Icon 2</item>
+    </string-array>
+    <string-array name="thumbnail_values">
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="toggle_entries">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="toggle_scroll_entries">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="toggle_scroll_values">
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+        <item>20</item>
+    </string-array>
+    <string-array name="toggle_values">
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+    </string-array>
+    <string-array name="tw_effect_entries">
+        <item>None</item>
+        <item>Cascade</item>
+        <item>Outer cube</item>
+        <item>Inner Cube</item>
+        <item>Carousal</item>
+        <item>Plain</item>
+        <item>Conveyor</item>
+        <item>Card</item>
+    </string-array>
+    <string-array name="tw_effect_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+    </string-array>
+    <string-array name="button_key_light_entries">
+        <item>Always off</item>
+        <item>1 second</item>
+        <item>1,5 seconds</item>
+        <item>3 seconds</item>
+        <item>5 seconds</item>
+        <item>10 seconds</item>
+        <item>15 seconds</item>
+        <item>30 seconds</item>
+    </string-array>
+    <string-array name="button_key_light_values">
+        <item>0</item>
+        <item>1000</item>
+        <item>1500</item>
+        <item>3000</item>
+        <item>5000</item>
+        <item>10000</item>
+        <item>15000</item>
+        <item>30000</item>
+    </string-array>
+    <string-array name="traffic_state_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="traffic_state_items">
+        <item>Disable view</item>
+        <item>Upload only</item>
+        <item>Download only</item>
+        <item>Upload and Download</item>
+    </string-array>
+    <string-array name="arrow_position_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="arrow_position_entries">
+        <item>To end of view</item>
+        <item>To start of view</item>
+    </string-array>
+    <string-array name="traffic_style_entries">
+        <item>Normal</item>
+        <item>Bold</item>
+        <item>Italic</item>
+        <item>Bold italic</item>
+    </string-array>
+    <string-array name="traffic_style_entry_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="clock_format_entries">
+        <item>Normal clock</item>
+        <item>Funky clock</item>
+        <item>Word clock</item>
+    </string-array>
+    <string-array name="clock_format_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+    <string-array name="clock_date_display_entries">
+        <item>"Don't show"</item>
+        <item>Small date</item>
+        <item>Regular date</item>
+    </string-array>
+    <string-array name="clock_date_display_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_format_entries_values">
+        <item>dd/MM/yy</item>
+        <item>MM/dd/yy</item>
+        <item>yyyy-MM-dd</item>
+        <item>yyyy-dd-MM</item>
+        <item>dd-MM-yyyy</item>
+        <item>MM-dd-yyyy</item>
+        <item>MMM dd</item>
+        <item>MMM dd, yyyy</item>
+        <item>MMMM dd, yyyy</item>
+        <item>EEE</item>
+        <item>EEE dd</item>
+        <item>EEE dd/MM</item>
+        <item>EEE MM/dd</item>
+        <item>EEE dd MMM</item>
+        <item>EEE MMM dd</item>
+        <item>EEE MMMM dd</item>
+        <item>EEEE dd/MM</item>
+        <item>EEEE MM/dd</item>
+    </string-array>
+    <string-array name="entries_status_bar_am_pm">
+        <item>"Don't show"</item>
+        <item>Small AM/PM</item>
+        <item>Regular AM/PM</item>
+    </string-array>
+    <string-array name="values_status_bar_am_pm">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_date_style_entries">
+        <item>Normal date</item>
+        <item>Lowercase date</item>
+        <item>Uppercase date</item>
+    </string-array>
+    <string-array name="clock_date_style_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="clock_font_style_entries">
+        <item>Bold</item>
+        <item>Condensed</item>
+        <item>Light</item>
+        <item>Light Italic</item>
+        <item>Use System Font (restart UI to set)</item>
+        <item>Chococooky</item>
+        <item>Coming Soon</item>
+        <item>Cool Jazz</item>
+        <item>Lindsey for Samsung</item>
+        <item>MTL</item>
+    </string-array>
+    <string-array name="clock_font_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+    <string-array name="clock_style_entries">
+        <item>Center clock</item>
+        <item>Left clock</item>
+        <item>Right clock</item>
+    </string-array>
+    <string-array name="clock_style_values">
+        <item>1</item>
+        <item>2</item>
+        <item>0</item>
+    </string-array>
+    <string-array name="carrier_entries">
+        <item>Actual carrier text</item>
+        <item>Custom text</item>
+    </string-array>
+    <string-array name="carrier_entry_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="alarm_entries" >
+        <item>Alarm1</item>
+        <item>Alarm2</item>
+        <item>Alarm3</item>
+        <item>Alarm4</item>
+        <item>Alarm5</item>
+        <item>Alarm6</item>
+    </string-array>
+    <string-array name="alarm_values" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+    </string-array>
+    <string-array name="alarm_drawables" >
+        <item>@drawable/alarmstyle1</item>
+        <item>@drawable/alarmstyle2</item>
+        <item>@drawable/alarmstyle3</item>
+        <item>@drawable/alarmstyle4</item>
+        <item>@drawable/alarmstyle5</item>
+        <item>@drawable/alarmstyle6</item>
+    </string-array>
+
+    <string-array name="signal_entries" >
+        <item>Signal 1 (Stock)</item>
+        <item>Signal 2</item>
+        <item>Signal 3</item>
+        <item>Signal 4</item>
+        <item>Signal 5</item>
+        <item>Signal 6</item>
+        <item>Signal 7</item>
+        <item>Signal 8</item>
+        <item>Signal 9</item>
+        <item>Signal 10</item>
+        <item>Signal 11</item>
+        <item>Signal 12</item>
+        <item>Signal 13</item>
+        <item>Signal 14</item>
+        <item>Signal 15</item>
+        <item>Signal 16</item>
+    </string-array>
+    <string-array name="signal_values" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+    </string-array>
+    <string-array name="signal_drawables" >
+        <item>@drawable/signalstyle1</item>
+        <item>@drawable/signalstyle2</item>
+        <item>@drawable/signalstyle3</item>
+        <item>@drawable/signalstyle4</item>
+        <item>@drawable/signalstyle5</item>
+        <item>@drawable/signalstyle6</item>
+        <item>@drawable/signalstyle7</item>
+        <item>@drawable/signalstyle8</item>
+        <item>@drawable/signalstyle9</item>
+        <item>@drawable/signalstyle10</item>
+        <item>@drawable/signalstyle11</item>
+        <item>@drawable/signalstyle12</item>
+        <item>@drawable/signalstyle13</item>
+        <item>@drawable/signalstyle14</item>
+        <item>@drawable/signalstyle15</item>
+        <item>@drawable/signalstyle16</item>
+    </string-array>
+
+    <string-array name="wifi_entries" >
+        <item>Wifi 1</item>
+        <item>Wifi 2</item>
+        <item>Wifi 3</item>
+        <item>Wifi 4</item>
+        <item>Wifi 5</item>
+        <item>Wifi 6</item>
+        <item>Wifi 7</item>
+        <item>Wifi 8</item>
+        <item>Wifi 9</item>
+        <item>Wifi 10</item>
+        <item>Wifi 11</item>
+        <item>Wifi 12</item>
+    </string-array>
+    <string-array name="wifi_values" >
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+    </string-array>
+    <string-array name="wifi_drawables" >
+        <item>@drawable/wifistyle1</item>
+        <item>@drawable/wifistyle2</item>
+        <item>@drawable/wifistyle3</item>
+        <item>@drawable/wifistyle4</item>
+        <item>@drawable/wifistyle5</item>
+        <item>@drawable/wifistyle6</item>
+        <item>@drawable/wifistyle7</item>
+        <item>@drawable/wifistyle8</item>
+        <item>@drawable/wifistyle9</item>
+        <item>@drawable/wifistyle10</item>
+        <item>@drawable/wifistyle11</item>
+        <item>@drawable/wifistyle12</item>
+    </string-array>
+    <string-array name="wifiarrow_entries" >
+        <item>Stock activity arrows</item>
+        <item>No arrows for big wifi icons</item>
+    </string-array>
+    <string-array name="wifiarrow_values" >
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="wifiarrow_drawables" >
+        <item>@drawable/arrowstyle1</item>
+        <item>@drawable/arrowstyle2</item>
+    </string-array>
+    <string-array name="multi_key_entries">
+        <item>Recents/Multi Window</item>
+        <item>Kill application</item>
+        <item>Nothing (default)</item>
+    </string-array>
+    <string-array name="multi_key_values">
+        <item>0</item>
+        <item>1</item>
+        <item>2</item>
+    </string-array>
+    <string-array name="home_key_entries">
+        <item>Nothing (default)</item>
+        <item>Kill application</item>
+    </string-array>
+    <string-array name="home_key_values">
+        <item>0</item>
+        <item>1</item>
+    </string-array>
+    <string-array name="custom_logo_type_entries">
+        <item>Select from Gallery</item>
+        <item>King</item>
+        <item>Jeep</item>
+        <item>Flash</item>
+        <item>Java</item>
+        <item>Resurrection Remix</item>
+        <item>Pacman 1</item>
+        <item>Pacman 2</item>
+        <item>Spider 1</item>
+        <item>Spider 2</item>
+        <item>Ks8</item>
+        <item>Smile</item>
+        <item>Male</item>
+        <item>Female</item>
+        <item>Love</item>
+        <item>World Wide</item>
+        <item>King 4</item>
+        <item>King 2</item>
+        <item>King 3</item>
+    </string-array>
+    <string-array name="custom_logo_drawable">
+        <item>@drawable/image</item>
+        <item>@drawable/king</item>
+        <item>@drawable/jeep</item>
+        <item>@drawable/flash</item>
+        <item>@drawable/java</item>
+        <item>@drawable/rr</item>
+        <item>@drawable/pacman1</item>
+        <item>@drawable/pacman2</item>
+        <item>@drawable/spider1</item>
+        <item>@drawable/spider2</item>
+        <item>@drawable/ks8</item>
+        <item>@drawable/smile</item>
+        <item>@drawable/male</item>
+        <item>@drawable/female</item>
+        <item>@drawable/love</item>
+        <item>@drawable/worldwide</item>
+        <item>@drawable/king4</item>
+        <item>@drawable/king2</item>
+        <item>@drawable/king3</item>
+    </string-array>
+    <string-array name="custom_logo_type_values">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+        <item>11</item>
+        <item>12</item>
+        <item>13</item>
+        <item>14</item>
+        <item>15</item>
+        <item>16</item>
+        <item>17</item>
+        <item>18</item>
+        <item>19</item>
+    </string-array>
+</resources>

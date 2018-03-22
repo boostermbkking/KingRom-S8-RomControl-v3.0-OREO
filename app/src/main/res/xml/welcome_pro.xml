@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android"
+                  xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <com.boostermbkking.ks8mods.v2.prefs.ImageHeaderPreference app:imageSource="@drawable/logobig"/>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/welcome">
+
+        <PreferenceScreen
+            android:title="@string/welcomemsgPRO"
+            android:layout="@layout/preference_multiline"
+            android:singleLine="false">
+        </PreferenceScreen>
+    </PreferenceCategory>
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/aboutKS8Rom">
+        <PreferenceScreen
+            android:icon="@drawable/xdausercircledark"
+            android:title="@string/XDAThread">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://forum.xda-developers.com/galaxy-s8/samsung-galaxy-s8--s8-cross-device-development/rom-kingromv1-s8edition-t3612900" />
+        </PreferenceScreen>
+        <PreferenceScreen
+            android:icon="@drawable/logobig"
+            android:title="Changelog">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://sites.google.com/view/kingofnougat-rom/galaxy-s8-sm-g95x/changelog-for-s8" />
+        </PreferenceScreen>
+
+    <PreferenceScreen
+        android:icon="@drawable/download"
+        android:title="@string/latestrom">
+        <intent
+            android:action="android.intent.action.VIEW"
+            android:data="https://www.androidfilehost.com/?fid=745425885120757955" />
+    </PreferenceScreen>
+
+        <PreferenceScreen
+            android:icon="@drawable/coding"
+            android:title="@string/sourcecoderomcontrol">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/boostermbkking/KingRom-S8-RomControl-v3.0-OREO" />
+        </PreferenceScreen>
+
+        <!--<PreferenceScreen
+            android:icon="@drawable/coding"
+            android:title="@string/sourcecodekingkernel">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://github.com/boostermbkking/King-Kernel_S8-S8Plus" />
+        </PreferenceScreen>-->
+</PreferenceCategory>
+
+</PreferenceScreen>

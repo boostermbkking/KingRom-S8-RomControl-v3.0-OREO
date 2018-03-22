@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/LauncherblurTitle" android:enabled="false">
+        <com.boostermbkking.ks8mods.v2.prefs.FilePreference
+        android:title="@string/Launcherblur"
+        android:key="hades_launchblur"
+        android:defaultValue="true"
+        android:summaryOn="@string/Launcherblurenabled"
+        android:summaryOff="@string/Launcherblurdisabled"
+        app:isSilent="false"
+        app:packageNameToKill="com.sec.android.app.launcher"/>
+    </PreferenceCategory>
+
+</PreferenceScreen>

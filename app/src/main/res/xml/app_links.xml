@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/King_Rom_Apps">
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:icon="@drawable/ks8" android:title="KING ROM S8" android:summary="@string/ks8info" app:componentName="com.boostermbkking.kingroms8/com.boostermbkking.kingroms8.MainActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="3Minit Battery" android:summary="@string/minitbatteryinfo" app:componentName="com.three.minit.minitbatterysettings.free/com.three.minit.minitbatterysettings.MainActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="3Minit Clock" android:summary="@string/minitclockinfo" app:componentName="three.minit.clock/three.minit.clock.ClockSettings" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="OTA Updater" android:summary="@string/otainfo" app:componentName="com.otaupdater/com.otaupdater.OTAUpdaterActivity" />
+    </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/app_utili">
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Phone Info" android:summary="@string/phoneinfo" app:componentName="org.vndnguyen.phoneinfo/org.vndnguyen.phoneinfo.main" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="BetterBatteryStats" android:summary="@string/betterbs" app:componentName="com.asksven.betterbatterystats_xdaedition/com.asksven.betterbatterystats.StatsActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="UPSM Manager" android:summary="@string/app_upsm" app:componentName="mobi.xperiacle.upsm.manager/mobi.xperiacle.upsm.manager.MainActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Synapse" android:summary="@string/sinapseinfo" app:componentName="com.af.synapse/com.af.synapse.MainActivity" />
+</PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Root_Apps">
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="SuperSU" android:summary="@string/supersuinfo" app:componentName="eu.chainfire.supersu/eu.chainfire.supersu.MainActivity-Material" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Magisk Root" android:summary="@string/supersuinfo" app:componentName="com.topjohnwu.magisk/com.topjohnwu.magisk.MainActivity" />
+        </PreferenceCategory>
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="Sound Control">
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Sound Control" android:summary="@string/soundmanager" app:componentName="com.aryamod.kamy/com.aryamod.kamy.soundmod.SplashActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Dolby Atmos" android:summary="@string/soundmanager" app:componentName="com.atmos.daxappUI/com.atmos.daxappUI.MainActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Viper4Android" android:summary="@string/soundmanager" app:componentName="com.vipercn.viper4android_v2/com.vipercn.viper4android_v2.activity.ViPER4Android" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Viper4Android FX" android:summary="@string/soundmanager" app:componentName="com.audlabs.viperfx/com.audlabs.viperfx.main.MainActivity" />
+        <com.boostermbkking.ks8mods.v2.prefs.OpenAppPreference
+            android:title="Beats Audio" android:summary="@string/soundmanager" app:componentName="com.zloban.beatsfx/com.zloban.beatsfx.beatsAudioControlPanelActivity" />
+    </PreferenceCategory>
+</PreferenceScreen>

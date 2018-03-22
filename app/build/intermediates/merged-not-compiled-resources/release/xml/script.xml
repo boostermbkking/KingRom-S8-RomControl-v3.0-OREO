@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen
+    xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/Touchwizeffect">
+     ks8mods.v2.prefs.MyListPreference android:icon="@drawable/appdrawer" android:entries="@array/tw_effect_entries" android:title="@string/Touchwizeffect" android:key="tw_page_effect" android:defaultValue="1" android:entryValues="@array/tw_effect_values" app:rebootDevice="true" />
+    </PreferenceCategory>-->
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/coming_soon">
+    </PreferenceCategory>
+</PreferenceScreen>
+    <!--<?xml version="1.0" encoding="utf-8"?>
+
+    <PreferenceCategory android:title="Run script preferences">
+     ks8mods.v2.prefs.RunScriptPreference
+            android:title="Execute script with prompt"
+            app:scriptFileName="simple_test.sh"
+            android:summary="This action will throw warning dialog before executing script"/>
+
+     ks8mods.v2.prefs.RunScriptPreference
+            android:title="Execute without prompt"
+            app:scriptFileName="simple_test.sh"
+            app:showConfirmDialog="false"
+            android:summary="This action will execute script without warning"/>
+
+     ks8mods.v2.prefs.RunScriptPreference
+            android:title="Script with optional reboot"
+            app:rebootOptions="optional"
+            app:scriptFileName="simple_test.sh"
+            android:summary="This action will write into a file on sd card and show dialog that reminds the user to reboot their phone at this time or later for the action to take effect"/>
+
+     ks8mods.v2.prefs.RunScriptPreference
+            android:title="Script with imminent reboot"
+            android:summary="This action will run script which has reboot command at the end and warn user that reboot of device will follow the script execution immediately"
+            app:rebootOptions="imminent"
+            app:scriptFileName="simple_test.sh"/>
+
+     ks8mods.v2.prefs.RunScriptPreference
+            android:title="Execute and kill app + icon"
+            android:icon="@mipmap/ic_launcher"
+            android:summary="Upon finishing, this script preference will prompt a user to kill app, since we set the isSilent attribute to false"
+            app:packageNameToKill="com.android.contacts"
+            app:isSilent="false"
+            app:scriptFileName="simple_test.sh"/>
+     ks8mods.v2.prefs.RunScriptPreference
+            app:scriptFileName="simple_test.sh"
+            />
+    </PreferenceCategory>-->

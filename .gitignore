@@ -1,0 +1,14 @@
+*.iml
+*.jks
+.gradle
+/local.properties
+/.idea/workspace.xml
+/.idea/libraries
+.DS_Store
+/build
+/app/release
+/captures
+/app/src/main/java/com/boostermbkking/ks8mods/v2/MainActivity.java
+/app/src/main/AndroidManifest.xml
+/app/proguard-rules.pro
+/signature.jks
