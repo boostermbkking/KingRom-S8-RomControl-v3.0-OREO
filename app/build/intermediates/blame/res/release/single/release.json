@@ -1316,6 +1316,10 @@
         "source": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\src\\main\\res\\drawable\\cogwheel.png"
     },
     {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\res\\merged\\release\\drawable_alarmstyle.png.flat",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\src\\main\\res\\drawable\\alarmstyle.png"
+    },
+    {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_ic_star_black_36dp.png.flat",
         "source": "C:\\Users\\boostermbkking\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\9517b281ae5333703c4d5e2c41160eb2\\res\\drawable-xhdpi-v4\\abc_ic_star_black_36dp.png"
     },
@@ -2098,6 +2102,10 @@
     {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\res\\merged\\release\\xml_script.xml.flat",
         "source": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\src\\main\\res\\xml\\script.xml"
+    },
+    {
+        "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\res\\merged\\release\\drawable_alarmstyle7.png.flat",
+        "source": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\src\\main\\res\\drawable\\alarmstyle7.png"
     },
     {
         "merged": "C:\\Users\\boostermbkking\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\res\\merged\\release\\drawable-xhdpi-v4_abc_text_select_handle_left_mtrl_light.png.flat",

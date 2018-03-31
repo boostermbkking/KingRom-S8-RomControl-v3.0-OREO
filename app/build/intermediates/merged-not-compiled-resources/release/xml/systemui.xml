@@ -16,52 +16,52 @@
             android:summaryOff="@string/offallowscreenshot" />
     </PreferenceCategory>
 
-    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomIcons">
-     ks8mods.v2.prefs.ThumbnailListPreference
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomIcons" android:enabled="false">
+        <com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference
             android:defaultValue="1"
-            android:key="asc_wifi"
+            android:key="king_wifi"
             android:title="@string/Wifiiconchooser"
             app:drawableArray="@array/wifi_drawables"
             app:entryList="@array/wifi_entries"
             app:entryValuesList="@array/wifi_values"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-     ks8mods.v2.prefs.ThumbnailListPreference
+        <com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference
             android:defaultValue="1"
-            android:key="asc_arrow_wifi"
+            android:key="king_arrow_wifi"
             android:title="@string/WifiarrowChooser"
             app:drawableArray="@array/wifiarrow_drawables"
             app:entryList="@array/wifiarrow_entries"
             app:entryValuesList="@array/wifiarrow_values"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-     ks8mods.v2.prefs.ThumbnailListPreference
+        <com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference
             android:defaultValue="1"
-            android:key="asc1_signal"
+            android:key="king_signal"
             android:title="@string/Signalchooser"
             app:drawableArray="@array/signal_drawables"
             app:entryList="@array/signal_entries"
             app:entryValuesList="@array/signal_values"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-     ks8mods.v2.prefs.ThumbnailListPreference
+        <com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference
             android:defaultValue="1"
-            android:key="asc1_signal_sim2"
+            android:key="king_signal_sim2"
             android:title="@string/Signalchooser2"
             app:drawableArray="@array/signal_drawables"
             app:entryList="@array/signal_entries"
             app:entryValuesList="@array/signal_values"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-     ks8mods.v2.prefs.ThumbnailListPreference
+        <com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference
             android:defaultValue="1"
-            android:key="asc_alarm"
+            android:key="king_alarm"
             android:title="@string/AlarmIconChooser"
             app:drawableArray="@array/alarm_drawables"
             app:entryList="@array/alarm_entries"
             app:entryValuesList="@array/alarm_values"
             app:isSilent="false"
             app:packageNameToKill="com.android.systemui"/>
-    </PreferenceCategory>-->
+    </PreferenceCategory>
 
 </PreferenceScreen>

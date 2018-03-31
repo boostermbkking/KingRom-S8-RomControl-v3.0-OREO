@@ -7,6 +7,11 @@
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/welcome">
 
         <PreferenceScreen
+            android:title="@string/workingversion"
+            android:layout="@layout/preference_multiline"
+            android:singleLine="false">
+        </PreferenceScreen>
+        <PreferenceScreen
             android:title="@string/welcomemsgPRO"
             android:layout="@layout/preference_multiline"
             android:singleLine="false">

@@ -890,7 +890,7 @@ Marking attr:icon:2130968760 used because its prefix matches string pool constan
 Marking attr:iconTint:2130968761 used because its prefix matches string pool constant icon
 Marking attr:iconTintMode:2130968762 used because its prefix matches string pool constant icon
 Marking attr:iconifiedByDefault:2130968763 used because its prefix matches string pool constant icon
-Marking drawable:iconexit:2131230893 used because its prefix matches string pool constant icon
+Marking drawable:iconexit:2131230895 used because its prefix matches string pool constant icon
 Marking id:iconForApp:2131296353 used because its prefix matches string pool constant icon
 Marking declare-styleable:ImageHeaderPreference:-1 used because its prefix matches string pool constant I
 Marking styleable:ImageHeaderPreference:-1 used because its prefix matches string pool constant I
@@ -1289,8 +1289,8 @@ Marking drawable:abc_textfield_search_activated_mtrl_alpha:2131230805 used becau
 Marking drawable:abc_textfield_search_default_mtrl_alpha:2131230806 used because its prefix matches string pool constant a
 Marking drawable:abc_textfield_search_material:2131230807 used because its prefix matches string pool constant a
 Marking drawable:abc_vector_test:2131230808 used because its prefix matches string pool constant a
-Marking drawable:avd_hide_password:2131230824 used because its prefix matches string pool constant a
-Marking drawable:avd_show_password:2131230825 used because its prefix matches string pool constant a
+Marking drawable:avd_hide_password:2131230826 used because its prefix matches string pool constant a
+Marking drawable:avd_show_password:2131230827 used because its prefix matches string pool constant a
 Marking id:action0:2131296269 used because its prefix matches string pool constant a
 Marking id:action_bar:2131296270 used because its prefix matches string pool constant a
 Marking id:action_bar_activity_content:2131296271 used because its prefix matches string pool constant a
@@ -1385,19 +1385,21 @@ Marking array:arrow_position_values:2130903053 used because its prefix matches s
 Marking dimen:activity_horizontal_margin:2131165258 used because its prefix matches string pool constant a
 Marking drawable:alarm_clock:2131230809 used because its prefix matches string pool constant a
 Marking drawable:alarmclock:2131230810 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle1:2131230811 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle2:2131230812 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle3:2131230813 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle4:2131230814 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle5:2131230815 used because its prefix matches string pool constant a
-Marking drawable:alarmstyle6:2131230816 used because its prefix matches string pool constant a
-Marking drawable:android:2131230817 used because its prefix matches string pool constant a
-Marking drawable:android2:2131230818 used because its prefix matches string pool constant a
-Marking drawable:android_symbol:2131230819 used because its prefix matches string pool constant a
-Marking drawable:appdrawer:2131230820 used because its prefix matches string pool constant a
-Marking drawable:arrowstyle1:2131230821 used because its prefix matches string pool constant a
-Marking drawable:arrowstyle2:2131230822 used because its prefix matches string pool constant a
-Marking drawable:avatar:2131230823 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle:2131230811 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle1:2131230812 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle2:2131230813 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle3:2131230814 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle4:2131230815 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle5:2131230816 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle6:2131230817 used because its prefix matches string pool constant a
+Marking drawable:alarmstyle7:2131230818 used because its prefix matches string pool constant a
+Marking drawable:android:2131230819 used because its prefix matches string pool constant a
+Marking drawable:android2:2131230820 used because its prefix matches string pool constant a
+Marking drawable:android_symbol:2131230821 used because its prefix matches string pool constant a
+Marking drawable:appdrawer:2131230822 used because its prefix matches string pool constant a
+Marking drawable:arrowstyle1:2131230823 used because its prefix matches string pool constant a
+Marking drawable:arrowstyle2:2131230824 used because its prefix matches string pool constant a
+Marking drawable:avatar:2131230825 used because its prefix matches string pool constant a
 Marking id:aboutContactUsContainer:2131296262 used because its prefix matches string pool constant a
 Marking id:aboutCreditsContainer:2131296263 used because its prefix matches string pool constant a
 Marking id:aboutPeopleIcon:2131296264 used because its prefix matches string pool constant a
@@ -1584,20 +1586,20 @@ Marking array:battery_bar_values:2130903060 used because its prefix matches stri
 Marking array:button_key_light_entries:2130903061 used because its prefix matches string pool constant b
 Marking array:button_key_light_values:2130903062 used because its prefix matches string pool constant b
 Marking dimen:button_size:2131165259 used because its prefix matches string pool constant b
-Marking drawable:back:2131230826 used because its prefix matches string pool constant b
-Marking drawable:backarrow:2131230827 used because its prefix matches string pool constant b
-Marking drawable:battery:2131230828 used because its prefix matches string pool constant b
-Marking drawable:battery2:2131230829 used because its prefix matches string pool constant b
-Marking drawable:battery3:2131230830 used because its prefix matches string pool constant b
-Marking drawable:battery4:2131230831 used because its prefix matches string pool constant b
-Marking drawable:battery5:2131230832 used because its prefix matches string pool constant b
-Marking drawable:battery6:2131230833 used because its prefix matches string pool constant b
-Marking drawable:battery7:2131230834 used because its prefix matches string pool constant b
-Marking drawable:batterystock:2131230835 used because its prefix matches string pool constant b
-Marking drawable:bg:2131230836 used because its prefix matches string pool constant b
-Marking drawable:bttf:2131230837 used because its prefix matches string pool constant b
-Marking drawable:bttf2:2131230838 used because its prefix matches string pool constant b
-Marking drawable:bttf3:2131230839 used because its prefix matches string pool constant b
+Marking drawable:back:2131230828 used because its prefix matches string pool constant b
+Marking drawable:backarrow:2131230829 used because its prefix matches string pool constant b
+Marking drawable:battery:2131230830 used because its prefix matches string pool constant b
+Marking drawable:battery2:2131230831 used because its prefix matches string pool constant b
+Marking drawable:battery3:2131230832 used because its prefix matches string pool constant b
+Marking drawable:battery4:2131230833 used because its prefix matches string pool constant b
+Marking drawable:battery5:2131230834 used because its prefix matches string pool constant b
+Marking drawable:battery6:2131230835 used because its prefix matches string pool constant b
+Marking drawable:battery7:2131230836 used because its prefix matches string pool constant b
+Marking drawable:batterystock:2131230837 used because its prefix matches string pool constant b
+Marking drawable:bg:2131230838 used because its prefix matches string pool constant b
+Marking drawable:bttf:2131230839 used because its prefix matches string pool constant b
+Marking drawable:bttf2:2131230840 used because its prefix matches string pool constant b
+Marking drawable:bttf3:2131230841 used because its prefix matches string pool constant b
 Marking id:backup_restore:2131296299 used because its prefix matches string pool constant b
 Marking id:beginning:2131296300 used because its prefix matches string pool constant b
 Marking string:backtokill:2131689693 used because its prefix matches string pool constant b
@@ -1710,21 +1712,21 @@ Marking attr:componentName:2130968682 used because its prefix matches string poo
 Marking color:colorAccent:2131099690 used because its prefix matches string pool constant c
 Marking color:colorPrimary:2131099691 used because its prefix matches string pool constant c
 Marking color:colorPrimaryDark:2131099692 used because its prefix matches string pool constant c
-Marking drawable:calendar:2131230840 used because its prefix matches string pool constant c
-Marking drawable:calendar1:2131230841 used because its prefix matches string pool constant c
-Marking drawable:calendar2:2131230842 used because its prefix matches string pool constant c
-Marking drawable:center_alignment:2131230843 used because its prefix matches string pool constant c
-Marking drawable:chess_game:2131230844 used because its prefix matches string pool constant c
-Marking drawable:chronometer:2131230845 used because its prefix matches string pool constant c
-Marking drawable:circularclock:2131230846 used because its prefix matches string pool constant c
-Marking drawable:clock:2131230847 used because its prefix matches string pool constant c
-Marking drawable:clock2:2131230848 used because its prefix matches string pool constant c
-Marking drawable:clock3:2131230849 used because its prefix matches string pool constant c
-Marking drawable:coding:2131230850 used because its prefix matches string pool constant c
-Marking drawable:cogwheel:2131230851 used because its prefix matches string pool constant c
-Marking drawable:cornerbackground:2131230852 used because its prefix matches string pool constant c
-Marking drawable:cpu:2131230853 used because its prefix matches string pool constant c
-Marking drawable:crown:2131230854 used because its prefix matches string pool constant c
+Marking drawable:calendar:2131230842 used because its prefix matches string pool constant c
+Marking drawable:calendar1:2131230843 used because its prefix matches string pool constant c
+Marking drawable:calendar2:2131230844 used because its prefix matches string pool constant c
+Marking drawable:center_alignment:2131230845 used because its prefix matches string pool constant c
+Marking drawable:chess_game:2131230846 used because its prefix matches string pool constant c
+Marking drawable:chronometer:2131230847 used because its prefix matches string pool constant c
+Marking drawable:circularclock:2131230848 used because its prefix matches string pool constant c
+Marking drawable:clock:2131230849 used because its prefix matches string pool constant c
+Marking drawable:clock2:2131230850 used because its prefix matches string pool constant c
+Marking drawable:clock3:2131230851 used because its prefix matches string pool constant c
+Marking drawable:coding:2131230852 used because its prefix matches string pool constant c
+Marking drawable:cogwheel:2131230853 used because its prefix matches string pool constant c
+Marking drawable:cornerbackground:2131230854 used because its prefix matches string pool constant c
+Marking drawable:cpu:2131230855 used because its prefix matches string pool constant c
+Marking drawable:crown:2131230856 used because its prefix matches string pool constant c
 Marking id:center_horizontal:2131296306 used because its prefix matches string pool constant c
 Marking id:center_vertical:2131296307 used because its prefix matches string pool constant c
 Marking id:changeLog:2131296308 used because its prefix matches string pool constant c
@@ -1823,12 +1825,12 @@ Marking dimen:design_tab_text_size:2131165304 used because its prefix matches st
 Marking dimen:design_tab_text_size_2line:2131165305 used because its prefix matches string pool constant d
 Marking dimen:disabled_alpha_material_dark:2131165306 used because its prefix matches string pool constant d
 Marking dimen:disabled_alpha_material_light:2131165307 used because its prefix matches string pool constant d
-Marking drawable:design_bottom_navigation_item_background:2131230856 used because its prefix matches string pool constant d
-Marking drawable:design_fab_background:2131230857 used because its prefix matches string pool constant d
-Marking drawable:design_ic_visibility:2131230858 used because its prefix matches string pool constant d
-Marking drawable:design_ic_visibility_off:2131230859 used because its prefix matches string pool constant d
-Marking drawable:design_password_eye:2131230860 used because its prefix matches string pool constant d
-Marking drawable:design_snackbar_background:2131230861 used because its prefix matches string pool constant d
+Marking drawable:design_bottom_navigation_item_background:2131230858 used because its prefix matches string pool constant d
+Marking drawable:design_fab_background:2131230859 used because its prefix matches string pool constant d
+Marking drawable:design_ic_visibility:2131230860 used because its prefix matches string pool constant d
+Marking drawable:design_ic_visibility_off:2131230861 used because its prefix matches string pool constant d
+Marking drawable:design_password_eye:2131230862 used because its prefix matches string pool constant d
+Marking drawable:design_snackbar_background:2131230863 used because its prefix matches string pool constant d
 Marking id:decor_content_parent:2131296325 used because its prefix matches string pool constant d
 Marking id:default_activity_button:2131296326 used because its prefix matches string pool constant d
 Marking id:design_bottom_sheet:2131296327 used because its prefix matches string pool constant d
@@ -1865,10 +1867,10 @@ Marking attr:dependentValue:2130968703 used because its prefix matches string po
 Marking attr:drawableArray:2130968711 used because its prefix matches string pool constant d
 Marking color:darkBgColor:2131099693 used because its prefix matches string pool constant d
 Marking color:darkblue:2131099694 used because its prefix matches string pool constant d
-Marking drawable:database:2131230855 used because its prefix matches string pool constant d
-Marking drawable:dialog_bg:2131230862 used because its prefix matches string pool constant d
-Marking drawable:dialog_bg_main:2131230863 used because its prefix matches string pool constant d
-Marking drawable:download:2131230864 used because its prefix matches string pool constant d
+Marking drawable:database:2131230857 used because its prefix matches string pool constant d
+Marking drawable:dialog_bg:2131230864 used because its prefix matches string pool constant d
+Marking drawable:dialog_bg_main:2131230865 used because its prefix matches string pool constant d
+Marking drawable:download:2131230866 used because its prefix matches string pool constant d
 Marking id:disableHome:2131296332 used because its prefix matches string pool constant d
 Marking id:drawer_layout:2131296333 used because its prefix matches string pool constant d
 Marking integer:default_theme:2131361798 used because its prefix matches string pool constant d
@@ -1906,7 +1908,7 @@ Marking id:expanded_menu:2131296341 used because its prefix matches string pool 
 Marking array:entries_status_bar_am_pm:2130903096 used because its prefix matches string pool constant e
 Marking attr:entryList:2130968720 used because its prefix matches string pool constant e
 Marking attr:entryValuesList:2130968721 used because its prefix matches string pool constant e
-Marking drawable:emergency:2131230865 used because its prefix matches string pool constant e
+Marking drawable:emergency:2131230867 used because its prefix matches string pool constant e
 Marking id:enterAlways:2131296337 used because its prefix matches string pool constant e
 Marking id:enterAlwaysCollapsed:2131296338 used because its prefix matches string pool constant e
 Marking id:exitUntilCollapsed:2131296339 used because its prefix matches string pool constant e
@@ -1941,10 +1943,10 @@ Marking anim:fade_out:2130771983 used because its prefix matches string pool con
 Marking animator:fadein:2130837505 used because its prefix matches string pool constant f
 Marking animator:fadeout:2130837506 used because its prefix matches string pool constant f
 Marking dimen:fab_margin:2131165308 used because its prefix matches string pool constant f
-Marking drawable:female:2131230866 used because its prefix matches string pool constant f
-Marking drawable:flag:2131230867 used because its prefix matches string pool constant f
-Marking drawable:flash:2131230868 used because its prefix matches string pool constant f
-Marking drawable:flask:2131230869 used because its prefix matches string pool constant f
+Marking drawable:female:2131230868 used because its prefix matches string pool constant f
+Marking drawable:flag:2131230869 used because its prefix matches string pool constant f
+Marking drawable:flash:2131230870 used because its prefix matches string pool constant f
+Marking drawable:flask:2131230871 used because its prefix matches string pool constant f
 Marking id:fill_horizontal:2131296343 used because its prefix matches string pool constant f
 Marking id:fill_vertical:2131296344 used because its prefix matches string pool constant f
 Marking id:fragment_container:2131296347 used because its prefix matches string pool constant f
@@ -1959,9 +1961,9 @@ Marking attr:goIcon:2130968751 used because its prefix matches string pool const
 Marking id:ghost_view:2131296348 used because its prefix matches string pool constant g
 Marking array:gradient_entries:2130903097 used because its prefix matches string pool constant g
 Marking array:gradient_values:2130903098 used because its prefix matches string pool constant g
-Marking drawable:gamepad:2131230870 used because its prefix matches string pool constant g
-Marking drawable:google_ic:2131230871 used because its prefix matches string pool constant g
-Marking drawable:graphic_design:2131230872 used because its prefix matches string pool constant g
+Marking drawable:gamepad:2131230872 used because its prefix matches string pool constant g
+Marking drawable:google_ic:2131230873 used because its prefix matches string pool constant g
+Marking drawable:graphic_design:2131230874 used because its prefix matches string pool constant g
 Marking layout:global_restore_preference_dialog_layout:2131427380 used because its prefix matches string pool constant g
 Marking attr:headerLayout:2130968752 used because its prefix matches string pool constant h
 Marking attr:height:2130968753 used because its prefix matches string pool constant h
@@ -1984,10 +1986,10 @@ Marking id:home:2131296350 used because its prefix matches string pool constant 
 Marking integer:hide_password_duration:2131361800 used because its prefix matches string pool constant h
 Marking array:home_key_entries:2130903099 used because its prefix matches string pool constant h
 Marking array:home_key_values:2130903100 used because its prefix matches string pool constant h
-Marking drawable:header:2131230873 used because its prefix matches string pool constant h
-Marking drawable:home:2131230874 used because its prefix matches string pool constant h
-Marking drawable:home2:2131230875 used because its prefix matches string pool constant h
-Marking drawable:home3:2131230876 used because its prefix matches string pool constant h
+Marking drawable:header:2131230875 used because its prefix matches string pool constant h
+Marking drawable:home:2131230876 used because its prefix matches string pool constant h
+Marking drawable:home2:2131230877 used because its prefix matches string pool constant h
+Marking drawable:home3:2131230878 used because its prefix matches string pool constant h
 Marking id:hex_val:2131296349 used because its prefix matches string pool constant h
 Marking id:homeAsUp:2131296351 used because its prefix matches string pool constant h
 Marking id:icon:2131296352 used because its prefix matches string pool constant i
@@ -2016,26 +2018,26 @@ Marking id:item_touch_helper_previous_elevation:2131296360 used because its pref
 Marking attr:imageSource:2130968765 used because its prefix matches string pool constant i
 Marking attr:intentSeparator:2130968769 used because its prefix matches string pool constant i
 Marking attr:isSilent:2130968771 used because its prefix matches string pool constant i
-Marking drawable:ic_action_assist_focused:2131230877 used because its prefix matches string pool constant i
-Marking drawable:ic_arrow:2131230878 used because its prefix matches string pool constant i
-Marking drawable:ic_backup_restore:2131230879 used because its prefix matches string pool constant i
-Marking drawable:ic_changelog:2131230880 used because its prefix matches string pool constant i
-Marking drawable:ic_framework:2131230881 used because its prefix matches string pool constant i
-Marking drawable:ic_info:2131230882 used because its prefix matches string pool constant i
-Marking drawable:ic_launcher:2131230883 used because its prefix matches string pool constant i
-Marking drawable:ic_notification_panel:2131230884 used because its prefix matches string pool constant i
-Marking drawable:ic_phone:2131230885 used because its prefix matches string pool constant i
-Marking drawable:ic_reboot:2131230886 used because its prefix matches string pool constant i
-Marking drawable:ic_recent:2131230887 used because its prefix matches string pool constant i
-Marking drawable:ic_sett:2131230888 used because its prefix matches string pool constant i
-Marking drawable:ic_settings:2131230889 used because its prefix matches string pool constant i
-Marking drawable:ic_status_bar:2131230890 used because its prefix matches string pool constant i
-Marking drawable:ic_system_ui:2131230891 used because its prefix matches string pool constant i
-Marking drawable:ic_theme:2131230892 used because its prefix matches string pool constant i
-Marking drawable:iconexit:2131230893 used because its prefix matches string pool constant i
-Marking drawable:image:2131230894 used because its prefix matches string pool constant i
-Marking drawable:inset_dialog_bg:2131230895 used because its prefix matches string pool constant i
-Marking drawable:internet:2131230896 used because its prefix matches string pool constant i
+Marking drawable:ic_action_assist_focused:2131230879 used because its prefix matches string pool constant i
+Marking drawable:ic_arrow:2131230880 used because its prefix matches string pool constant i
+Marking drawable:ic_backup_restore:2131230881 used because its prefix matches string pool constant i
+Marking drawable:ic_changelog:2131230882 used because its prefix matches string pool constant i
+Marking drawable:ic_framework:2131230883 used because its prefix matches string pool constant i
+Marking drawable:ic_info:2131230884 used because its prefix matches string pool constant i
+Marking drawable:ic_launcher:2131230885 used because its prefix matches string pool constant i
+Marking drawable:ic_notification_panel:2131230886 used because its prefix matches string pool constant i
+Marking drawable:ic_phone:2131230887 used because its prefix matches string pool constant i
+Marking drawable:ic_reboot:2131230888 used because its prefix matches string pool constant i
+Marking drawable:ic_recent:2131230889 used because its prefix matches string pool constant i
+Marking drawable:ic_sett:2131230890 used because its prefix matches string pool constant i
+Marking drawable:ic_settings:2131230891 used because its prefix matches string pool constant i
+Marking drawable:ic_status_bar:2131230892 used because its prefix matches string pool constant i
+Marking drawable:ic_system_ui:2131230893 used because its prefix matches string pool constant i
+Marking drawable:ic_theme:2131230894 used because its prefix matches string pool constant i
+Marking drawable:iconexit:2131230895 used because its prefix matches string pool constant i
+Marking drawable:image:2131230896 used because its prefix matches string pool constant i
+Marking drawable:inset_dialog_bg:2131230897 used because its prefix matches string pool constant i
+Marking drawable:internet:2131230898 used because its prefix matches string pool constant i
 Marking id:iconForApp:2131296353 used because its prefix matches string pool constant i
 Marking id:ifRoom:2131296355 used because its prefix matches string pool constant i
 Marking id:imminent:2131296357 used because its prefix matches string pool constant i
@@ -2044,17 +2046,17 @@ Marking layout:intent_preference_app_icon:2131427382 used because its prefix mat
 Marking mipmap:ic_launcher:2131558400 used because its prefix matches string pool constant i
 Marking string:imminent_reboot_warning:2131689728 used because its prefix matches string pool constant i
 Marking string:installKS8PRO:2131689729 used because its prefix matches string pool constant i
-Marking drawable:java:2131230897 used because its prefix matches string pool constant j
-Marking drawable:jeep:2131230898 used because its prefix matches string pool constant j
+Marking drawable:java:2131230899 used because its prefix matches string pool constant j
+Marking drawable:jeep:2131230900 used because its prefix matches string pool constant j
 Marking attr:keylines:2130968777 used because its prefix matches string pool constant k
 Marking attr:keysList:2130968778 used because its prefix matches string pool constant k
-Marking drawable:key:2131230899 used because its prefix matches string pool constant k
-Marking drawable:king:2131230900 used because its prefix matches string pool constant k
-Marking drawable:king2:2131230901 used because its prefix matches string pool constant k
-Marking drawable:king3:2131230902 used because its prefix matches string pool constant k
-Marking drawable:king4:2131230903 used because its prefix matches string pool constant k
-Marking drawable:king_recovery:2131230904 used because its prefix matches string pool constant k
-Marking drawable:ks8:2131230905 used because its prefix matches string pool constant k
+Marking drawable:key:2131230901 used because its prefix matches string pool constant k
+Marking drawable:king:2131230902 used because its prefix matches string pool constant k
+Marking drawable:king2:2131230903 used because its prefix matches string pool constant k
+Marking drawable:king3:2131230904 used because its prefix matches string pool constant k
+Marking drawable:king4:2131230905 used because its prefix matches string pool constant k
+Marking drawable:king_recovery:2131230906 used because its prefix matches string pool constant k
+Marking drawable:ks8:2131230907 used because its prefix matches string pool constant k
 Marking raw:keep:2131623936 used because its prefix matches string pool constant k
 Marking string:ks8info:2131689730 used because its prefix matches string pool constant k
 Marking id:line1:2131296363 used because its prefix matches string pool constant l
@@ -2092,15 +2094,15 @@ Marking array:launcher_gesture_entries:2130903101 used because its prefix matche
 Marking array:launcher_gesture_values:2130903102 used because its prefix matches string pool constant l
 Marking array:lockscreen_notif_entries:2130903103 used because its prefix matches string pool constant l
 Marking array:lockscreen_notif_values:2130903104 used because its prefix matches string pool constant l
-Marking drawable:layers:2131230906 used because its prefix matches string pool constant l
-Marking drawable:link:2131230907 used because its prefix matches string pool constant l
-Marking drawable:lock:2131230908 used because its prefix matches string pool constant l
-Marking drawable:lock2:2131230909 used because its prefix matches string pool constant l
-Marking drawable:logo:2131230910 used because its prefix matches string pool constant l
-Marking drawable:logo2:2131230911 used because its prefix matches string pool constant l
-Marking drawable:logo3:2131230912 used because its prefix matches string pool constant l
-Marking drawable:logobig:2131230913 used because its prefix matches string pool constant l
-Marking drawable:love:2131230914 used because its prefix matches string pool constant l
+Marking drawable:layers:2131230908 used because its prefix matches string pool constant l
+Marking drawable:link:2131230909 used because its prefix matches string pool constant l
+Marking drawable:lock:2131230910 used because its prefix matches string pool constant l
+Marking drawable:lock2:2131230911 used because its prefix matches string pool constant l
+Marking drawable:logo:2131230912 used because its prefix matches string pool constant l
+Marking drawable:logo2:2131230913 used because its prefix matches string pool constant l
+Marking drawable:logo3:2131230914 used because its prefix matches string pool constant l
+Marking drawable:logobig:2131230915 used because its prefix matches string pool constant l
+Marking drawable:love:2131230916 used because its prefix matches string pool constant l
 Marking id:linearLayout:2131296365 used because its prefix matches string pool constant l
 Marking string:latestrom:2131689731 used because its prefix matches string pool constant l
 Marking string:library_piracychecker_author:2131689732 used because its prefix matches string pool constant l
@@ -2150,12 +2152,12 @@ Marking attr:multipleChoiceDefaults:2130968813 used because its prefix matches s
 Marking attr:multipleChoiceKeys:2130968814 used because its prefix matches string pool constant m
 Marking attr:multipleChoiceSummaries:2130968815 used because its prefix matches string pool constant m
 Marking attr:multipleChoiceTitles:2130968816 used because its prefix matches string pool constant m
-Marking drawable:male:2131230915 used because its prefix matches string pool constant m
-Marking drawable:master_ball:2131230916 used because its prefix matches string pool constant m
-Marking drawable:menu:2131230917 used because its prefix matches string pool constant m
-Marking drawable:microscope:2131230918 used because its prefix matches string pool constant m
-Marking drawable:minit:2131230919 used because its prefix matches string pool constant m
-Marking drawable:multiwindows:2131230920 used because its prefix matches string pool constant m
+Marking drawable:male:2131230917 used because its prefix matches string pool constant m
+Marking drawable:master_ball:2131230918 used because its prefix matches string pool constant m
+Marking drawable:menu:2131230919 used because its prefix matches string pool constant m
+Marking drawable:microscope:2131230920 used because its prefix matches string pool constant m
+Marking drawable:minit:2131230921 used because its prefix matches string pool constant m
+Marking drawable:multiwindows:2131230922 used because its prefix matches string pool constant m
 Marking id:main_appbar:2131296368 used because its prefix matches string pool constant m
 Marking id:main_backdrop:2131296369 used because its prefix matches string pool constant m
 Marking id:main_collapsing:2131296370 used because its prefix matches string pool constant m
@@ -2196,18 +2198,18 @@ Marking dimen:notification_small_icon_size_as_large:2131165334 used because its 
 Marking dimen:notification_subtext_size:2131165335 used because its prefix matches string pool constant n
 Marking dimen:notification_top_pad:2131165336 used because its prefix matches string pool constant n
 Marking dimen:notification_top_pad_large_text:2131165337 used because its prefix matches string pool constant n
-Marking drawable:notification_action_background:2131230922 used because its prefix matches string pool constant n
-Marking drawable:notification_bg:2131230923 used because its prefix matches string pool constant n
-Marking drawable:notification_bg_low:2131230924 used because its prefix matches string pool constant n
-Marking drawable:notification_bg_low_normal:2131230925 used because its prefix matches string pool constant n
-Marking drawable:notification_bg_low_pressed:2131230926 used because its prefix matches string pool constant n
-Marking drawable:notification_bg_normal:2131230927 used because its prefix matches string pool constant n
-Marking drawable:notification_bg_normal_pressed:2131230928 used because its prefix matches string pool constant n
-Marking drawable:notification_icon_background:2131230929 used because its prefix matches string pool constant n
-Marking drawable:notification_template_icon_bg:2131230930 used because its prefix matches string pool constant n
-Marking drawable:notification_template_icon_low_bg:2131230931 used because its prefix matches string pool constant n
-Marking drawable:notification_tile_bg:2131230932 used because its prefix matches string pool constant n
-Marking drawable:notify_panel_notification_icon_bg:2131230933 used because its prefix matches string pool constant n
+Marking drawable:notification_action_background:2131230924 used because its prefix matches string pool constant n
+Marking drawable:notification_bg:2131230925 used because its prefix matches string pool constant n
+Marking drawable:notification_bg_low:2131230926 used because its prefix matches string pool constant n
+Marking drawable:notification_bg_low_normal:2131230927 used because its prefix matches string pool constant n
+Marking drawable:notification_bg_low_pressed:2131230928 used because its prefix matches string pool constant n
+Marking drawable:notification_bg_normal:2131230929 used because its prefix matches string pool constant n
+Marking drawable:notification_bg_normal_pressed:2131230930 used because its prefix matches string pool constant n
+Marking drawable:notification_icon_background:2131230931 used because its prefix matches string pool constant n
+Marking drawable:notification_template_icon_bg:2131230932 used because its prefix matches string pool constant n
+Marking drawable:notification_template_icon_low_bg:2131230933 used because its prefix matches string pool constant n
+Marking drawable:notification_tile_bg:2131230934 used because its prefix matches string pool constant n
+Marking drawable:notify_panel_notification_icon_bg:2131230935 used because its prefix matches string pool constant n
 Marking id:normal:2131296392 used because its prefix matches string pool constant n
 Marking id:notification_background:2131296393 used because its prefix matches string pool constant n
 Marking id:notification_main_column:2131296394 used because its prefix matches string pool constant n
@@ -2223,7 +2225,7 @@ Marking attr:navigationIcon:2130968819 used because its prefix matches string po
 Marking attr:navigationMode:2130968820 used because its prefix matches string pool constant n
 Marking attr:numericModifiers:2130968821 used because its prefix matches string pool constant n
 Marking color:notification_material_background_media_default_color:2131099732 used because its prefix matches string pool constant n
-Marking drawable:navigation_empty_icon:2131230921 used because its prefix matches string pool constant n
+Marking drawable:navigation_empty_icon:2131230923 used because its prefix matches string pool constant n
 Marking id:navigation_header_container:2131296388 used because its prefix matches string pool constant n
 Marking id:none:2131296391 used because its prefix matches string pool constant n
 Marking layout:notification_media_action:2131427391 used because its prefix matches string pool constant n
@@ -2314,23 +2316,23 @@ Marking string:path_password_eye_mask_strike_through:2131689767 used because its
 Marking string:path_password_eye_mask_visible:2131689768 used because its prefix matches string pool constant p
 Marking string:path_password_strike_through:2131689769 used because its prefix matches string pool constant p
 Marking attr:packageNameToKill:2130968823 used because its prefix matches string pool constant p
-Marking drawable:pacman:2131230934 used because its prefix matches string pool constant p
-Marking drawable:pacman1:2131230935 used because its prefix matches string pool constant p
-Marking drawable:pacman2:2131230936 used because its prefix matches string pool constant p
-Marking drawable:padlock:2131230937 used because its prefix matches string pool constant p
-Marking drawable:pantone:2131230938 used because its prefix matches string pool constant p
-Marking drawable:pantone2:2131230939 used because its prefix matches string pool constant p
-Marking drawable:pantone3:2131230940 used because its prefix matches string pool constant p
-Marking drawable:pantone4:2131230941 used because its prefix matches string pool constant p
-Marking drawable:pantone5:2131230942 used because its prefix matches string pool constant p
-Marking drawable:pantone6:2131230943 used because its prefix matches string pool constant p
-Marking drawable:pantone7:2131230944 used because its prefix matches string pool constant p
-Marking drawable:power:2131230945 used because its prefix matches string pool constant p
-Marking drawable:press:2131230946 used because its prefix matches string pool constant p
-Marking drawable:protective_gradient_bottom:2131230947 used because its prefix matches string pool constant p
-Marking drawable:protective_semi_transparent_black:2131230948 used because its prefix matches string pool constant p
-Marking drawable:protective_view_gradient_top:2131230949 used because its prefix matches string pool constant p
-Marking drawable:puzzle:2131230950 used because its prefix matches string pool constant p
+Marking drawable:pacman:2131230936 used because its prefix matches string pool constant p
+Marking drawable:pacman1:2131230937 used because its prefix matches string pool constant p
+Marking drawable:pacman2:2131230938 used because its prefix matches string pool constant p
+Marking drawable:padlock:2131230939 used because its prefix matches string pool constant p
+Marking drawable:pantone:2131230940 used because its prefix matches string pool constant p
+Marking drawable:pantone2:2131230941 used because its prefix matches string pool constant p
+Marking drawable:pantone3:2131230942 used because its prefix matches string pool constant p
+Marking drawable:pantone4:2131230943 used because its prefix matches string pool constant p
+Marking drawable:pantone5:2131230944 used because its prefix matches string pool constant p
+Marking drawable:pantone6:2131230945 used because its prefix matches string pool constant p
+Marking drawable:pantone7:2131230946 used because its prefix matches string pool constant p
+Marking drawable:power:2131230947 used because its prefix matches string pool constant p
+Marking drawable:press:2131230948 used because its prefix matches string pool constant p
+Marking drawable:protective_gradient_bottom:2131230949 used because its prefix matches string pool constant p
+Marking drawable:protective_semi_transparent_black:2131230950 used because its prefix matches string pool constant p
+Marking drawable:protective_view_gradient_top:2131230951 used because its prefix matches string pool constant p
+Marking drawable:puzzle:2131230952 used because its prefix matches string pool constant p
 Marking id:piracy_checker_description:2131296402 used because its prefix matches string pool constant p
 Marking id:progressBar:2131296403 used because its prefix matches string pool constant p
 Marking id:protectiveView:2131296406 used because its prefix matches string pool constant p
@@ -2359,15 +2361,15 @@ Marking attr:rebootDevice:2130968850 used because its prefix matches string pool
 Marking attr:rebootOptions:2130968851 used because its prefix matches string pool constant r
 Marking attr:rebootText:2130968852 used because its prefix matches string pool constant r
 Marking attr:reverseDependency:2130968853 used because its prefix matches string pool constant r
-Marking drawable:races:2131230951 used because its prefix matches string pool constant r
-Marking drawable:races2:2131230952 used because its prefix matches string pool constant r
-Marking drawable:racing:2131230953 used because its prefix matches string pool constant r
-Marking drawable:ram:2131230954 used because its prefix matches string pool constant r
-Marking drawable:ram2:2131230955 used because its prefix matches string pool constant r
-Marking drawable:ram3:2131230956 used because its prefix matches string pool constant r
-Marking drawable:robot:2131230957 used because its prefix matches string pool constant r
-Marking drawable:rocket:2131230958 used because its prefix matches string pool constant r
-Marking drawable:rr:2131230959 used because its prefix matches string pool constant r
+Marking drawable:races:2131230953 used because its prefix matches string pool constant r
+Marking drawable:races2:2131230954 used because its prefix matches string pool constant r
+Marking drawable:racing:2131230955 used because its prefix matches string pool constant r
+Marking drawable:ram:2131230956 used because its prefix matches string pool constant r
+Marking drawable:ram2:2131230957 used because its prefix matches string pool constant r
+Marking drawable:ram3:2131230958 used because its prefix matches string pool constant r
+Marking drawable:robot:2131230959 used because its prefix matches string pool constant r
+Marking drawable:rocket:2131230960 used because its prefix matches string pool constant r
+Marking drawable:rr:2131230961 used because its prefix matches string pool constant r
 Marking id:rebootContainer:2131296408 used because its prefix matches string pool constant r
 Marking id:rebootDevice:2131296409 used because its prefix matches string pool constant r
 Marking id:rebootFab:2131296410 used because its prefix matches string pool constant r
@@ -2503,31 +2505,31 @@ Marking attr:scriptFileName:2130968858 used because its prefix matches string po
 Marking attr:showConfirmDialog:2130968866 used because its prefix matches string pool constant s
 Marking attr:showSearch:2130968868 used because its prefix matches string pool constant s
 Marking attr:showSelectAll:2130968869 used because its prefix matches string pool constant s
-Marking drawable:schedule:2131230960 used because its prefix matches string pool constant s
-Marking drawable:shield:2131230961 used because its prefix matches string pool constant s
-Marking drawable:signalstyle1:2131230962 used because its prefix matches string pool constant s
-Marking drawable:signalstyle10:2131230963 used because its prefix matches string pool constant s
-Marking drawable:signalstyle11:2131230964 used because its prefix matches string pool constant s
-Marking drawable:signalstyle12:2131230965 used because its prefix matches string pool constant s
-Marking drawable:signalstyle13:2131230966 used because its prefix matches string pool constant s
-Marking drawable:signalstyle14:2131230967 used because its prefix matches string pool constant s
-Marking drawable:signalstyle15:2131230968 used because its prefix matches string pool constant s
-Marking drawable:signalstyle16:2131230969 used because its prefix matches string pool constant s
-Marking drawable:signalstyle2:2131230970 used because its prefix matches string pool constant s
-Marking drawable:signalstyle3:2131230971 used because its prefix matches string pool constant s
-Marking drawable:signalstyle4:2131230972 used because its prefix matches string pool constant s
-Marking drawable:signalstyle5:2131230973 used because its prefix matches string pool constant s
-Marking drawable:signalstyle6:2131230974 used because its prefix matches string pool constant s
-Marking drawable:signalstyle7:2131230975 used because its prefix matches string pool constant s
-Marking drawable:signalstyle8:2131230976 used because its prefix matches string pool constant s
-Marking drawable:signalstyle9:2131230977 used because its prefix matches string pool constant s
-Marking drawable:sim_card:2131230978 used because its prefix matches string pool constant s
-Marking drawable:smile:2131230979 used because its prefix matches string pool constant s
-Marking drawable:spider1:2131230980 used because its prefix matches string pool constant s
-Marking drawable:spider2:2131230981 used because its prefix matches string pool constant s
-Marking drawable:stopwatch:2131230982 used because its prefix matches string pool constant s
-Marking drawable:sub_cornerbackground:2131230983 used because its prefix matches string pool constant s
-Marking drawable:swiss_army_knife:2131230984 used because its prefix matches string pool constant s
+Marking drawable:schedule:2131230962 used because its prefix matches string pool constant s
+Marking drawable:shield:2131230963 used because its prefix matches string pool constant s
+Marking drawable:signalstyle1:2131230964 used because its prefix matches string pool constant s
+Marking drawable:signalstyle10:2131230965 used because its prefix matches string pool constant s
+Marking drawable:signalstyle11:2131230966 used because its prefix matches string pool constant s
+Marking drawable:signalstyle12:2131230967 used because its prefix matches string pool constant s
+Marking drawable:signalstyle13:2131230968 used because its prefix matches string pool constant s
+Marking drawable:signalstyle14:2131230969 used because its prefix matches string pool constant s
+Marking drawable:signalstyle15:2131230970 used because its prefix matches string pool constant s
+Marking drawable:signalstyle16:2131230971 used because its prefix matches string pool constant s
+Marking drawable:signalstyle2:2131230972 used because its prefix matches string pool constant s
+Marking drawable:signalstyle3:2131230973 used because its prefix matches string pool constant s
+Marking drawable:signalstyle4:2131230974 used because its prefix matches string pool constant s
+Marking drawable:signalstyle5:2131230975 used because its prefix matches string pool constant s
+Marking drawable:signalstyle6:2131230976 used because its prefix matches string pool constant s
+Marking drawable:signalstyle7:2131230977 used because its prefix matches string pool constant s
+Marking drawable:signalstyle8:2131230978 used because its prefix matches string pool constant s
+Marking drawable:signalstyle9:2131230979 used because its prefix matches string pool constant s
+Marking drawable:sim_card:2131230980 used because its prefix matches string pool constant s
+Marking drawable:smile:2131230981 used because its prefix matches string pool constant s
+Marking drawable:spider1:2131230982 used because its prefix matches string pool constant s
+Marking drawable:spider2:2131230983 used because its prefix matches string pool constant s
+Marking drawable:stopwatch:2131230984 used because its prefix matches string pool constant s
+Marking drawable:sub_cornerbackground:2131230985 used because its prefix matches string pool constant s
+Marking drawable:swiss_army_knife:2131230986 used because its prefix matches string pool constant s
 Marking id:scroll:2131296424 used because its prefix matches string pool constant s
 Marking id:searchApp:2131296429 used because its prefix matches string pool constant s
 Marking id:seekBarPrefSlider:2131296440 used because its prefix matches string pool constant s
@@ -2635,8 +2637,8 @@ Marking dimen:tooltip_precise_anchor_threshold:2131165342 used because its prefi
 Marking dimen:tooltip_vertical_padding:2131165343 used because its prefix matches string pool constant t
 Marking dimen:tooltip_y_offset_non_touch:2131165344 used because its prefix matches string pool constant t
 Marking dimen:tooltip_y_offset_touch:2131165345 used because its prefix matches string pool constant t
-Marking drawable:tooltip_frame_dark:2131230989 used because its prefix matches string pool constant t
-Marking drawable:tooltip_frame_light:2131230990 used because its prefix matches string pool constant t
+Marking drawable:tooltip_frame_dark:2131230991 used because its prefix matches string pool constant t
+Marking drawable:tooltip_frame_light:2131230992 used because its prefix matches string pool constant t
 Marking id:tabMode:2131296464 used because its prefix matches string pool constant t
 Marking id:textSpacerNoButtons:2131296468 used because its prefix matches string pool constant t
 Marking id:textSpacerNoTitle:2131296469 used because its prefix matches string pool constant t
@@ -2675,28 +2677,28 @@ Marking array:traffic_style_entry_values:2130903136 used because its prefix matc
 Marking array:tw_effect_entries:2130903137 used because its prefix matches string pool constant t
 Marking array:tw_effect_values:2130903138 used because its prefix matches string pool constant t
 Marking attr:titlesList:2130968945 used because its prefix matches string pool constant t
-Marking drawable:tap:2131230985 used because its prefix matches string pool constant t
-Marking drawable:text:2131230986 used because its prefix matches string pool constant t
-Marking drawable:textstyle:2131230987 used because its prefix matches string pool constant t
-Marking drawable:toolbox:2131230988 used because its prefix matches string pool constant t
-Marking drawable:touchkey:2131230991 used because its prefix matches string pool constant t
-Marking drawable:transparentBg:2131230992 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_bikemode_square:2131230993 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_data_network_square:2131230994 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_download:2131230995 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_emergencymode_square:2131230996 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_fast_reboot:2131230997 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_multiuser:2131230998 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_poweroff_01_square:2131230999 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_poweroff_square:2131231000 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_restart_01_square:2131231001 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_restart_square:2131231002 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_safemode:2131231003 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_screen_recorder:2131231004 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_screenshot:2131231005 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_do_torchlight:2131231006 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_lock_airplane_mode:2131231007 used because its prefix matches string pool constant t
-Marking drawable:tw_ic_lock_airplane_mode_off:2131231008 used because its prefix matches string pool constant t
+Marking drawable:tap:2131230987 used because its prefix matches string pool constant t
+Marking drawable:text:2131230988 used because its prefix matches string pool constant t
+Marking drawable:textstyle:2131230989 used because its prefix matches string pool constant t
+Marking drawable:toolbox:2131230990 used because its prefix matches string pool constant t
+Marking drawable:touchkey:2131230993 used because its prefix matches string pool constant t
+Marking drawable:transparentBg:2131230994 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_bikemode_square:2131230995 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_data_network_square:2131230996 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_download:2131230997 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_emergencymode_square:2131230998 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_fast_reboot:2131230999 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_multiuser:2131231000 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_poweroff_01_square:2131231001 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_poweroff_square:2131231002 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_restart_01_square:2131231003 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_restart_square:2131231004 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_safemode:2131231005 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_screen_recorder:2131231006 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_screenshot:2131231007 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_do_torchlight:2131231008 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_lock_airplane_mode:2131231009 used because its prefix matches string pool constant t
+Marking drawable:tw_ic_lock_airplane_mode_off:2131231010 used because its prefix matches string pool constant t
 Marking id:text_hex_wrapper:2131296470 used because its prefix matches string pool constant t
 Marking id:themes:2131296474 used because its prefix matches string pool constant t
 Marking id:thumbnailIcon:2131296475 used because its prefix matches string pool constant t
@@ -2717,8 +2719,8 @@ Marking attr:useCompatPadding:2130968956 used because its prefix matches string 
 Marking id:uniform:2131296493 used because its prefix matches string pool constant u
 Marking id:up:2131296494 used because its prefix matches string pool constant u
 Marking attr:unitsValue:2130968955 used because its prefix matches string pool constant u
-Marking drawable:usb:2131231009 used because its prefix matches string pool constant u
-Marking drawable:usb2:2131231010 used because its prefix matches string pool constant u
+Marking drawable:usb:2131231011 used because its prefix matches string pool constant u
+Marking drawable:usb2:2131231012 used because its prefix matches string pool constant u
 Marking id:useLogo:2131296495 used because its prefix matches string pool constant u
 Marking string:unauthorized_app_blocked:2131689817 used because its prefix matches string pool constant u
 Marking string:unauthorized_app_found:2131689818 used because its prefix matches string pool constant u
@@ -2746,28 +2748,29 @@ Marking array:wifi_values:2130903142 used because its prefix matches string pool
 Marking array:wifiarrow_drawables:2130903143 used because its prefix matches string pool constant w
 Marking array:wifiarrow_entries:2130903144 used because its prefix matches string pool constant w
 Marking array:wifiarrow_values:2130903145 used because its prefix matches string pool constant w
-Marking drawable:wifi:2131231011 used because its prefix matches string pool constant w
-Marking drawable:wifistyle1:2131231012 used because its prefix matches string pool constant w
-Marking drawable:wifistyle10:2131231013 used because its prefix matches string pool constant w
-Marking drawable:wifistyle11:2131231014 used because its prefix matches string pool constant w
-Marking drawable:wifistyle12:2131231015 used because its prefix matches string pool constant w
-Marking drawable:wifistyle2:2131231016 used because its prefix matches string pool constant w
-Marking drawable:wifistyle3:2131231017 used because its prefix matches string pool constant w
-Marking drawable:wifistyle4:2131231018 used because its prefix matches string pool constant w
-Marking drawable:wifistyle5:2131231019 used because its prefix matches string pool constant w
-Marking drawable:wifistyle6:2131231020 used because its prefix matches string pool constant w
-Marking drawable:wifistyle7:2131231021 used because its prefix matches string pool constant w
-Marking drawable:wifistyle8:2131231022 used because its prefix matches string pool constant w
-Marking drawable:wifistyle9:2131231023 used because its prefix matches string pool constant w
-Marking drawable:worldwide:2131231024 used because its prefix matches string pool constant w
-Marking drawable:wrench:2131231025 used because its prefix matches string pool constant w
+Marking drawable:wifi:2131231013 used because its prefix matches string pool constant w
+Marking drawable:wifistyle1:2131231014 used because its prefix matches string pool constant w
+Marking drawable:wifistyle10:2131231015 used because its prefix matches string pool constant w
+Marking drawable:wifistyle11:2131231016 used because its prefix matches string pool constant w
+Marking drawable:wifistyle12:2131231017 used because its prefix matches string pool constant w
+Marking drawable:wifistyle2:2131231018 used because its prefix matches string pool constant w
+Marking drawable:wifistyle3:2131231019 used because its prefix matches string pool constant w
+Marking drawable:wifistyle4:2131231020 used because its prefix matches string pool constant w
+Marking drawable:wifistyle5:2131231021 used because its prefix matches string pool constant w
+Marking drawable:wifistyle6:2131231022 used because its prefix matches string pool constant w
+Marking drawable:wifistyle7:2131231023 used because its prefix matches string pool constant w
+Marking drawable:wifistyle8:2131231024 used because its prefix matches string pool constant w
+Marking drawable:wifistyle9:2131231025 used because its prefix matches string pool constant w
+Marking drawable:worldwide:2131231026 used because its prefix matches string pool constant w
+Marking drawable:wrench:2131231027 used because its prefix matches string pool constant w
 Marking id:withText:2131296499 used because its prefix matches string pool constant w
 Marking string:welcome:2131689819 used because its prefix matches string pool constant w
 Marking string:welcomemsg:2131689820 used because its prefix matches string pool constant w
 Marking string:welcomemsgPRO:2131689821 used because its prefix matches string pool constant w
+Marking string:workingversion:2131689822 used because its prefix matches string pool constant w
 Marking xml:welcome:2131886099 used because its prefix matches string pool constant w
 Marking xml:welcome_pro:2131886100 used because its prefix matches string pool constant w
-Marking string:yes:2131689822 used because its prefix matches string pool constant y
+Marking string:yes:2131689823 used because its prefix matches string pool constant y
 Marking attr:font:2130968739 used because its prefix matches string pool constant font
 Marking attr:fontProviderAuthority:2130968741 used because its prefix matches string pool constant font
 Marking attr:fontProviderCerts:2130968742 used because its prefix matches string pool constant font
@@ -2886,8 +2889,8 @@ Marking id:textSpacerNoTitle:2131296469 used because its prefix matches string p
 Marking id:text_input_password_toggle:2131296471 used because its prefix matches string pool constant text
 Marking id:textinput_counter:2131296472 used because its prefix matches string pool constant text
 Marking id:textinput_error:2131296473 used because its prefix matches string pool constant text
-Marking drawable:text:2131230986 used because its prefix matches string pool constant text
-Marking drawable:textstyle:2131230987 used because its prefix matches string pool constant text
+Marking drawable:text:2131230988 used because its prefix matches string pool constant text
+Marking drawable:textstyle:2131230989 used because its prefix matches string pool constant text
 Marking id:text_hex_wrapper:2131296470 used because its prefix matches string pool constant text
 Marking string:theme_dialog_title:2131689815 used because its prefix matches string pool constant theme_dialog
 Marking attr:colorPrimary:2130968678 used because its prefix matches string pool constant colorPrimary
@@ -2895,7 +2898,7 @@ Marking attr:colorPrimaryDark:2130968679 used because its prefix matches string 
 Marking color:colorPrimary:2131099691 used because its prefix matches string pool constant colorPrimary
 Marking color:colorPrimaryDark:2131099692 used because its prefix matches string pool constant colorPrimary
 Marking attr:menu:2130968808 used because its prefix matches string pool constant menu
-Marking drawable:menu:2131230917 used because its prefix matches string pool constant menu
+Marking drawable:menu:2131230919 used because its prefix matches string pool constant menu
 Marking attr:tintMode:2130968933 used because its prefix matches string pool constant tintMode
 Marking declare-styleable:FloatingActionButton:-1 used because its prefix matches string pool constant FloatingActionButton
 Marking styleable:FloatingActionButton:-1 used because its prefix matches string pool constant FloatingActionButton
@@ -2924,16 +2927,16 @@ Marking attr:suggestionRowLayout:2130968891 used because its prefix matches stri
 Marking id:submenuarrow:2131296461 used because its prefix matches string pool constant su
 Marking id:submit_area:2131296462 used because its prefix matches string pool constant su
 Marking layout:support_simple_spinner_dropdown_item:2131427413 used because its prefix matches string pool constant su
-Marking drawable:sub_cornerbackground:2131230983 used because its prefix matches string pool constant su
+Marking drawable:sub_cornerbackground:2131230985 used because its prefix matches string pool constant su
 Marking string:supersuinfo:2131689811 used because its prefix matches string pool constant su
 Marking string:confirm_script_dialog_message:2131689713 used because its prefix matches string pool constant confirm
 Marking declare-styleable:RecyclerView:-1 used because its prefix matches string pool constant RecyclerView
 Marking styleable:RecyclerView:-1 used because its prefix matches string pool constant RecyclerView
 Marking id:view_offset_helper:2131296497 used because its prefix matches string pool constant view
 Marking id:up:2131296494 used because its prefix matches string pool constant up
-Marking drawable:android:2131230817 used because its prefix matches string pool constant android
-Marking drawable:android2:2131230818 used because its prefix matches string pool constant android
-Marking drawable:android_symbol:2131230819 used because its prefix matches string pool constant android
+Marking drawable:android:2131230819 used because its prefix matches string pool constant android
+Marking drawable:android2:2131230820 used because its prefix matches string pool constant android
+Marking drawable:android_symbol:2131230821 used because its prefix matches string pool constant android
 Marking id:android:icon2:-1 used because its prefix matches string pool constant android
 Marking attr:android_textColorPrimary:-1 used because its prefix matches string pool constant android
 Marking attr:android_layout_gravity:-1 used because its prefix matches string pool constant android
@@ -3056,7 +3059,7 @@ Marking id:changelogText:2131296309 used because its prefix matches string pool 
 Marking layout:changelog_item:2131427363 used because its prefix matches string pool constant changelog
 Marking string:changelog:2131689707 used because its prefix matches string pool constant changelog
 Marking string:changelog_version_title:2131689708 used because its prefix matches string pool constant changelog
-Marking drawable:power:2131230945 used because its prefix matches string pool constant power
+Marking drawable:power:2131230947 used because its prefix matches string pool constant power
 Marking attr:colorPrimaryDark:2130968679 used because its prefix matches string pool constant colorPrimaryDark
 Marking color:colorPrimaryDark:2131099692 used because its prefix matches string pool constant colorPrimaryDark
 Marking string:restore_confirm_dialog_title:2131689787 used because its prefix matches string pool constant restore_confirm
@@ -3069,11 +3072,11 @@ Marking attr:android_id:-1 used because its prefix matches string pool constant 
 Resource Reference Graph:
 color:notification_action_color_filter:2131099730 => [color:secondary_text_default_material_light:2131099744]
 dimen:notification_media_narrow_margin:2131165330 => [dimen:notification_content_margin_start:2131165326]
-drawable:notification_action_background:2131230922 => [color:ripple_material_light:2131099742, dimen:compat_button_inset_vertical_material:2131165264, dimen:compat_button_inset_horizontal_material:2131165263, dimen:compat_control_corner_material:2131165267, dimen:compat_button_padding_vertical_material:2131165266, dimen:compat_button_padding_horizontal_material:2131165265]
-drawable:notification_bg:2131230923 => [drawable:notification_bg_normal_pressed:2131230928, drawable:notification_bg_normal:2131230927]
-drawable:notification_bg_low:2131230924 => [drawable:notification_bg_low_pressed:2131230926, drawable:notification_bg_low_normal:2131230925]
-drawable:notification_icon_background:2131230929 => [color:notification_icon_bg_color:2131099731]
-drawable:notification_tile_bg:2131230932 => [drawable:notify_panel_notification_icon_bg:2131230933]
+drawable:notification_action_background:2131230924 => [color:ripple_material_light:2131099742, dimen:compat_button_inset_vertical_material:2131165264, dimen:compat_button_inset_horizontal_material:2131165263, dimen:compat_control_corner_material:2131165267, dimen:compat_button_padding_vertical_material:2131165266, dimen:compat_button_padding_horizontal_material:2131165265]
+drawable:notification_bg:2131230925 => [drawable:notification_bg_normal_pressed:2131230930, drawable:notification_bg_normal:2131230929]
+drawable:notification_bg_low:2131230926 => [drawable:notification_bg_low_pressed:2131230928, drawable:notification_bg_low_normal:2131230927]
+drawable:notification_icon_background:2131230931 => [color:notification_icon_bg_color:2131099731]
+drawable:notification_tile_bg:2131230934 => [drawable:notify_panel_notification_icon_bg:2131230935]
 layout:notification_action:2131427389 => [style:Widget_Compat_NotificationActionContainer:2131755394, dimen:notification_action_icon_size:2131165323, style:Widget_Compat_NotificationActionText:2131755395]
 layout:notification_action_tombstone:2131427390 => [style:Widget_Compat_NotificationActionContainer:2131755394, dimen:notification_action_icon_size:2131165323, style:Widget_Compat_NotificationActionText:2131755395]
 layout:notification_template_custom_big:2131427397 => [dimen:notification_large_icon_height:2131165327, dimen:notification_large_icon_width:2131165328, layout:notification_template_icon_group:2131427398, dimen:notification_right_side_padding_top:2131165332, layout:notification_template_part_time:2131427403, layout:notification_template_part_chronometer:2131427402, style:TextAppearance_Compat_Notification_Info:2131755269]
@@ -3083,7 +3086,7 @@ layout:notification_template_part_time:2131427403 => [style:TextAppearance_Compa
 style:TextAppearance_Compat_Notification_Info:2131755269 => [style:TextAppearance_Compat_Notification:2131755268, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
 style:TextAppearance_Compat_Notification_Line2:2131755271 => [style:TextAppearance_Compat_Notification_Info:2131755269]
 style:TextAppearance_Compat_Notification_Time:2131755274 => [style:TextAppearance_Compat_Notification:2131755268, style:TextAppearance_Compat:-1, style:TextAppearance:-1]
-style:Widget_Compat_NotificationActionContainer:2131755394 => [drawable:notification_action_background:2131230922]
+style:Widget_Compat_NotificationActionContainer:2131755394 => [drawable:notification_action_background:2131230924]
 style:Widget_Compat_NotificationActionText:2131755395 => [color:secondary_text_default_material_light:2131099744, dimen:notification_action_text_size:2131165324]
 anim:abc_grow_fade_in_from_bottom:2130771970 => [integer:abc_config_activityDefaultDur:2131361792, integer:abc_config_activityShortDur:2131361793]
 anim:abc_popup_enter:2130771971 => [integer:abc_config_activityShortDur:2131361793]
@@ -3160,15 +3163,15 @@ drawable:abc_spinner_textfield_background_material:2131230791 => [dimen:abc_cont
 drawable:abc_switch_thumb_material:2131230792 => [drawable:abc_btn_switch_to_on_mtrl_00012:2131230738, drawable:abc_btn_switch_to_on_mtrl_00001:2131230737]
 drawable:abc_tab_indicator_material:2131230794 => [drawable:abc_tab_indicator_mtrl_alpha:2131230795]
 drawable:abc_textfield_search_material:2131230807 => [drawable:abc_textfield_search_activated_mtrl_alpha:2131230805, drawable:abc_textfield_search_default_mtrl_alpha:2131230806]
-drawable:avd_hide_password:2131230824 => [drawable:avd_hide_password_1:-1, string:path_password_strike_through:2131689769, string:path_password_eye_mask_visible:2131689768, string:path_password_eye:2131689766, drawable:avd_hide_password_2:-1, integer:hide_password_duration:2131361800, string:path_password_eye_mask_strike_through:2131689767, drawable:avd_hide_password_3:-1]
-drawable:avd_show_password:2131230825 => [drawable:avd_show_password_1:-1, string:path_password_strike_through:2131689769, string:path_password_eye_mask_strike_through:2131689767, string:path_password_eye:2131689766, drawable:avd_show_password_2:-1, integer:show_password_duration:2131361801, string:path_password_eye_mask_visible:2131689768, drawable:avd_show_password_3:-1]
-drawable:design_bottom_navigation_item_background:2131230856 => [attr:colorPrimary:2130968678]
-drawable:design_ic_visibility:2131230858 => [string:path_password_eye:2131689766]
-drawable:design_password_eye:2131230860 => [drawable:design_ic_visibility:2131230858, drawable:design_ic_visibility_off:2131230859, drawable:avd_show_password:2131230825, id:masked:2131296373, id:visible:2131296498, drawable:avd_hide_password:2131230824]
-drawable:design_snackbar_background:2131230861 => [dimen:design_snackbar_background_corner_radius:2131165293, color:design_snackbar_background_color:2131099704]
-drawable:navigation_empty_icon:2131230921 => [dimen:design_navigation_icon_size:2131165288]
-drawable:tooltip_frame_dark:2131230989 => [color:tooltip_background_dark:2131099753, dimen:tooltip_corner_radius:2131165338]
-drawable:tooltip_frame_light:2131230990 => [color:tooltip_background_light:2131099754, dimen:tooltip_corner_radius:2131165338]
+drawable:avd_hide_password:2131230826 => [drawable:avd_hide_password_1:-1, string:path_password_strike_through:2131689769, string:path_password_eye_mask_visible:2131689768, string:path_password_eye:2131689766, drawable:avd_hide_password_2:-1, integer:hide_password_duration:2131361800, string:path_password_eye_mask_strike_through:2131689767, drawable:avd_hide_password_3:-1]
+drawable:avd_show_password:2131230827 => [drawable:avd_show_password_1:-1, string:path_password_strike_through:2131689769, string:path_password_eye_mask_strike_through:2131689767, string:path_password_eye:2131689766, drawable:avd_show_password_2:-1, integer:show_password_duration:2131361801, string:path_password_eye_mask_visible:2131689768, drawable:avd_show_password_3:-1]
+drawable:design_bottom_navigation_item_background:2131230858 => [attr:colorPrimary:2130968678]
+drawable:design_ic_visibility:2131230860 => [string:path_password_eye:2131689766]
+drawable:design_password_eye:2131230862 => [drawable:design_ic_visibility:2131230860, drawable:design_ic_visibility_off:2131230861, drawable:avd_show_password:2131230827, id:masked:2131296373, id:visible:2131296498, drawable:avd_hide_password:2131230826]
+drawable:design_snackbar_background:2131230863 => [dimen:design_snackbar_background_corner_radius:2131165293, color:design_snackbar_background_color:2131099704]
+drawable:navigation_empty_icon:2131230923 => [dimen:design_navigation_icon_size:2131165288]
+drawable:tooltip_frame_dark:2131230991 => [color:tooltip_background_dark:2131099753, dimen:tooltip_corner_radius:2131165338]
+drawable:tooltip_frame_light:2131230992 => [color:tooltip_background_light:2131099754, dimen:tooltip_corner_radius:2131165338]
 layout:abc_action_bar_title_item:2131427328 => [style:RtlOverlay_Widget_AppCompat_ActionBar_TitleItem:2131755207, dimen:abc_action_bar_subtitle_top_margin_material:2131165197]
 layout:abc_action_bar_up_container:2131427329 => [attr:actionBarItemBackground:2130968577]
 layout:abc_action_menu_item_layout:2131427330 => [attr:actionMenuTextAppearance:2130968590, attr:actionMenuTextColor:2130968591, attr:actionButtonStyle:2130968587]
@@ -3313,9 +3316,9 @@ style:Base_V26_Theme_AppCompat_Light:2131755114 => [style:Base_V23_Theme_AppComp
 style:Base_V26_Widget_AppCompat_Toolbar:2131755115 => [style:Base_V7_Widget_AppCompat_Toolbar:2131755124]
 style:Base_V26_Widget_Design_AppBarLayout:2131755116 => [style:Base_V21_Widget_Design_AppBarLayout:2131755108]
 style:Base_V7_ThemeOverlay_AppCompat_Dialog:2131755121 => [style:Base_ThemeOverlay_AppCompat:2131755090, attr:colorBackgroundFloating:2130968672, style:RtlOverlay_DialogWindowTitle_AppCompat:2131755206, style:Base_DialogWindowTitleBackground_AppCompat:2131755027, drawable:abc_dialog_material_background:2131230743, style:Animation_AppCompat_Dialog:2131755010]
-style:Base_V7_Theme_AppCompat:2131755117 => [style:Platform_AppCompat:2131755191, color:background_floating_material_dark:2131099674, drawable:abc_item_background_holo_dark:2131230764, attr:selectableItemBackground:2130968863, style:Widget_AppCompat_Button_Borderless:2131755334, drawable:abc_ic_ab_back_material:2131230745, drawable:abc_list_divider_mtrl_alpha:2131230766, style:Widget_AppCompat_ActionBar_TabView:2131755326, style:Widget_AppCompat_ActionBar_TabBar:2131755324, style:Widget_AppCompat_ActionBar_TabText:2131755325, style:Widget_AppCompat_ActionButton:2131755327, style:Widget_AppCompat_ActionButton_Overflow:2131755329, style:Widget_AppCompat_PopupMenu_Overflow:2131755376, style:Widget_AppCompat_ActionBar_Solid:2131755323, attr:actionBarStyle:2130968581, style:ThemeOverlay_AppCompat_ActionBar:2131755316, dimen:abc_action_bar_default_height_material:2131165186, attr:dividerVertical:2130968710, attr:selectableItemBackgroundBorderless:2130968864, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131755249, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131755389, style:Widget_AppCompat_ActionMode:2131755330, drawable:abc_cab_background_top_material:2131230740, attr:colorPrimaryDark:2130968679, style:Widget_AppCompat_ActionButton_CloseMode:2131755328, drawable:abc_ic_menu_cut_mtrl_alpha:2131230751, drawable:abc_ic_menu_copy_mtrl_am_alpha:2131230750, drawable:abc_ic_menu_paste_mtrl_am_alpha:2131230753, drawable:abc_ic_menu_selectall_mtrl_alpha:2131230754, drawable:abc_ic_menu_share_mtrl_alpha:2131230755, dimen:abc_panel_menu_list_width:2131165232, style:Theme_AppCompat_CompactMenu:2131755289, drawable:abc_menu_hardkey_panel_mtrl_mult:2131230777, drawable:abc_list_selector_holo_dark:2131230775, style:TextAppearance_AppCompat_Subhead:2131755244, style:TextAppearance_AppCompat_Body1:2131755221, dimen:abc_list_item_padding_horizontal_material:2131165231, style:Widget_AppCompat_Spinner:2131755387, style:Widget_AppCompat_TextView_SpinnerItem:2131755391, style:Widget_AppCompat_ListView_DropDown:2131755373, style:Widget_AppCompat_DropDownItem_Spinner:2131755345, attr:listPreferredItemHeightSmall:2130968799, style:Widget_AppCompat_PopupMenu:2131755375, style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131755264, style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131755265, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131755263, style:Widget_AppCompat_ListPopupWindow:2131755371, style:Widget_AppCompat_ListMenuView:2131755370, style:Widget_AppCompat_SearchView:2131755383, color:abc_search_url_text:2131099660, style:TextAppearance_AppCompat_SearchResult_Title:2131755241, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131755240, style:Widget_AppCompat_ActivityChooserView:2131755331, style:Widget_AppCompat_Toolbar:2131755392, style:Widget_AppCompat_Toolbar_Button_Navigation:2131755393, style:Widget_AppCompat_EditText:2131755346, drawable:abc_edit_text_material:2131230744, style:Widget_AppCompat_AutoCompleteTextView:2131755332, color:primary_dark_material_dark:2131099733, color:primary_material_dark:2131099735, color:accent_material_dark:2131099672, attr:colorAccent:2130968671, color:ripple_material_dark:2131099741, color:button_material_dark:2131099684, color:switch_thumb_material_dark:2131099749, style:Widget_AppCompat_DrawerArrowToggle:2131755344, style:Widget_AppCompat_CompoundButton_CheckBox:2131755341, style:Widget_AppCompat_CompoundButton_RadioButton:2131755342, style:Widget_AppCompat_CompoundButton_Switch:2131755343, style:Widget_AppCompat_RatingBar:2131755380, style:Widget_AppCompat_RatingBar_Indicator:2131755381, style:Widget_AppCompat_RatingBar_Small:2131755382, style:Widget_AppCompat_SeekBar:2131755385, style:Widget_AppCompat_Button:2131755333, style:Widget_AppCompat_Button_Small:2131755338, style:TextAppearance_AppCompat_Widget_Button:2131755258, style:Widget_AppCompat_ImageButton:2131755347, style:Widget_AppCompat_ButtonBar:2131755339, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131755336, attr:buttonBarButtonStyle:2130968640, style:ThemeOverlay_AppCompat_Dialog:2131755319, dimen:abc_dialog_padding_material:2131165219, style:ThemeOverlay_AppCompat_Dialog_Alert:2131755320, style:AlertDialog_AppCompat:2131755008, color:abc_primary_text_material_dark:2131099658, drawable:tooltip_frame_light:2131230990, color:foreground_material_light:2131099712, color:error_color_material:2131099710]
+style:Base_V7_Theme_AppCompat:2131755117 => [style:Platform_AppCompat:2131755191, color:background_floating_material_dark:2131099674, drawable:abc_item_background_holo_dark:2131230764, attr:selectableItemBackground:2130968863, style:Widget_AppCompat_Button_Borderless:2131755334, drawable:abc_ic_ab_back_material:2131230745, drawable:abc_list_divider_mtrl_alpha:2131230766, style:Widget_AppCompat_ActionBar_TabView:2131755326, style:Widget_AppCompat_ActionBar_TabBar:2131755324, style:Widget_AppCompat_ActionBar_TabText:2131755325, style:Widget_AppCompat_ActionButton:2131755327, style:Widget_AppCompat_ActionButton_Overflow:2131755329, style:Widget_AppCompat_PopupMenu_Overflow:2131755376, style:Widget_AppCompat_ActionBar_Solid:2131755323, attr:actionBarStyle:2130968581, style:ThemeOverlay_AppCompat_ActionBar:2131755316, dimen:abc_action_bar_default_height_material:2131165186, attr:dividerVertical:2130968710, attr:selectableItemBackgroundBorderless:2130968864, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131755249, style:Widget_AppCompat_Spinner_DropDown_ActionBar:2131755389, style:Widget_AppCompat_ActionMode:2131755330, drawable:abc_cab_background_top_material:2131230740, attr:colorPrimaryDark:2130968679, style:Widget_AppCompat_ActionButton_CloseMode:2131755328, drawable:abc_ic_menu_cut_mtrl_alpha:2131230751, drawable:abc_ic_menu_copy_mtrl_am_alpha:2131230750, drawable:abc_ic_menu_paste_mtrl_am_alpha:2131230753, drawable:abc_ic_menu_selectall_mtrl_alpha:2131230754, drawable:abc_ic_menu_share_mtrl_alpha:2131230755, dimen:abc_panel_menu_list_width:2131165232, style:Theme_AppCompat_CompactMenu:2131755289, drawable:abc_menu_hardkey_panel_mtrl_mult:2131230777, drawable:abc_list_selector_holo_dark:2131230775, style:TextAppearance_AppCompat_Subhead:2131755244, style:TextAppearance_AppCompat_Body1:2131755221, dimen:abc_list_item_padding_horizontal_material:2131165231, style:Widget_AppCompat_Spinner:2131755387, style:Widget_AppCompat_TextView_SpinnerItem:2131755391, style:Widget_AppCompat_ListView_DropDown:2131755373, style:Widget_AppCompat_DropDownItem_Spinner:2131755345, attr:listPreferredItemHeightSmall:2130968799, style:Widget_AppCompat_PopupMenu:2131755375, style:TextAppearance_AppCompat_Widget_PopupMenu_Large:2131755264, style:TextAppearance_AppCompat_Widget_PopupMenu_Small:2131755265, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131755263, style:Widget_AppCompat_ListPopupWindow:2131755371, style:Widget_AppCompat_ListMenuView:2131755370, style:Widget_AppCompat_SearchView:2131755383, color:abc_search_url_text:2131099660, style:TextAppearance_AppCompat_SearchResult_Title:2131755241, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131755240, style:Widget_AppCompat_ActivityChooserView:2131755331, style:Widget_AppCompat_Toolbar:2131755392, style:Widget_AppCompat_Toolbar_Button_Navigation:2131755393, style:Widget_AppCompat_EditText:2131755346, drawable:abc_edit_text_material:2131230744, style:Widget_AppCompat_AutoCompleteTextView:2131755332, color:primary_dark_material_dark:2131099733, color:primary_material_dark:2131099735, color:accent_material_dark:2131099672, attr:colorAccent:2130968671, color:ripple_material_dark:2131099741, color:button_material_dark:2131099684, color:switch_thumb_material_dark:2131099749, style:Widget_AppCompat_DrawerArrowToggle:2131755344, style:Widget_AppCompat_CompoundButton_CheckBox:2131755341, style:Widget_AppCompat_CompoundButton_RadioButton:2131755342, style:Widget_AppCompat_CompoundButton_Switch:2131755343, style:Widget_AppCompat_RatingBar:2131755380, style:Widget_AppCompat_RatingBar_Indicator:2131755381, style:Widget_AppCompat_RatingBar_Small:2131755382, style:Widget_AppCompat_SeekBar:2131755385, style:Widget_AppCompat_Button:2131755333, style:Widget_AppCompat_Button_Small:2131755338, style:TextAppearance_AppCompat_Widget_Button:2131755258, style:Widget_AppCompat_ImageButton:2131755347, style:Widget_AppCompat_ButtonBar:2131755339, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131755336, attr:buttonBarButtonStyle:2130968640, style:ThemeOverlay_AppCompat_Dialog:2131755319, dimen:abc_dialog_padding_material:2131165219, style:ThemeOverlay_AppCompat_Dialog_Alert:2131755320, style:AlertDialog_AppCompat:2131755008, color:abc_primary_text_material_dark:2131099658, drawable:tooltip_frame_light:2131230992, color:foreground_material_light:2131099712, color:error_color_material:2131099710]
 style:Base_V7_Theme_AppCompat_Dialog:2131755118 => [style:Base_Theme_AppCompat:2131755076, attr:colorBackgroundFloating:2130968672, style:RtlOverlay_DialogWindowTitle_AppCompat:2131755206, style:Base_DialogWindowTitleBackground_AppCompat:2131755027, drawable:abc_dialog_material_background:2131230743, style:Animation_AppCompat_Dialog:2131755010]
-style:Base_V7_Theme_AppCompat_Light:2131755119 => [style:Platform_AppCompat_Light:2131755192, color:background_floating_material_light:2131099675, drawable:abc_item_background_holo_light:2131230765, attr:selectableItemBackground:2130968863, style:Widget_AppCompat_Button_Borderless:2131755334, drawable:abc_ic_ab_back_material:2131230745, drawable:abc_list_divider_mtrl_alpha:2131230766, style:Widget_AppCompat_Light_ActionBar_TabView:2131755355, style:Widget_AppCompat_Light_ActionBar_TabBar:2131755351, style:Widget_AppCompat_Light_ActionBar_TabText:2131755353, style:Widget_AppCompat_Light_ActionButton:2131755357, style:Widget_AppCompat_Light_ActionButton_Overflow:2131755359, style:Widget_AppCompat_Light_PopupMenu_Overflow:2131755367, style:Widget_AppCompat_Light_ActionBar_Solid:2131755349, attr:actionBarStyle:2130968581, style:ThemeOverlay_AppCompat_ActionBar:2131755316, dimen:abc_action_bar_default_height_material:2131165186, attr:dividerVertical:2130968710, attr:selectableItemBackgroundBorderless:2130968864, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131755249, style:Widget_AppCompat_ActionMode:2131755330, drawable:abc_cab_background_top_material:2131230740, attr:colorPrimaryDark:2130968679, style:Widget_AppCompat_ActionButton_CloseMode:2131755328, drawable:abc_ic_menu_cut_mtrl_alpha:2131230751, drawable:abc_ic_menu_copy_mtrl_am_alpha:2131230750, drawable:abc_ic_menu_paste_mtrl_am_alpha:2131230753, drawable:abc_ic_menu_selectall_mtrl_alpha:2131230754, drawable:abc_ic_menu_share_mtrl_alpha:2131230755, style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131755369, dimen:abc_panel_menu_list_width:2131165232, style:Theme_AppCompat_CompactMenu:2131755289, drawable:abc_menu_hardkey_panel_mtrl_mult:2131230777, drawable:abc_list_selector_holo_light:2131230776, style:TextAppearance_AppCompat_Subhead:2131755244, style:TextAppearance_AppCompat_Body1:2131755221, dimen:abc_list_item_padding_horizontal_material:2131165231, style:Widget_AppCompat_Spinner:2131755387, style:Widget_AppCompat_TextView_SpinnerItem:2131755391, style:Widget_AppCompat_ListView_DropDown:2131755373, style:Widget_AppCompat_DropDownItem_Spinner:2131755345, attr:listPreferredItemHeightSmall:2130968799, style:Widget_AppCompat_Light_PopupMenu:2131755366, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131755235, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131755236, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131755263, style:Widget_AppCompat_ListPopupWindow:2131755371, style:Widget_AppCompat_ListMenuView:2131755370, style:Widget_AppCompat_Light_SearchView:2131755368, color:abc_search_url_text:2131099660, style:TextAppearance_AppCompat_SearchResult_Title:2131755241, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131755240, style:Widget_AppCompat_ActivityChooserView:2131755331, style:Widget_AppCompat_Toolbar:2131755392, style:Widget_AppCompat_Toolbar_Button_Navigation:2131755393, style:Widget_AppCompat_EditText:2131755346, drawable:abc_edit_text_material:2131230744, style:Widget_AppCompat_AutoCompleteTextView:2131755332, color:primary_dark_material_light:2131099734, color:primary_material_light:2131099736, color:accent_material_light:2131099673, attr:colorAccent:2130968671, color:ripple_material_light:2131099742, color:button_material_light:2131099685, color:switch_thumb_material_light:2131099750, style:Widget_AppCompat_DrawerArrowToggle:2131755344, style:Widget_AppCompat_CompoundButton_CheckBox:2131755341, style:Widget_AppCompat_CompoundButton_RadioButton:2131755342, style:Widget_AppCompat_CompoundButton_Switch:2131755343, style:Widget_AppCompat_RatingBar:2131755380, style:Widget_AppCompat_RatingBar_Indicator:2131755381, style:Widget_AppCompat_RatingBar_Small:2131755382, style:Widget_AppCompat_SeekBar:2131755385, style:Widget_AppCompat_Button:2131755333, style:Widget_AppCompat_Button_Small:2131755338, style:TextAppearance_AppCompat_Widget_Button:2131755258, style:Widget_AppCompat_ImageButton:2131755347, style:Widget_AppCompat_ButtonBar:2131755339, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131755336, attr:buttonBarButtonStyle:2130968640, style:ThemeOverlay_AppCompat_Dialog:2131755319, dimen:abc_dialog_padding_material:2131165219, style:ThemeOverlay_AppCompat_Dialog_Alert:2131755320, style:AlertDialog_AppCompat_Light:2131755009, color:abc_primary_text_material_light:2131099659, drawable:tooltip_frame_dark:2131230989, color:foreground_material_dark:2131099711, color:error_color_material:2131099710]
+style:Base_V7_Theme_AppCompat_Light:2131755119 => [style:Platform_AppCompat_Light:2131755192, color:background_floating_material_light:2131099675, drawable:abc_item_background_holo_light:2131230765, attr:selectableItemBackground:2130968863, style:Widget_AppCompat_Button_Borderless:2131755334, drawable:abc_ic_ab_back_material:2131230745, drawable:abc_list_divider_mtrl_alpha:2131230766, style:Widget_AppCompat_Light_ActionBar_TabView:2131755355, style:Widget_AppCompat_Light_ActionBar_TabBar:2131755351, style:Widget_AppCompat_Light_ActionBar_TabText:2131755353, style:Widget_AppCompat_Light_ActionButton:2131755357, style:Widget_AppCompat_Light_ActionButton_Overflow:2131755359, style:Widget_AppCompat_Light_PopupMenu_Overflow:2131755367, style:Widget_AppCompat_Light_ActionBar_Solid:2131755349, attr:actionBarStyle:2130968581, style:ThemeOverlay_AppCompat_ActionBar:2131755316, dimen:abc_action_bar_default_height_material:2131165186, attr:dividerVertical:2130968710, attr:selectableItemBackgroundBorderless:2130968864, style:TextAppearance_AppCompat_Widget_ActionBar_Menu:2131755249, style:Widget_AppCompat_ActionMode:2131755330, drawable:abc_cab_background_top_material:2131230740, attr:colorPrimaryDark:2130968679, style:Widget_AppCompat_ActionButton_CloseMode:2131755328, drawable:abc_ic_menu_cut_mtrl_alpha:2131230751, drawable:abc_ic_menu_copy_mtrl_am_alpha:2131230750, drawable:abc_ic_menu_paste_mtrl_am_alpha:2131230753, drawable:abc_ic_menu_selectall_mtrl_alpha:2131230754, drawable:abc_ic_menu_share_mtrl_alpha:2131230755, style:Widget_AppCompat_Light_Spinner_DropDown_ActionBar:2131755369, dimen:abc_panel_menu_list_width:2131165232, style:Theme_AppCompat_CompactMenu:2131755289, drawable:abc_menu_hardkey_panel_mtrl_mult:2131230777, drawable:abc_list_selector_holo_light:2131230776, style:TextAppearance_AppCompat_Subhead:2131755244, style:TextAppearance_AppCompat_Body1:2131755221, dimen:abc_list_item_padding_horizontal_material:2131165231, style:Widget_AppCompat_Spinner:2131755387, style:Widget_AppCompat_TextView_SpinnerItem:2131755391, style:Widget_AppCompat_ListView_DropDown:2131755373, style:Widget_AppCompat_DropDownItem_Spinner:2131755345, attr:listPreferredItemHeightSmall:2130968799, style:Widget_AppCompat_Light_PopupMenu:2131755366, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Large:2131755235, style:TextAppearance_AppCompat_Light_Widget_PopupMenu_Small:2131755236, style:TextAppearance_AppCompat_Widget_PopupMenu_Header:2131755263, style:Widget_AppCompat_ListPopupWindow:2131755371, style:Widget_AppCompat_ListMenuView:2131755370, style:Widget_AppCompat_Light_SearchView:2131755368, color:abc_search_url_text:2131099660, style:TextAppearance_AppCompat_SearchResult_Title:2131755241, style:TextAppearance_AppCompat_SearchResult_Subtitle:2131755240, style:Widget_AppCompat_ActivityChooserView:2131755331, style:Widget_AppCompat_Toolbar:2131755392, style:Widget_AppCompat_Toolbar_Button_Navigation:2131755393, style:Widget_AppCompat_EditText:2131755346, drawable:abc_edit_text_material:2131230744, style:Widget_AppCompat_AutoCompleteTextView:2131755332, color:primary_dark_material_light:2131099734, color:primary_material_light:2131099736, color:accent_material_light:2131099673, attr:colorAccent:2130968671, color:ripple_material_light:2131099742, color:button_material_light:2131099685, color:switch_thumb_material_light:2131099750, style:Widget_AppCompat_DrawerArrowToggle:2131755344, style:Widget_AppCompat_CompoundButton_CheckBox:2131755341, style:Widget_AppCompat_CompoundButton_RadioButton:2131755342, style:Widget_AppCompat_CompoundButton_Switch:2131755343, style:Widget_AppCompat_RatingBar:2131755380, style:Widget_AppCompat_RatingBar_Indicator:2131755381, style:Widget_AppCompat_RatingBar_Small:2131755382, style:Widget_AppCompat_SeekBar:2131755385, style:Widget_AppCompat_Button:2131755333, style:Widget_AppCompat_Button_Small:2131755338, style:TextAppearance_AppCompat_Widget_Button:2131755258, style:Widget_AppCompat_ImageButton:2131755347, style:Widget_AppCompat_ButtonBar:2131755339, style:Widget_AppCompat_Button_ButtonBar_AlertDialog:2131755336, attr:buttonBarButtonStyle:2130968640, style:ThemeOverlay_AppCompat_Dialog:2131755319, dimen:abc_dialog_padding_material:2131165219, style:ThemeOverlay_AppCompat_Dialog_Alert:2131755320, style:AlertDialog_AppCompat_Light:2131755009, color:abc_primary_text_material_light:2131099659, drawable:tooltip_frame_dark:2131230991, color:foreground_material_dark:2131099711, color:error_color_material:2131099710]
 style:Base_V7_Theme_AppCompat_Light_Dialog:2131755120 => [style:Base_Theme_AppCompat_Light:2131755083, attr:colorBackgroundFloating:2130968672, style:RtlOverlay_DialogWindowTitle_AppCompat:2131755206, style:Base_DialogWindowTitleBackground_AppCompat:2131755027, drawable:abc_dialog_material_background:2131230743, style:Animation_AppCompat_Dialog:2131755010]
 style:Base_V7_Widget_AppCompat_AutoCompleteTextView:2131755122 => [attr:listChoiceBackgroundIndicator:2130968791, drawable:abc_popup_background_mtrl_mult:2131230778, attr:editTextBackground:2130968716, attr:editTextColor:2130968717]
 style:Base_V7_Widget_AppCompat_EditText:2131755123 => [attr:editTextBackground:2130968716, attr:editTextColor:2130968717]
@@ -3566,46 +3569,46 @@ style:Widget_Design_BottomNavigationView:2131755397 => [attr:selectableItemBackg
 style:Widget_Design_BottomSheet_Modal:2131755398 => [dimen:design_bottom_sheet_modal_elevation:2131165278]
 style:Widget_Design_CollapsingToolbar:2131755399 => [attr:colorPrimaryDark:2130968679]
 style:Widget_Design_CoordinatorLayout:2131755400 => [attr:colorPrimaryDark:2130968679]
-style:Widget_Design_FloatingActionButton:2131755401 => [drawable:design_fab_background:2131230857, attr:colorAccent:2130968671, dimen:design_fab_elevation:2131165281, dimen:design_fab_translation_z_pressed:2131165285, attr:colorControlHighlight:2130968675, dimen:design_fab_border_width:2131165280]
+style:Widget_Design_FloatingActionButton:2131755401 => [drawable:design_fab_background:2131230859, attr:colorAccent:2130968671, dimen:design_fab_elevation:2131165281, dimen:design_fab_translation_z_pressed:2131165285, attr:colorControlHighlight:2130968675, dimen:design_fab_border_width:2131165280]
 style:Widget_Design_NavigationView:2131755402 => [dimen:design_navigation_elevation:2131165286, dimen:design_navigation_max_width:2131165289]
-style:Widget_Design_Snackbar:2131755404 => [dimen:design_snackbar_min_width:2131165297, dimen:design_snackbar_max_width:2131165296, drawable:design_snackbar_background:2131230861, dimen:design_snackbar_padding_horizontal:2131165298, dimen:design_snackbar_elevation:2131165294, dimen:design_snackbar_action_inline_max_width:2131165292]
+style:Widget_Design_Snackbar:2131755404 => [dimen:design_snackbar_min_width:2131165297, dimen:design_snackbar_max_width:2131165296, drawable:design_snackbar_background:2131230863, dimen:design_snackbar_padding_horizontal:2131165298, dimen:design_snackbar_elevation:2131165294, dimen:design_snackbar_action_inline_max_width:2131165292]
 style:Widget_Design_TabLayout:2131755405 => [style:Base_Widget_Design_TabLayout:2131755183]
-style:Widget_Design_TextInputLayout:2131755406 => [style:TextAppearance_Design_Hint:2131755282, style:TextAppearance_Design_Error:2131755281, style:TextAppearance_Design_Counter:2131755279, style:TextAppearance_Design_Counter_Overflow:2131755280, drawable:design_password_eye:2131230860, color:design_tint_password_toggle:2131099705, string:password_toggle_content_description:2131689765]
+style:Widget_Design_TextInputLayout:2131755406 => [style:TextAppearance_Design_Hint:2131755282, style:TextAppearance_Design_Error:2131755281, style:TextAppearance_Design_Counter:2131755279, style:TextAppearance_Design_Counter_Overflow:2131755280, drawable:design_password_eye:2131230862, color:design_tint_password_toggle:2131099705, string:password_toggle_content_description:2131689765]
 style:Base_CardView:2131755025 => [dimen:cardview_default_radius:2131165262, dimen:cardview_default_elevation:2131165261]
 style:CardView:2131755184 => [style:Base_CardView:2131755025]
 style:CardView_Dark:2131755185 => [style:CardView:2131755184, color:cardview_dark_background:2131099686]
 style:CardView_Light:2131755186 => [style:CardView:2131755184, color:cardview_light_background:2131099687]
-array:about_contact_us_drawables:2130903040 => [drawable:avatar:2131230823, drawable:xda:2131231027, drawable:ks8:2131230905]
-array:about_credits_drawables:2130903043 => [drawable:xdauser:2131231028]
-array:about_team_drawables:2130903046 => [drawable:avatar:2131230823]
-array:alarm_drawables:2130903049 => [drawable:alarmstyle1:2131230811, drawable:alarmstyle2:2131230812, drawable:alarmstyle3:2131230813, drawable:alarmstyle4:2131230814, drawable:alarmstyle5:2131230815, drawable:alarmstyle6:2131230816]
-array:custom_logo_drawable:2130903083 => [drawable:image:2131230894, drawable:king:2131230900, drawable:jeep:2131230898, drawable:flash:2131230868, drawable:java:2131230897, drawable:rr:2131230959, drawable:pacman1:2131230935, drawable:pacman2:2131230936, drawable:spider1:2131230980, drawable:spider2:2131230981, drawable:ks8:2131230905, drawable:smile:2131230979, drawable:male:2131230915, drawable:female:2131230866, drawable:love:2131230914, drawable:worldwide:2131231024, drawable:king4:2131230903, drawable:king2:2131230901, drawable:king3:2131230902]
+array:about_contact_us_drawables:2130903040 => [drawable:avatar:2131230825, drawable:xda:2131231029, drawable:ks8:2131230907]
+array:about_credits_drawables:2130903043 => [drawable:xdauser:2131231030]
+array:about_team_drawables:2130903046 => [drawable:avatar:2131230825]
+array:alarm_drawables:2130903049 => [drawable:alarmstyle:2131230811, drawable:alarmstyle1:2131230812, drawable:alarmstyle2:2131230813, drawable:alarmstyle3:2131230814, drawable:alarmstyle4:2131230815, drawable:alarmstyle5:2131230816, drawable:alarmstyle6:2131230817, drawable:alarmstyle7:2131230818]
+array:custom_logo_drawable:2130903083 => [drawable:image:2131230896, drawable:king:2131230902, drawable:jeep:2131230900, drawable:flash:2131230870, drawable:java:2131230899, drawable:rr:2131230961, drawable:pacman1:2131230937, drawable:pacman2:2131230938, drawable:spider1:2131230982, drawable:spider2:2131230983, drawable:ks8:2131230907, drawable:smile:2131230981, drawable:male:2131230917, drawable:female:2131230868, drawable:love:2131230916, drawable:worldwide:2131231026, drawable:king4:2131230905, drawable:king2:2131230903, drawable:king3:2131230904]
 array:dsb_gradient_filter_entries:2130903094 => [string:dsb_gradient_filter_value_0:2131689719, string:dsb_gradient_filter_value_1:2131689720, string:dsb_gradient_filter_value_2:2131689721, string:dsb_gradient_filter_value_3:2131689722]
-array:nav_menu_prefs_drawables:2130903108 => [drawable:key:2131230899, drawable:ic_system_ui:2131230891, drawable:ic_notification_panel:2131230884, drawable:ic_status_bar:2131230890, drawable:ic_framework:2131230881, drawable:ic_recent:2131230887, drawable:link:2131230907]
+array:nav_menu_prefs_drawables:2130903108 => [drawable:key:2131230901, drawable:ic_system_ui:2131230893, drawable:ic_notification_panel:2131230886, drawable:ic_status_bar:2131230892, drawable:ic_framework:2131230883, drawable:ic_recent:2131230889, drawable:link:2131230909]
 array:nav_menu_prefs_titles:2130903109 => [string:welcome:2131689819, string:systemui:2131689812, string:notification_panel:2131689758, string:statusbar:2131689810, string:framework_prefs:2131689727, string:recents:2131689782, string:lockscreen:2131689740, string:app_links:2131689683]
-array:signal_drawables:2130903114 => [drawable:signalstyle1:2131230962, drawable:signalstyle2:2131230970, drawable:signalstyle3:2131230971, drawable:signalstyle4:2131230972, drawable:signalstyle5:2131230973, drawable:signalstyle6:2131230974, drawable:signalstyle7:2131230975, drawable:signalstyle8:2131230976, drawable:signalstyle9:2131230977, drawable:signalstyle10:2131230963, drawable:signalstyle11:2131230964, drawable:signalstyle12:2131230965, drawable:signalstyle13:2131230966, drawable:signalstyle14:2131230967, drawable:signalstyle15:2131230968, drawable:signalstyle16:2131230969]
-array:thumbnail_drawables:2130903126 => [drawable:logo:2131230910]
-array:wifi_drawables:2130903140 => [drawable:wifistyle1:2131231012, drawable:wifistyle2:2131231016, drawable:wifistyle3:2131231017, drawable:wifistyle4:2131231018, drawable:wifistyle5:2131231019, drawable:wifistyle6:2131231020, drawable:wifistyle7:2131231021, drawable:wifistyle8:2131231022, drawable:wifistyle9:2131231023, drawable:wifistyle10:2131231013, drawable:wifistyle11:2131231014, drawable:wifistyle12:2131231015]
-array:wifiarrow_drawables:2130903143 => [drawable:arrowstyle1:2131230821, drawable:arrowstyle2:2131230822]
+array:signal_drawables:2130903114 => [drawable:signalstyle1:2131230964, drawable:signalstyle2:2131230972, drawable:signalstyle3:2131230973, drawable:signalstyle4:2131230974, drawable:signalstyle5:2131230975, drawable:signalstyle6:2131230976, drawable:signalstyle7:2131230977, drawable:signalstyle8:2131230978, drawable:signalstyle9:2131230979, drawable:signalstyle10:2131230965, drawable:signalstyle11:2131230966, drawable:signalstyle12:2131230967, drawable:signalstyle13:2131230968, drawable:signalstyle14:2131230969, drawable:signalstyle15:2131230970, drawable:signalstyle16:2131230971]
+array:thumbnail_drawables:2130903126 => [drawable:logo:2131230912]
+array:wifi_drawables:2130903140 => [drawable:wifistyle1:2131231014, drawable:wifistyle2:2131231018, drawable:wifistyle3:2131231019, drawable:wifistyle4:2131231020, drawable:wifistyle5:2131231021, drawable:wifistyle6:2131231022, drawable:wifistyle7:2131231023, drawable:wifistyle8:2131231024, drawable:wifistyle9:2131231025, drawable:wifistyle10:2131231015, drawable:wifistyle11:2131231016, drawable:wifistyle12:2131231017]
+array:wifiarrow_drawables:2130903143 => [drawable:arrowstyle1:2131230823, drawable:arrowstyle2:2131230824]
 color:nav_drawer_default_color:2131099727 => [attr:android_textColorPrimary:-1]
 color:nav_items_selector_dark:2131099728 => [color:colorAccent:2131099690]
 color:nav_items_selector_light:2131099729 => [color:colorAccent:2131099690]
-drawable:bg:2131230836 => [color:darkBgColor:2131099693]
-drawable:cornerbackground:2131230852 => [color:colorAccent:2131099690]
-drawable:dialog_bg:2131230862 => [attr:colorAccent:2130968671]
-drawable:dialog_bg_main:2131230863 => [drawable:dialog_bg:2131230862]
-drawable:inset_dialog_bg:2131230895 => [attr:colorAccent:2130968671]
-drawable:sub_cornerbackground:2131230983 => [color:colorPrimary:2131099691]
+drawable:bg:2131230838 => [color:darkBgColor:2131099693]
+drawable:cornerbackground:2131230854 => [color:colorAccent:2131099690]
+drawable:dialog_bg:2131230864 => [attr:colorAccent:2130968671]
+drawable:dialog_bg_main:2131230865 => [drawable:dialog_bg:2131230864]
+drawable:inset_dialog_bg:2131230897 => [attr:colorAccent:2130968671]
+drawable:sub_cornerbackground:2131230985 => [color:colorPrimary:2131099691]
 layout:about_activity_content:2131427354 => [dimen:activity_horizontal_margin:2131165258, string:appbar_scrolling_view_behavior:2131689692, attr:colorPrimary:2130968678]
-layout:about_contact_us_item:2131427355 => [drawable:logo:2131230910, id:contactUsImage:2131296318]
-layout:about_people_item:2131427356 => [drawable:logo:2131230910]
-layout:activity_about:2131427357 => [style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755318, attr:colorPrimary:2130968678, drawable:header:2131230873, drawable:protective_view_gradient_top:2131230949, attr:actionBarSize:2130968579, style:ThemeOverlay_AppCompat_Light:2131755321, layout:about_activity_content:2131427354]
+layout:about_contact_us_item:2131427355 => [drawable:logo:2131230912, id:contactUsImage:2131296318]
+layout:about_people_item:2131427356 => [drawable:logo:2131230912]
+layout:activity_about:2131427357 => [style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755318, attr:colorPrimary:2130968678, drawable:header:2131230875, drawable:protective_view_gradient_top:2131230951, attr:actionBarSize:2130968579, style:ThemeOverlay_AppCompat_Light:2131755321, layout:about_activity_content:2131427354]
 layout:activity_license:2131427358 => [attr:colorPrimary:2130968678, attr:actionBarSize:2130968579, style:ThemeOverlay_AppCompat_Light:2131755321, style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755318]
 layout:activity_license_default:2131427359 => [string:app_unlicensed:2131689687, string:app_unlicensed_description:2131689689]
 layout:activity_main:2131427360 => [layout:app_bar_main:2131427361, layout:nav_header_main:2131427387, attr:selectableItemBackground:2130968863, attr:navDrawerColorSelector:2130968817, menu:activity_main_drawer:2131492864]
 layout:app_bar_main:2131427361 => [style:AppTheme_AppBarOverlay:2131755015, attr:colorPrimary:2130968678, attr:actionBarSize:2130968579, style:AppTheme_PopupOverlay:2131755018, layout:content_main:2131427364]
 layout:app_item:2131427362 => [id:appIcon:2131296293]
-layout:changelog_item:2131427363 => [drawable:ic_arrow:2131230878, attr:colorAccent:2130968671]
+layout:changelog_item:2131427363 => [drawable:ic_arrow:2131230880, attr:colorAccent:2130968671]
 layout:content_main:2131427364 => [string:appbar_scrolling_view_behavior:2131689692]
 layout:dialog_color_picker:2131427379 => [string:press_color_to_apply:2131689773]
 layout:global_restore_preference_dialog_layout:2131427380 => [string:restore_dialog_description:2131689789]
@@ -3613,46 +3616,46 @@ layout:intent_dialog_layout:2131427381 => [attr:colorAccent:2130968671, string:f
 layout:multi_select_preference_dialog_layout:2131427383 => [string:select_all_label:2131689802]
 layout:multiple_choice_item_layout:2131427385 => [attr:selectableItemBackground:2130968863, id:compound_button_container:2131296317]
 layout:multiple_choice_preference_dialog_layout:2131427386 => [attr:selectableItemBackground:2130968863, id:select_all_compound_container:2131296441, string:select_all:2131689801]
-layout:nav_header_main:2131427387 => [dimen:nav_header_height:2131165322, drawable:header:2131230873, drawable:protective_gradient_bottom:2131230947]
+layout:nav_header_main:2131427387 => [dimen:nav_header_height:2131165322, drawable:header:2131230875, drawable:protective_gradient_bottom:2131230949]
 layout:nested_preference_toolbar_layout:2131427388 => [attr:colorPrimary:2130968678, attr:actionBarSize:2130968579, string:abc_action_bar_up_description:2131689653, attr:homeAsUpIndicator:2130968758, style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755318]
-layout:preferences_category:2131427406 => [drawable:cornerbackground:2131230852, drawable:logo2:2131230911, color:colorAccent:2131099690]
-layout:reboot_item:2131427407 => [dimen:fab_margin:2131165308, drawable:ic_reboot:2131230886]
-layout:reboot_layout:2131427408 => [drawable:protective_semi_transparent_black:2131230948, color:colorAccent:2131099690, string:reboot_device_text:2131689774, color:colorPrimary:2131099691, string:reboot_recovery_text:2131689778, string:reboot_ui_text:2131689781]
+layout:preferences_category:2131427406 => [drawable:cornerbackground:2131230854, drawable:logo2:2131230913, color:colorAccent:2131099690]
+layout:reboot_item:2131427407 => [dimen:fab_margin:2131165308, drawable:ic_reboot:2131230888]
+layout:reboot_layout:2131427408 => [drawable:protective_semi_transparent_black:2131230950, color:colorAccent:2131099690, string:reboot_device_text:2131689774, color:colorPrimary:2131099691, string:reboot_recovery_text:2131689778, string:reboot_ui_text:2131689781]
 layout:thumbnail_item_view:2131427414 => [id:thumbnailRadioButton:2131296478, id:thumbnailImage:2131296476]
-menu:activity_main_drawer:2131492864 => [string:more_options:2131689747, drawable:ic_theme:2131230892, string:set_theme:2131689803, drawable:ic_backup_restore:2131230879, string:backup_and_restore:2131689695, drawable:ic_changelog:2131230880, string:changelog:2131689707, drawable:ic_info:2131230882, string:about_us:2131689682]
-menu:main:2131492865 => [drawable:ic_reboot:2131230886, string:reboot_menu:2131689776]
+menu:activity_main_drawer:2131492864 => [string:more_options:2131689747, drawable:ic_theme:2131230894, string:set_theme:2131689803, drawable:ic_backup_restore:2131230881, string:backup_and_restore:2131689695, drawable:ic_changelog:2131230882, string:changelog:2131689707, drawable:ic_info:2131230884, string:about_us:2131689682]
+menu:main:2131492865 => [drawable:ic_reboot:2131230888, string:reboot_menu:2131689776]
 style:AppTheme:2131755014 => [style:Theme_AppCompat_Light_DarkActionBar:2131755302, color:colorPrimary:2131099691, color:colorPrimaryDark:2131099692, color:colorAccent:2131099690, style:DialogTheme:2131755187, color:nav_items_selector_light:2131099729]
 style:AppTheme_AppBarOverlay:2131755015 => [style:ThemeOverlay_AppCompat_Dark_ActionBar:2131755318]
 style:AppTheme_NoActionBar:2131755016 => [style:AppTheme:2131755014]
-style:AppTheme_NoActionBar_Dark:2131755017 => [style:AppThemeDark:2131755019, drawable:bg:2131230836, color:darkBgColor:2131099693]
+style:AppTheme_NoActionBar_Dark:2131755017 => [style:AppThemeDark:2131755019, drawable:bg:2131230838, color:darkBgColor:2131099693]
 style:AppTheme_PopupOverlay:2131755018 => [style:ThemeOverlay_AppCompat_Light:2131755321]
 style:AppThemeDark:2131755019 => [style:Theme_AppCompat:2131755288, color:colorPrimary:2131099691, color:colorPrimaryDark:2131099692, color:colorAccent:2131099690, color:darkBgColor:2131099693, style:DialogTheme:2131755187, color:nav_items_selector_dark:2131099728]
-style:DialogTheme:2131755187 => [drawable:dialog_bg_main:2131230863]
+style:DialogTheme:2131755187 => [drawable:dialog_bg_main:2131230865]
 style:KING:2131755188 => [color:primary_material_dark:2131099735, color:primary_dark_material_dark:2131099733, color:accent_material_dark:2131099672, color:background_material_dark:2131099676]
 style:MyDialogWindowAnimation:2131755189 => [anim:fade_in:2130771982, anim:fade_out:2130771983]
 style:PiracyCheckerStyle:2131755190 => [style:Theme_AppCompat_Light_NoActionBar:2131755307, color:colorPrimary:2131099691, color:colorPrimaryDark:2131099692, color:colorAccent:2131099690]
 style:RebootDialogTheme:2131755205 => [style:MyDialogWindowAnimation:2131755189]
-xml:app_links:2131886080 => [layout:preferences_category:2131427406, string:King_Rom_Apps:2131689547, drawable:ks8:2131230905, string:ks8info:2131689730, string:minitbatteryinfo:2131689745, string:minitclockinfo:2131689746, string:otainfo:2131689764, string:app_utili:2131689691, string:phoneinfo:2131689772, string:betterbs:2131689701, string:app_upsm:2131689690, string:sinapseinfo:2131689805, string:Root_Apps:2131689589, string:supersuinfo:2131689811, string:soundmanager:2131689806]
-xml:frameworks:2131886081 => [layout:preferences_category:2131427406, string:POWER_OFF_TOGGLE:2131689572, drawable:power:2131230945, string:off:2131689760, string:on:2131689762, string:REBOOT_RECOVERY_TOGGLE:2131689578, drawable:king_recovery:2131230904, string:DOWNLOAD_MODE_TOGGLE:2131689523, drawable:tw_ic_do_download:2131230995, string:EMERGENCY_MODE_TOGGLE:2131689535, drawable:emergency:2131230865, string:USBPLUGIN:2131689633, drawable:usb:2131231009, string:USBPLUGINLITE:2131689634, string:longpresskilltitle:2131689744, string:backtokilltitle:2131689694]
-xml:frameworks_pro:2131886082 => [layout:preferences_category:2131427406, string:POWER_OFF_TOGGLE:2131689572, drawable:power:2131230945, string:off:2131689760, string:on:2131689762, string:REBOOT_RECOVERY_TOGGLE:2131689578, drawable:king_recovery:2131230904, string:DOWNLOAD_MODE_TOGGLE:2131689523, drawable:tw_ic_do_download:2131230995, string:EMERGENCY_MODE_TOGGLE:2131689535, drawable:emergency:2131230865, string:USBPLUGIN:2131689633, drawable:usb:2131231009, string:USBPLUGINLITE:2131689634, string:longpresskill:2131689743, string:backtokill:2131689693]
-xml:lockscreen:2131886083 => [layout:preferences_category:2131427406, string:Lockscreen_RotationTitle:2131689556, drawable:lock2:2131230909, string:off:2131689760, string:on:2131689762, string:Lockscreen_Rotation:2131689555]
-xml:lockscreen_pro:2131886084 => [layout:preferences_category:2131427406, string:Lockscreen_Rotation:2131689555, drawable:lock2:2131230909, string:off:2131689760, string:on:2131689762]
+xml:app_links:2131886080 => [layout:preferences_category:2131427406, string:King_Rom_Apps:2131689547, drawable:ks8:2131230907, string:ks8info:2131689730, string:minitbatteryinfo:2131689745, string:minitclockinfo:2131689746, string:otainfo:2131689764, string:app_utili:2131689691, string:phoneinfo:2131689772, string:betterbs:2131689701, string:app_upsm:2131689690, string:sinapseinfo:2131689805, string:Root_Apps:2131689589, string:supersuinfo:2131689811, string:soundmanager:2131689806]
+xml:frameworks:2131886081 => [layout:preferences_category:2131427406, string:POWER_OFF_TOGGLE:2131689572, drawable:power:2131230947, string:off:2131689760, string:on:2131689762, string:REBOOT_RECOVERY_TOGGLE:2131689578, drawable:king_recovery:2131230906, string:DOWNLOAD_MODE_TOGGLE:2131689523, drawable:tw_ic_do_download:2131230997, string:EMERGENCY_MODE_TOGGLE:2131689535, drawable:emergency:2131230867, string:USBPLUGIN:2131689633, drawable:usb:2131231011, string:USBPLUGINLITE:2131689634, string:longpresskilltitle:2131689744, string:backtokilltitle:2131689694]
+xml:frameworks_pro:2131886082 => [layout:preferences_category:2131427406, string:POWER_OFF_TOGGLE:2131689572, drawable:power:2131230947, string:off:2131689760, string:on:2131689762, string:REBOOT_RECOVERY_TOGGLE:2131689578, drawable:king_recovery:2131230906, string:DOWNLOAD_MODE_TOGGLE:2131689523, drawable:tw_ic_do_download:2131230997, string:EMERGENCY_MODE_TOGGLE:2131689535, drawable:emergency:2131230867, string:USBPLUGIN:2131689633, drawable:usb:2131231011, string:USBPLUGINLITE:2131689634, string:longpresskill:2131689743, string:backtokill:2131689693]
+xml:lockscreen:2131886083 => [layout:preferences_category:2131427406, string:Lockscreen_RotationTitle:2131689556, drawable:lock2:2131230911, string:off:2131689760, string:on:2131689762, string:Lockscreen_Rotation:2131689555]
+xml:lockscreen_pro:2131886084 => [layout:preferences_category:2131427406, string:Lockscreen_Rotation:2131689555, drawable:lock2:2131230911, string:off:2131689760, string:on:2131689762]
 xml:notification_panel:2131886085 => [layout:preferences_category:2131427406, string:VisibleTogglesShown_title:2131689646, array:toggle_entries:2130903129, array:toggle_values:2130903132, string:Numbershownonscreen:2131689571, string:VisibleTogglesShown:2131689645]
 xml:notification_panel_pro:2131886086 => [layout:preferences_category:2131427406, string:VisibleTogglesShown_title:2131689646, array:toggle_entries:2130903129, array:toggle_values:2130903132, string:Numbershownonscreen:2131689571, string:VisibleTogglesShown:2131689645]
 xml:phone_prefs:2131886087 => [array:custom_bg_type_entries:2130903081, array:custom_bg_type_values:2130903082, array:crop_entries:2130903079, array:crop_values:2130903080, array:gradient_entries:2130903097, array:gradient_values:2130903098]
-xml:recent:2131886088 => [layout:preferences_category:2131427406, string:RAMBAROPTION:2131689577, drawable:ram:2131230954, string:off:2131689760, string:on:2131689762, string:RamBar:2131689581, drawable:ram2:2131230955, string:FreeRAMTextColorpro:2131689542, drawable:ram3:2131230956, string:UsedRAMTextColorpro:2131689640]
-xml:recent_pro:2131886089 => [layout:preferences_category:2131427406, string:RAMBAROPTION:2131689577, drawable:ram:2131230954, string:off:2131689760, string:on:2131689762, string:RamBar:2131689581, drawable:ram2:2131230955, string:FreeRAMTextColor:2131689541, drawable:ram3:2131230956, string:UsedRAMTextColor:2131689639]
+xml:recent:2131886088 => [layout:preferences_category:2131427406, string:RAMBAROPTION:2131689577, drawable:ram:2131230956, string:off:2131689760, string:on:2131689762, string:RamBar:2131689581, drawable:ram2:2131230957, string:FreeRAMTextColorpro:2131689542, drawable:ram3:2131230958, string:UsedRAMTextColorpro:2131689640]
+xml:recent_pro:2131886089 => [layout:preferences_category:2131427406, string:RAMBAROPTION:2131689577, drawable:ram:2131230956, string:off:2131689760, string:on:2131689762, string:RamBar:2131689581, drawable:ram2:2131230957, string:FreeRAMTextColor:2131689541, drawable:ram3:2131230958, string:UsedRAMTextColor:2131689639]
 xml:script:2131886090 => [layout:preferences_category:2131427406, string:coming_soon:2131689711]
 xml:settings:2131886091 => [layout:preferences_category:2131427406, string:coming_soon:2131689711]
-xml:statusbar:2131886092 => [layout:preferences_category:2131427406, string:StatusbarClockOptions:2131689612, drawable:tap:2131230985, string:TapClockLauncherisdisabled:2131689626, string:taptolanchapp:2131689814, string:Taponclock:2131689627, string:Taponclockapp:2131689628, string:RightClock:2131689587, string:off:2131689760, string:on:2131689762, string:showhide:2131689804, string:Seconds:2131689598, string:CenterClocktitle:2131689503, string:LeftClocktitle:2131689553, string:batterytoggle:2131689700, drawable:minit:2131230919, string:Minitbatteryshowhide:2131689564, drawable:batterystock:2131230835, string:Stockbatteryshowhide:2131689623, string:BatteryBar:2131689484, drawable:battery:2131230828, array:battery_bar_entries:2130903055, array:battery_bar_values:2130903060, drawable:battery4:2131230831, drawable:battery3:2131230830, string:Batterybaranimation:2131689486, array:battery_bar_style_entries:2130903056, array:battery_bar_style_values:2130903057, drawable:battery2:2131230829, string:Batterybarstyle:2131689489, array:battery_bar_thickness_entries:2130903058, array:battery_bar_thickness_values:2130903059, drawable:battery5:2131230832, string:Batterybarthick:2131689490, drawable:pantone:2131230938, string:Batterybarcolor2:2131689488, string:Batterybarcolor:2131689487, drawable:pantone2:2131230939, string:ChargingColor:2131689504, drawable:pantone3:2131230940, string:LowBatteryColorWarning:2131689561, drawable:pantone4:2131230941, string:UseGradientColor:2131689638, drawable:pantone5:2131230942, string:EdgesGradientColor:2131689536, string:VirtualButtonsLocktitle:2131689643, drawable:padlock:2131230937, string:VirtualButtonsLock:2131689642, string:Rightside:2131689588, drawable:lock:2131230908, string:Leftside:2131689554, drawable:lock2:2131230909, string:Center:2131689501, drawable:home:2131230874, string:VirtualButtonsHome:2131689641, drawable:home2:2131230875, drawable:home3:2131230876, drawable:bttf3:2131230839, string:VirtualButtonsRecents:2131689644, drawable:bttf:2131230837, drawable:bttf2:2131230838, string:Networktrafficpreferences:2131689567, drawable:rocket:2131230958, array:traffic_state_items:2130903133, array:traffic_state_values:2130903134, drawable:database:2131230855, string:Displayedtrafficinfo:2131689533, string:DisplayedinBits:2131689531, string:DisplaydatainBytes:2131689530, drawable:press:2131230946, string:Showtrafficarrows:2131689605, array:arrow_position_entries:2130903052, array:arrow_position_values:2130903053, drawable:flask:2131230869, string:Arrows_position:2131689478, drawable:races:2131230951, string:Autohideonlowtraffic:2131689479, string:Autohidethreshold:2131689480, array:traffic_style_entries:2130903135, array:traffic_style_entry_values:2130903136, drawable:cogwheel:2131230851, string:Fontstyle:2131689540, string:Textsizescalefactor:2131689630, string:Networktrafficcolor:2131689566, string:Globalcolorallelements:2131689544, string:Allelementscoloredseparately:2131689475, string:Separatecolorsforelements:2131689602, string:Globalcolor:2131689543, drawable:pantone6:2131230943, string:Uploadtextcolor:2131689636, string:Downloadtextcolor:2131689534, string:Trafficarrowscolor:2131689632, string:CustomLogoTitlePro:2131689518, string:LogoVisibility:2131689558, array:custom_logo_type_entries:2130903084, array:custom_logo_type_values:2130903085, string:CustomLogoType:2131689519, string:WarningLogoSyze:2131689648, string:SelectLogoFromGallery:2131689600, string:LogoColors:2131689557]
-xml:statusbar_pro:2131886093 => [layout:preferences_category:2131427406, string:StatusbarClockOptions:2131689612, drawable:tap:2131230985, string:TapClockLauncherisdisabled:2131689626, string:taptolanchapp:2131689814, string:Taponclock:2131689627, string:Taponclockapp:2131689628, string:RightClock:2131689587, string:off:2131689760, string:on:2131689762, string:showhide:2131689804, string:Seconds:2131689598, string:CenterClock:2131689502, string:LeftClock:2131689552, string:batterytoggle:2131689700, drawable:minit:2131230919, string:Minitbatteryshowhide:2131689564, drawable:batterystock:2131230835, string:Stockbatteryshowhide:2131689623, string:BatteryBar:2131689484, drawable:battery:2131230828, array:battery_bar_entries:2130903055, array:battery_bar_values:2130903060, drawable:battery4:2131230831, drawable:battery3:2131230830, string:Batterybaranimation:2131689486, array:battery_bar_style_entries:2130903056, array:battery_bar_style_values:2130903057, drawable:battery2:2131230829, string:Batterybarstyle:2131689489, array:battery_bar_thickness_entries:2130903058, array:battery_bar_thickness_values:2130903059, drawable:battery5:2131230832, string:Batterybarthick:2131689490, drawable:pantone:2131230938, string:Batterybarcolor2:2131689488, string:Batterybarcolor:2131689487, drawable:pantone2:2131230939, string:ChargingColor:2131689504, drawable:pantone3:2131230940, string:LowBatteryColorWarning:2131689561, drawable:pantone4:2131230941, string:UseGradientColor:2131689638, drawable:pantone5:2131230942, string:EdgesGradientColor:2131689536, string:VirtualButtonsLocktitle:2131689643, drawable:padlock:2131230937, string:VirtualButtonsLock:2131689642, string:Rightside:2131689588, drawable:lock:2131230908, string:Leftside:2131689554, drawable:lock2:2131230909, string:Center:2131689501, drawable:home:2131230874, string:VirtualButtonsHome:2131689641, drawable:home2:2131230875, drawable:home3:2131230876, drawable:bttf3:2131230839, string:VirtualButtonsRecents:2131689644, drawable:bttf:2131230837, drawable:bttf2:2131230838, string:Networktrafficpreferences:2131689567, drawable:rocket:2131230958, array:traffic_state_items:2130903133, array:traffic_state_values:2130903134, drawable:database:2131230855, string:Displayedtrafficinfo:2131689533, string:DisplayedinBits:2131689531, string:DisplaydatainBytes:2131689530, drawable:press:2131230946, string:Showtrafficarrows:2131689605, array:arrow_position_entries:2130903052, array:arrow_position_values:2130903053, drawable:flask:2131230869, string:Arrows_position:2131689478, drawable:races:2131230951, string:Autohideonlowtraffic:2131689479, string:Autohidethreshold:2131689480, array:traffic_style_entries:2130903135, array:traffic_style_entry_values:2130903136, drawable:cogwheel:2131230851, string:Fontstyle:2131689540, string:Textsizescalefactor:2131689630, string:Networktrafficcolor:2131689566, string:Globalcolorallelements:2131689544, string:Allelementscoloredseparately:2131689475, string:Separatecolorsforelements:2131689602, string:Globalcolor:2131689543, drawable:pantone6:2131230943, string:Uploadtextcolor:2131689636, string:Downloadtextcolor:2131689534, string:Trafficarrowscolor:2131689632, string:CustomLogoTitlePro:2131689518, string:LogoVisibility:2131689558, array:custom_logo_type_entries:2130903084, array:custom_logo_type_values:2130903085, string:CustomLogoType:2131689519, string:WarningLogoSyze:2131689648, string:SelectLogoFromGallery:2131689600, string:LogoColors:2131689557]
-xml:systemui:2131886094 => [layout:preferences_category:2131427406, string:fingerprint_title:2131689726, string:off:2131689760, string:on:2131689762, string:fingerprint:2131689725, string:restrictedsecurity:2131689790, string:offallowscreenshot:2131689761, string:onallowscreenshot:2131689763, string:AllowScreenshot:2131689476]
-xml:systemui_pro:2131886095 => [layout:preferences_category:2131427406, string:fingerprint:2131689725, string:off:2131689760, string:on:2131689762, string:restrictedsecurity:2131689790, string:offallowscreenshot:2131689761, string:onallowscreenshot:2131689763, string:AllowScreenshot:2131689476]
+xml:statusbar:2131886092 => [layout:preferences_category:2131427406, string:StatusbarClockOptions:2131689612, drawable:tap:2131230987, string:TapClockLauncherisdisabled:2131689626, string:taptolanchapp:2131689814, string:Taponclock:2131689627, string:Taponclockapp:2131689628, string:RightClock:2131689587, string:off:2131689760, string:on:2131689762, string:showhide:2131689804, string:Seconds:2131689598, string:CenterClocktitle:2131689503, string:LeftClocktitle:2131689553, string:batterytoggle:2131689700, drawable:minit:2131230921, string:Minitbatteryshowhide:2131689564, drawable:batterystock:2131230837, string:Stockbatteryshowhide:2131689623, string:BatteryBar:2131689484, drawable:battery:2131230830, array:battery_bar_entries:2130903055, array:battery_bar_values:2130903060, drawable:battery4:2131230833, drawable:battery3:2131230832, string:Batterybaranimation:2131689486, array:battery_bar_style_entries:2130903056, array:battery_bar_style_values:2130903057, drawable:battery2:2131230831, string:Batterybarstyle:2131689489, array:battery_bar_thickness_entries:2130903058, array:battery_bar_thickness_values:2130903059, drawable:battery5:2131230834, string:Batterybarthick:2131689490, drawable:pantone:2131230940, string:Batterybarcolor2:2131689488, string:Batterybarcolor:2131689487, drawable:pantone2:2131230941, string:ChargingColor:2131689504, drawable:pantone3:2131230942, string:LowBatteryColorWarning:2131689561, drawable:pantone4:2131230943, string:UseGradientColor:2131689638, drawable:pantone5:2131230944, string:EdgesGradientColor:2131689536, string:VirtualButtonsLocktitle:2131689643, drawable:padlock:2131230939, string:VirtualButtonsLock:2131689642, string:Rightside:2131689588, drawable:lock:2131230910, string:Leftside:2131689554, drawable:lock2:2131230911, string:Center:2131689501, drawable:home:2131230876, string:VirtualButtonsHome:2131689641, drawable:home2:2131230877, drawable:home3:2131230878, drawable:bttf3:2131230841, string:VirtualButtonsRecents:2131689644, drawable:bttf:2131230839, drawable:bttf2:2131230840, string:Networktrafficpreferences:2131689567, drawable:rocket:2131230960, array:traffic_state_items:2130903133, array:traffic_state_values:2130903134, drawable:database:2131230857, string:Displayedtrafficinfo:2131689533, string:DisplayedinBits:2131689531, string:DisplaydatainBytes:2131689530, drawable:press:2131230948, string:Showtrafficarrows:2131689605, array:arrow_position_entries:2130903052, array:arrow_position_values:2130903053, drawable:flask:2131230871, string:Arrows_position:2131689478, drawable:races:2131230953, string:Autohideonlowtraffic:2131689479, string:Autohidethreshold:2131689480, array:traffic_style_entries:2130903135, array:traffic_style_entry_values:2130903136, drawable:cogwheel:2131230853, string:Fontstyle:2131689540, string:Textsizescalefactor:2131689630, string:Networktrafficcolor:2131689566, string:Globalcolorallelements:2131689544, string:Allelementscoloredseparately:2131689475, string:Separatecolorsforelements:2131689602, string:Globalcolor:2131689543, drawable:pantone6:2131230945, string:Uploadtextcolor:2131689636, string:Downloadtextcolor:2131689534, string:Trafficarrowscolor:2131689632, string:CustomLogoTitlePro:2131689518, string:LogoVisibility:2131689558, array:custom_logo_type_entries:2130903084, array:custom_logo_type_values:2130903085, string:CustomLogoType:2131689519, string:WarningLogoSyze:2131689648, string:SelectLogoFromGallery:2131689600, string:LogoColors:2131689557]
+xml:statusbar_pro:2131886093 => [layout:preferences_category:2131427406, string:StatusbarClockOptions:2131689612, drawable:tap:2131230987, string:TapClockLauncherisdisabled:2131689626, string:taptolanchapp:2131689814, string:Taponclock:2131689627, string:Taponclockapp:2131689628, string:RightClock:2131689587, string:off:2131689760, string:on:2131689762, string:showhide:2131689804, string:Seconds:2131689598, string:CenterClock:2131689502, string:LeftClock:2131689552, string:batterytoggle:2131689700, drawable:minit:2131230921, string:Minitbatteryshowhide:2131689564, drawable:batterystock:2131230837, string:Stockbatteryshowhide:2131689623, string:BatteryBar:2131689484, drawable:battery:2131230830, array:battery_bar_entries:2130903055, array:battery_bar_values:2130903060, drawable:battery4:2131230833, drawable:battery3:2131230832, string:Batterybaranimation:2131689486, array:battery_bar_style_entries:2130903056, array:battery_bar_style_values:2130903057, drawable:battery2:2131230831, string:Batterybarstyle:2131689489, array:battery_bar_thickness_entries:2130903058, array:battery_bar_thickness_values:2130903059, drawable:battery5:2131230834, string:Batterybarthick:2131689490, drawable:pantone:2131230940, string:Batterybarcolor2:2131689488, string:Batterybarcolor:2131689487, drawable:pantone2:2131230941, string:ChargingColor:2131689504, drawable:pantone3:2131230942, string:LowBatteryColorWarning:2131689561, drawable:pantone4:2131230943, string:UseGradientColor:2131689638, drawable:pantone5:2131230944, string:EdgesGradientColor:2131689536, string:VirtualButtonsLocktitle:2131689643, drawable:padlock:2131230939, string:VirtualButtonsLock:2131689642, string:Rightside:2131689588, drawable:lock:2131230910, string:Leftside:2131689554, drawable:lock2:2131230911, string:Center:2131689501, drawable:home:2131230876, string:VirtualButtonsHome:2131689641, drawable:home2:2131230877, drawable:home3:2131230878, drawable:bttf3:2131230841, string:VirtualButtonsRecents:2131689644, drawable:bttf:2131230839, drawable:bttf2:2131230840, string:Networktrafficpreferences:2131689567, drawable:rocket:2131230960, array:traffic_state_items:2130903133, array:traffic_state_values:2130903134, drawable:database:2131230857, string:Displayedtrafficinfo:2131689533, string:DisplayedinBits:2131689531, string:DisplaydatainBytes:2131689530, drawable:press:2131230948, string:Showtrafficarrows:2131689605, array:arrow_position_entries:2130903052, array:arrow_position_values:2130903053, drawable:flask:2131230871, string:Arrows_position:2131689478, drawable:races:2131230953, string:Autohideonlowtraffic:2131689479, string:Autohidethreshold:2131689480, array:traffic_style_entries:2130903135, array:traffic_style_entry_values:2130903136, drawable:cogwheel:2131230853, string:Fontstyle:2131689540, string:Textsizescalefactor:2131689630, string:Networktrafficcolor:2131689566, string:Globalcolorallelements:2131689544, string:Allelementscoloredseparately:2131689475, string:Separatecolorsforelements:2131689602, string:Globalcolor:2131689543, drawable:pantone6:2131230945, string:Uploadtextcolor:2131689636, string:Downloadtextcolor:2131689534, string:Trafficarrowscolor:2131689632, string:CustomLogoTitlePro:2131689518, string:LogoVisibility:2131689558, array:custom_logo_type_entries:2130903084, array:custom_logo_type_values:2130903085, string:CustomLogoType:2131689519, string:WarningLogoSyze:2131689648, string:SelectLogoFromGallery:2131689600, string:LogoColors:2131689557]
+xml:systemui:2131886094 => [layout:preferences_category:2131427406, string:fingerprint_title:2131689726, string:off:2131689760, string:on:2131689762, string:fingerprint:2131689725, string:restrictedsecurity:2131689790, string:offallowscreenshot:2131689761, string:onallowscreenshot:2131689763, string:AllowScreenshot:2131689476, string:CustomIcons:2131689515, string:Wifiiconchooser:2131689650, array:wifi_drawables:2130903140, array:wifi_entries:2130903141, array:wifi_values:2130903142, string:WifiarrowChooser:2131689649, array:wifiarrow_drawables:2130903143, array:wifiarrow_entries:2130903144, array:wifiarrow_values:2130903145, string:Signalchooser:2131689606, array:signal_drawables:2130903114, array:signal_entries:2130903115, array:signal_values:2130903116, string:Signalchooser2:2131689607, string:AlarmIconChooser:2131689474, array:alarm_drawables:2130903049, array:alarm_entries:2130903050, array:alarm_values:2130903051]
+xml:systemui_pro:2131886095 => [layout:preferences_category:2131427406, string:fingerprint:2131689725, string:off:2131689760, string:on:2131689762, string:restrictedsecurity:2131689790, string:offallowscreenshot:2131689761, string:onallowscreenshot:2131689763, string:AllowScreenshot:2131689476, string:CustomIcons:2131689515, string:Wifiiconchooser:2131689650, array:wifi_drawables:2130903140, array:wifi_entries:2130903141, array:wifi_values:2130903142, string:WifiarrowChooser:2131689649, array:wifiarrow_drawables:2130903143, array:wifiarrow_entries:2130903144, array:wifiarrow_values:2130903145, string:Signalchooser:2131689606, array:signal_drawables:2130903114, array:signal_entries:2130903115, array:signal_values:2130903116, string:Signalchooser2:2131689607, string:AlarmIconChooser:2131689474, array:alarm_drawables:2130903049, array:alarm_entries:2130903050, array:alarm_values:2130903051]
 xml:touchwiz:2131886096 => [layout:preferences_category:2131427406, string:LauncherblurTitle:2131689549, string:Launcherblurdisabled:2131689550, string:Launcherblurenabled:2131689551, string:Launcherblur:2131689548]
 xml:touchwiz_pro:2131886097 => [layout:preferences_category:2131427406, string:Launcherblur:2131689548, string:Launcherblurdisabled:2131689550, string:Launcherblurenabled:2131689551]
-xml:ui_prefs:2131886098 => [drawable:logo:2131230910, array:test_list_entries:2130903119, array:test_list_values:2130903120, array:thumbnail_drawables:2130903126, array:thumbnail_items:2130903127, array:thumbnail_values:2130903128, mipmap:ic_launcher:2131558400, drawable:google_ic:2131230871, drawable:android:2131230817]
-xml:welcome:2131886099 => [drawable:logobig:2131230913, layout:preferences_category:2131427406, string:welcome:2131689819, layout:preference_multiline:2131427405, string:welcomemsg:2131689820, drawable:ks8:2131230905, string:aboutKS8Rom:2131689681, drawable:xdausercircledark:2131231030, string:XDAThread:2131689651, drawable:download:2131230864, string:latestrom:2131689731, drawable:coding:2131230850, string:sourcecoderomcontrol:2131689808]
-xml:welcome_pro:2131886100 => [drawable:logobig:2131230913, layout:preferences_category:2131427406, string:welcome:2131689819, layout:preference_multiline:2131427405, string:welcomemsgPRO:2131689821, string:aboutKS8Rom:2131689681, drawable:xdausercircledark:2131231030, string:XDAThread:2131689651, drawable:download:2131230864, string:latestrom:2131689731, drawable:coding:2131230850, string:sourcecoderomcontrol:2131689808]
+xml:ui_prefs:2131886098 => [drawable:logo:2131230912, array:test_list_entries:2130903119, array:test_list_values:2130903120, array:thumbnail_drawables:2130903126, array:thumbnail_items:2130903127, array:thumbnail_values:2130903128, mipmap:ic_launcher:2131558400, drawable:google_ic:2131230873, drawable:android:2131230819]
+xml:welcome:2131886099 => [drawable:logobig:2131230915, layout:preferences_category:2131427406, string:welcome:2131689819, layout:preference_multiline:2131427405, string:workingversion:2131689822, string:welcomemsg:2131689820, drawable:ks8:2131230907, string:aboutKS8Rom:2131689681, drawable:xdausercircledark:2131231032, string:XDAThread:2131689651, drawable:download:2131230866, string:latestrom:2131689731, drawable:coding:2131230852, string:sourcecoderomcontrol:2131689808]
+xml:welcome_pro:2131886100 => [drawable:logobig:2131230915, layout:preferences_category:2131427406, string:welcome:2131689819, layout:preference_multiline:2131427405, string:workingversion:2131689822, string:welcomemsgPRO:2131689821, string:aboutKS8Rom:2131689681, drawable:xdausercircledark:2131231032, string:XDAThread:2131689651, drawable:download:2131230866, string:latestrom:2131689731, drawable:coding:2131230852, string:sourcecoderomcontrol:2131689808]
 color:abc_tint_switch_thumb:-1 => [attr:colorSwitchThumbNormal:2130968680, attr:colorControlActivated:2130968674]
 layout:abc_action_bar_view_list_nav_layout:-1 => [attr:actionBarTabBarStyle:2130968582]
 
@@ -3691,18 +3694,18 @@ attr:font:2130968739,
    dimen:notification_subtext_size:2131165335,
    dimen:notification_top_pad:2131165336,
    dimen:notification_top_pad_large_text:2131165337,
-   drawable:notification_action_background:2131230922,
-   drawable:notification_bg:2131230923,
-   drawable:notification_bg_low:2131230924,
-   drawable:notification_bg_low_normal:2131230925,
-   drawable:notification_bg_low_pressed:2131230926,
-   drawable:notification_bg_normal:2131230927,
-   drawable:notification_bg_normal_pressed:2131230928,
-   drawable:notification_icon_background:2131230929,
-   drawable:notification_template_icon_bg:2131230930,
-   drawable:notification_template_icon_low_bg:2131230931,
-   drawable:notification_tile_bg:2131230932,
-   drawable:notify_panel_notification_icon_bg:2131230933,
+   drawable:notification_action_background:2131230924,
+   drawable:notification_bg:2131230925,
+   drawable:notification_bg_low:2131230926,
+   drawable:notification_bg_low_normal:2131230927,
+   drawable:notification_bg_low_pressed:2131230928,
+   drawable:notification_bg_normal:2131230929,
+   drawable:notification_bg_normal_pressed:2131230930,
+   drawable:notification_icon_background:2131230931,
+   drawable:notification_template_icon_bg:2131230932,
+   drawable:notification_template_icon_low_bg:2131230933,
+   drawable:notification_tile_bg:2131230934,
+   drawable:notify_panel_notification_icon_bg:2131230935,
    id:action_container:2131296277,
    id:action_divider:2131296279,
    id:action_image:2131296280,
@@ -4404,17 +4407,17 @@ attr:font:2130968739,
    drawable:abc_textfield_search_default_mtrl_alpha:2131230806,
    drawable:abc_textfield_search_material:2131230807,
    drawable:abc_vector_test:2131230808,
-   drawable:avd_hide_password:2131230824,
-   drawable:avd_show_password:2131230825,
-   drawable:design_bottom_navigation_item_background:2131230856,
-   drawable:design_fab_background:2131230857,
-   drawable:design_ic_visibility:2131230858,
-   drawable:design_ic_visibility_off:2131230859,
-   drawable:design_password_eye:2131230860,
-   drawable:design_snackbar_background:2131230861,
-   drawable:navigation_empty_icon:2131230921,
-   drawable:tooltip_frame_dark:2131230989,
-   drawable:tooltip_frame_light:2131230990,
+   drawable:avd_hide_password:2131230826,
+   drawable:avd_show_password:2131230827,
+   drawable:design_bottom_navigation_item_background:2131230858,
+   drawable:design_fab_background:2131230859,
+   drawable:design_ic_visibility:2131230860,
+   drawable:design_ic_visibility_off:2131230861,
+   drawable:design_password_eye:2131230862,
+   drawable:design_snackbar_background:2131230863,
+   drawable:navigation_empty_icon:2131230923,
+   drawable:tooltip_frame_dark:2131230991,
+   drawable:tooltip_frame_light:2131230992,
    id:action0:2131296269,
    id:action_bar:2131296270,
    id:action_bar_activity_content:2131296271,
@@ -5099,198 +5102,200 @@ attr:font:2130968739,
    dimen:nav_header_height:2131165322,
    drawable:alarm_clock:2131230809,
    drawable:alarmclock:2131230810,
-   drawable:alarmstyle1:2131230811,
-   drawable:alarmstyle2:2131230812,
-   drawable:alarmstyle3:2131230813,
-   drawable:alarmstyle4:2131230814,
-   drawable:alarmstyle5:2131230815,
-   drawable:alarmstyle6:2131230816,
-   drawable:android:2131230817,
-   drawable:android2:2131230818,
-   drawable:android_symbol:2131230819,
-   drawable:appdrawer:2131230820,
-   drawable:arrowstyle1:2131230821,
-   drawable:arrowstyle2:2131230822,
-   drawable:avatar:2131230823,
-   drawable:back:2131230826,
-   drawable:backarrow:2131230827,
-   drawable:battery:2131230828,
-   drawable:battery2:2131230829,
-   drawable:battery3:2131230830,
-   drawable:battery4:2131230831,
-   drawable:battery5:2131230832,
-   drawable:battery6:2131230833,
-   drawable:battery7:2131230834,
-   drawable:batterystock:2131230835,
-   drawable:bg:2131230836,
-   drawable:bttf:2131230837,
-   drawable:bttf2:2131230838,
-   drawable:bttf3:2131230839,
-   drawable:calendar:2131230840,
-   drawable:calendar1:2131230841,
-   drawable:calendar2:2131230842,
-   drawable:center_alignment:2131230843,
-   drawable:chess_game:2131230844,
-   drawable:chronometer:2131230845,
-   drawable:circularclock:2131230846,
-   drawable:clock:2131230847,
-   drawable:clock2:2131230848,
-   drawable:clock3:2131230849,
-   drawable:coding:2131230850,
-   drawable:cogwheel:2131230851,
-   drawable:cornerbackground:2131230852,
-   drawable:cpu:2131230853,
-   drawable:crown:2131230854,
-   drawable:database:2131230855,
-   drawable:dialog_bg:2131230862,
-   drawable:dialog_bg_main:2131230863,
-   drawable:download:2131230864,
-   drawable:emergency:2131230865,
-   drawable:female:2131230866,
-   drawable:flag:2131230867,
-   drawable:flash:2131230868,
-   drawable:flask:2131230869,
-   drawable:gamepad:2131230870,
-   drawable:google_ic:2131230871,
-   drawable:graphic_design:2131230872,
-   drawable:header:2131230873,
-   drawable:home:2131230874,
-   drawable:home2:2131230875,
-   drawable:home3:2131230876,
-   drawable:ic_action_assist_focused:2131230877,
-   drawable:ic_arrow:2131230878,
-   drawable:ic_backup_restore:2131230879,
-   drawable:ic_changelog:2131230880,
-   drawable:ic_framework:2131230881,
-   drawable:ic_info:2131230882,
-   drawable:ic_launcher:2131230883,
-   drawable:ic_notification_panel:2131230884,
-   drawable:ic_phone:2131230885,
-   drawable:ic_reboot:2131230886,
-   drawable:ic_recent:2131230887,
-   drawable:ic_sett:2131230888,
-   drawable:ic_settings:2131230889,
-   drawable:ic_status_bar:2131230890,
-   drawable:ic_system_ui:2131230891,
-   drawable:ic_theme:2131230892,
-   drawable:iconexit:2131230893,
-   drawable:image:2131230894,
-   drawable:inset_dialog_bg:2131230895,
-   drawable:internet:2131230896,
-   drawable:java:2131230897,
-   drawable:jeep:2131230898,
-   drawable:key:2131230899,
-   drawable:king:2131230900,
-   drawable:king2:2131230901,
-   drawable:king3:2131230902,
-   drawable:king4:2131230903,
-   drawable:king_recovery:2131230904,
-   drawable:ks8:2131230905,
-   drawable:layers:2131230906,
-   drawable:link:2131230907,
-   drawable:lock:2131230908,
-   drawable:lock2:2131230909,
-   drawable:logo:2131230910,
-   drawable:logo2:2131230911,
-   drawable:logo3:2131230912,
-   drawable:logobig:2131230913,
-   drawable:love:2131230914,
-   drawable:male:2131230915,
-   drawable:master_ball:2131230916,
-   drawable:menu:2131230917,
-   drawable:microscope:2131230918,
-   drawable:minit:2131230919,
-   drawable:multiwindows:2131230920,
-   drawable:pacman:2131230934,
-   drawable:pacman1:2131230935,
-   drawable:pacman2:2131230936,
-   drawable:padlock:2131230937,
-   drawable:pantone:2131230938,
-   drawable:pantone2:2131230939,
-   drawable:pantone3:2131230940,
-   drawable:pantone4:2131230941,
-   drawable:pantone5:2131230942,
-   drawable:pantone6:2131230943,
-   drawable:pantone7:2131230944,
-   drawable:power:2131230945,
-   drawable:press:2131230946,
-   drawable:protective_gradient_bottom:2131230947,
-   drawable:protective_semi_transparent_black:2131230948,
-   drawable:protective_view_gradient_top:2131230949,
-   drawable:puzzle:2131230950,
-   drawable:races:2131230951,
-   drawable:races2:2131230952,
-   drawable:racing:2131230953,
-   drawable:ram:2131230954,
-   drawable:ram2:2131230955,
-   drawable:ram3:2131230956,
-   drawable:robot:2131230957,
-   drawable:rocket:2131230958,
-   drawable:rr:2131230959,
-   drawable:schedule:2131230960,
-   drawable:shield:2131230961,
-   drawable:signalstyle1:2131230962,
-   drawable:signalstyle10:2131230963,
-   drawable:signalstyle11:2131230964,
-   drawable:signalstyle12:2131230965,
-   drawable:signalstyle13:2131230966,
-   drawable:signalstyle14:2131230967,
-   drawable:signalstyle15:2131230968,
-   drawable:signalstyle16:2131230969,
-   drawable:signalstyle2:2131230970,
-   drawable:signalstyle3:2131230971,
-   drawable:signalstyle4:2131230972,
-   drawable:signalstyle5:2131230973,
-   drawable:signalstyle6:2131230974,
-   drawable:signalstyle7:2131230975,
-   drawable:signalstyle8:2131230976,
-   drawable:signalstyle9:2131230977,
-   drawable:sim_card:2131230978,
-   drawable:smile:2131230979,
-   drawable:spider1:2131230980,
-   drawable:spider2:2131230981,
-   drawable:stopwatch:2131230982,
-   drawable:sub_cornerbackground:2131230983,
-   drawable:swiss_army_knife:2131230984,
-   drawable:tap:2131230985,
-   drawable:text:2131230986,
-   drawable:textstyle:2131230987,
-   drawable:toolbox:2131230988,
-   drawable:touchkey:2131230991,
-   drawable:transparentBg:2131230992,
-   drawable:tw_ic_do_bikemode_square:2131230993,
-   drawable:tw_ic_do_data_network_square:2131230994,
-   drawable:tw_ic_do_download:2131230995,
-   drawable:tw_ic_do_emergencymode_square:2131230996,
-   drawable:tw_ic_do_fast_reboot:2131230997,
-   drawable:tw_ic_do_multiuser:2131230998,
-   drawable:tw_ic_do_poweroff_01_square:2131230999,
-   drawable:tw_ic_do_poweroff_square:2131231000,
-   drawable:tw_ic_do_restart_01_square:2131231001,
-   drawable:tw_ic_do_restart_square:2131231002,
-   drawable:tw_ic_do_safemode:2131231003,
-   drawable:tw_ic_do_screen_recorder:2131231004,
-   drawable:tw_ic_do_screenshot:2131231005,
-   drawable:tw_ic_do_torchlight:2131231006,
-   drawable:tw_ic_lock_airplane_mode:2131231007,
-   drawable:tw_ic_lock_airplane_mode_off:2131231008,
-   drawable:usb:2131231009,
-   drawable:usb2:2131231010,
-   drawable:wifi:2131231011,
-   drawable:wifistyle1:2131231012,
-   drawable:wifistyle10:2131231013,
-   drawable:wifistyle11:2131231014,
-   drawable:wifistyle12:2131231015,
-   drawable:wifistyle2:2131231016,
-   drawable:wifistyle3:2131231017,
-   drawable:wifistyle4:2131231018,
-   drawable:wifistyle5:2131231019,
-   drawable:wifistyle6:2131231020,
-   drawable:wifistyle7:2131231021,
-   drawable:wifistyle8:2131231022,
-   drawable:wifistyle9:2131231023,
-   drawable:worldwide:2131231024,
-   drawable:wrench:2131231025,
+   drawable:alarmstyle:2131230811,
+   drawable:alarmstyle1:2131230812,
+   drawable:alarmstyle2:2131230813,
+   drawable:alarmstyle3:2131230814,
+   drawable:alarmstyle4:2131230815,
+   drawable:alarmstyle5:2131230816,
+   drawable:alarmstyle6:2131230817,
+   drawable:alarmstyle7:2131230818,
+   drawable:android:2131230819,
+   drawable:android2:2131230820,
+   drawable:android_symbol:2131230821,
+   drawable:appdrawer:2131230822,
+   drawable:arrowstyle1:2131230823,
+   drawable:arrowstyle2:2131230824,
+   drawable:avatar:2131230825,
+   drawable:back:2131230828,
+   drawable:backarrow:2131230829,
+   drawable:battery:2131230830,
+   drawable:battery2:2131230831,
+   drawable:battery3:2131230832,
+   drawable:battery4:2131230833,
+   drawable:battery5:2131230834,
+   drawable:battery6:2131230835,
+   drawable:battery7:2131230836,
+   drawable:batterystock:2131230837,
+   drawable:bg:2131230838,
+   drawable:bttf:2131230839,
+   drawable:bttf2:2131230840,
+   drawable:bttf3:2131230841,
+   drawable:calendar:2131230842,
+   drawable:calendar1:2131230843,
+   drawable:calendar2:2131230844,
+   drawable:center_alignment:2131230845,
+   drawable:chess_game:2131230846,
+   drawable:chronometer:2131230847,
+   drawable:circularclock:2131230848,
+   drawable:clock:2131230849,
+   drawable:clock2:2131230850,
+   drawable:clock3:2131230851,
+   drawable:coding:2131230852,
+   drawable:cogwheel:2131230853,
+   drawable:cornerbackground:2131230854,
+   drawable:cpu:2131230855,
+   drawable:crown:2131230856,
+   drawable:database:2131230857,
+   drawable:dialog_bg:2131230864,
+   drawable:dialog_bg_main:2131230865,
+   drawable:download:2131230866,
+   drawable:emergency:2131230867,
+   drawable:female:2131230868,
+   drawable:flag:2131230869,
+   drawable:flash:2131230870,
+   drawable:flask:2131230871,
+   drawable:gamepad:2131230872,
+   drawable:google_ic:2131230873,
+   drawable:graphic_design:2131230874,
+   drawable:header:2131230875,
+   drawable:home:2131230876,
+   drawable:home2:2131230877,
+   drawable:home3:2131230878,
+   drawable:ic_action_assist_focused:2131230879,
+   drawable:ic_arrow:2131230880,
+   drawable:ic_backup_restore:2131230881,
+   drawable:ic_changelog:2131230882,
+   drawable:ic_framework:2131230883,
+   drawable:ic_info:2131230884,
+   drawable:ic_launcher:2131230885,
+   drawable:ic_notification_panel:2131230886,
+   drawable:ic_phone:2131230887,
+   drawable:ic_reboot:2131230888,
+   drawable:ic_recent:2131230889,
+   drawable:ic_sett:2131230890,
+   drawable:ic_settings:2131230891,
+   drawable:ic_status_bar:2131230892,
+   drawable:ic_system_ui:2131230893,
+   drawable:ic_theme:2131230894,
+   drawable:iconexit:2131230895,
+   drawable:image:2131230896,
+   drawable:inset_dialog_bg:2131230897,
+   drawable:internet:2131230898,
+   drawable:java:2131230899,
+   drawable:jeep:2131230900,
+   drawable:key:2131230901,
+   drawable:king:2131230902,
+   drawable:king2:2131230903,
+   drawable:king3:2131230904,
+   drawable:king4:2131230905,
+   drawable:king_recovery:2131230906,
+   drawable:ks8:2131230907,
+   drawable:layers:2131230908,
+   drawable:link:2131230909,
+   drawable:lock:2131230910,
+   drawable:lock2:2131230911,
+   drawable:logo:2131230912,
+   drawable:logo2:2131230913,
+   drawable:logo3:2131230914,
+   drawable:logobig:2131230915,
+   drawable:love:2131230916,
+   drawable:male:2131230917,
+   drawable:master_ball:2131230918,
+   drawable:menu:2131230919,
+   drawable:microscope:2131230920,
+   drawable:minit:2131230921,
+   drawable:multiwindows:2131230922,
+   drawable:pacman:2131230936,
+   drawable:pacman1:2131230937,
+   drawable:pacman2:2131230938,
+   drawable:padlock:2131230939,
+   drawable:pantone:2131230940,
+   drawable:pantone2:2131230941,
+   drawable:pantone3:2131230942,
+   drawable:pantone4:2131230943,
+   drawable:pantone5:2131230944,
+   drawable:pantone6:2131230945,
+   drawable:pantone7:2131230946,
+   drawable:power:2131230947,
+   drawable:press:2131230948,
+   drawable:protective_gradient_bottom:2131230949,
+   drawable:protective_semi_transparent_black:2131230950,
+   drawable:protective_view_gradient_top:2131230951,
+   drawable:puzzle:2131230952,
+   drawable:races:2131230953,
+   drawable:races2:2131230954,
+   drawable:racing:2131230955,
+   drawable:ram:2131230956,
+   drawable:ram2:2131230957,
+   drawable:ram3:2131230958,
+   drawable:robot:2131230959,
+   drawable:rocket:2131230960,
+   drawable:rr:2131230961,
+   drawable:schedule:2131230962,
+   drawable:shield:2131230963,
+   drawable:signalstyle1:2131230964,
+   drawable:signalstyle10:2131230965,
+   drawable:signalstyle11:2131230966,
+   drawable:signalstyle12:2131230967,
+   drawable:signalstyle13:2131230968,
+   drawable:signalstyle14:2131230969,
+   drawable:signalstyle15:2131230970,
+   drawable:signalstyle16:2131230971,
+   drawable:signalstyle2:2131230972,
+   drawable:signalstyle3:2131230973,
+   drawable:signalstyle4:2131230974,
+   drawable:signalstyle5:2131230975,
+   drawable:signalstyle6:2131230976,
+   drawable:signalstyle7:2131230977,
+   drawable:signalstyle8:2131230978,
+   drawable:signalstyle9:2131230979,
+   drawable:sim_card:2131230980,
+   drawable:smile:2131230981,
+   drawable:spider1:2131230982,
+   drawable:spider2:2131230983,
+   drawable:stopwatch:2131230984,
+   drawable:sub_cornerbackground:2131230985,
+   drawable:swiss_army_knife:2131230986,
+   drawable:tap:2131230987,
+   drawable:text:2131230988,
+   drawable:textstyle:2131230989,
+   drawable:toolbox:2131230990,
+   drawable:touchkey:2131230993,
+   drawable:transparentBg:2131230994,
+   drawable:tw_ic_do_bikemode_square:2131230995,
+   drawable:tw_ic_do_data_network_square:2131230996,
+   drawable:tw_ic_do_download:2131230997,
+   drawable:tw_ic_do_emergencymode_square:2131230998,
+   drawable:tw_ic_do_fast_reboot:2131230999,
+   drawable:tw_ic_do_multiuser:2131231000,
+   drawable:tw_ic_do_poweroff_01_square:2131231001,
+   drawable:tw_ic_do_poweroff_square:2131231002,
+   drawable:tw_ic_do_restart_01_square:2131231003,
+   drawable:tw_ic_do_restart_square:2131231004,
+   drawable:tw_ic_do_safemode:2131231005,
+   drawable:tw_ic_do_screen_recorder:2131231006,
+   drawable:tw_ic_do_screenshot:2131231007,
+   drawable:tw_ic_do_torchlight:2131231008,
+   drawable:tw_ic_lock_airplane_mode:2131231009,
+   drawable:tw_ic_lock_airplane_mode_off:2131231010,
+   drawable:usb:2131231011,
+   drawable:usb2:2131231012,
+   drawable:wifi:2131231013,
+   drawable:wifistyle1:2131231014,
+   drawable:wifistyle10:2131231015,
+   drawable:wifistyle11:2131231016,
+   drawable:wifistyle12:2131231017,
+   drawable:wifistyle2:2131231018,
+   drawable:wifistyle3:2131231019,
+   drawable:wifistyle4:2131231020,
+   drawable:wifistyle5:2131231021,
+   drawable:wifistyle6:2131231022,
+   drawable:wifistyle7:2131231023,
+   drawable:wifistyle8:2131231024,
+   drawable:wifistyle9:2131231025,
+   drawable:worldwide:2131231026,
+   drawable:wrench:2131231027,
    id:ALT:2131296256,
    id:CTRL:2131296257,
    id:SHIFT:2131296260,
@@ -5683,7 +5688,8 @@ attr:font:2130968739,
    string:welcome:2131689819,
    string:welcomemsg:2131689820,
    string:welcomemsgPRO:2131689821,
-   string:yes:2131689822,
+   string:workingversion:2131689822,
+   string:yes:2131689823,
    style:AppTheme:2131755014,
    style:AppTheme_AppBarOverlay:2131755015,
    style:AppTheme_NoActionBar:2131755016,

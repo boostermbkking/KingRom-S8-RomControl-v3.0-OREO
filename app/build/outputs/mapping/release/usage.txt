@@ -4966,7 +4966,7 @@ com.boostermbkking.ks8mods.v2.R$raw
 com.boostermbkking.ks8mods.v2.R$string
 com.boostermbkking.ks8mods.v2.R$style
 com.boostermbkking.ks8mods.v2.R$styleable:
-    4806:4806:public R$styleable()
+    4809:4809:public R$styleable()
 com.boostermbkking.ks8mods.v2.R$xml
 com.boostermbkking.ks8mods.v2.prefs.ColorPickerDialog:
     178:178:public boolean getHexValueEnabled()

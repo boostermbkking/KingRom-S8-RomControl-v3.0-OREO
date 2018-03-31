@@ -6415,12 +6415,14 @@ com.boostermbkking.ks8mods.v2.R$drawable: int abc_textfield_search_material
 com.boostermbkking.ks8mods.v2.R$drawable: int abc_vector_test
 com.boostermbkking.ks8mods.v2.R$drawable: int alarm_clock
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmclock
+com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle1
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle2
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle3
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle4
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle5
 com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle6
+com.boostermbkking.ks8mods.v2.R$drawable: int alarmstyle7
 com.boostermbkking.ks8mods.v2.R$drawable: int android
 com.boostermbkking.ks8mods.v2.R$drawable: int android2
 com.boostermbkking.ks8mods.v2.R$drawable: int android_symbol
@@ -7335,6 +7337,7 @@ com.boostermbkking.ks8mods.v2.R$string: int unauthorized_app_found
 com.boostermbkking.ks8mods.v2.R$string: int welcome
 com.boostermbkking.ks8mods.v2.R$string: int welcomemsg
 com.boostermbkking.ks8mods.v2.R$string: int welcomemsgPRO
+com.boostermbkking.ks8mods.v2.R$string: int workingversion
 com.boostermbkking.ks8mods.v2.R$string: int yes
 com.boostermbkking.ks8mods.v2.R$style: int AlertDialog_AppCompat
 com.boostermbkking.ks8mods.v2.R$style: int AlertDialog_AppCompat_Light

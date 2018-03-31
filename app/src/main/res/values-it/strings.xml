@@ -1,6 +1,7 @@
 <resources>
     <string name="app_name">KS8 Mods</string>
     <string name="romname">KING ROM</string>
+    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V10</string>
 
     <string name="navigation_drawer_open">Apri menu navigazione</string>
     <string name="navigation_drawer_close">Chiudi menu navigazione</string>
@@ -31,7 +32,7 @@
     <string name="choose_backup_dialog_title">Scegli il backup da ripristinare</string>
     <string name="no_backup_dialog_title">Nessun backup trovato</string>
     <string name="no_backup_dialog_message">Vuoi creare un nuovo backup adesso?</string>
-    <string name="restore_confirm_dialog_title">Per favore conferma il rispristino</string>
+    <string name="restore_confirm_dialog_title">Per favore conferma il ripristino</string>
     <string name="restore_confirm_message">Hai scelto di ripristinare le configurazioni da una versione precedente di King Mods.\n\nAttenzione! Tale operazione cambierà i settaggi attuali con quelli presenti nel file.\n\nNON PROCEDERE se non siete sicuri!!!.</string>
     <string name="backup_complete_toast">Backup effettuato. Il backup si trova in\n%1$s</string>
     <string name="restore_complete_toast">Ripristino completato</string>

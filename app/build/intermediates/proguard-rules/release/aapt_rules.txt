@@ -343,6 +343,16 @@
 # Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:459
 -keep class com.boostermbkking.ks8mods.v2.prefs.RunScriptPreference { <init>(...); }
 
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:20
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:29
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:38
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:47
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:56
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:20
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:29
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:38
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:47
+# Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:56
 # Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:180
 # Referenced at C:\Users\boostermbkking\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:190
 -keep class com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference { <init>(...); }
