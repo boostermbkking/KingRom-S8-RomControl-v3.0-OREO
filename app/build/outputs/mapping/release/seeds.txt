@@ -6527,6 +6527,7 @@ com.boostermbkking.ks8mods.v2.R$drawable: int menu
 com.boostermbkking.ks8mods.v2.R$drawable: int microscope
 com.boostermbkking.ks8mods.v2.R$drawable: int minit
 com.boostermbkking.ks8mods.v2.R$drawable: int multiwindows
+com.boostermbkking.ks8mods.v2.R$drawable: int music
 com.boostermbkking.ks8mods.v2.R$drawable: int navigation_empty_icon
 com.boostermbkking.ks8mods.v2.R$drawable: int notification_action_background
 com.boostermbkking.ks8mods.v2.R$drawable: int notification_bg
@@ -6551,6 +6552,7 @@ com.boostermbkking.ks8mods.v2.R$drawable: int pantone4
 com.boostermbkking.ks8mods.v2.R$drawable: int pantone5
 com.boostermbkking.ks8mods.v2.R$drawable: int pantone6
 com.boostermbkking.ks8mods.v2.R$drawable: int pantone7
+com.boostermbkking.ks8mods.v2.R$drawable: int pause
 com.boostermbkking.ks8mods.v2.R$drawable: int power
 com.boostermbkking.ks8mods.v2.R$drawable: int press
 com.boostermbkking.ks8mods.v2.R$drawable: int protective_gradient_bottom
@@ -6617,6 +6619,7 @@ com.boostermbkking.ks8mods.v2.R$drawable: int tw_ic_lock_airplane_mode
 com.boostermbkking.ks8mods.v2.R$drawable: int tw_ic_lock_airplane_mode_off
 com.boostermbkking.ks8mods.v2.R$drawable: int usb
 com.boostermbkking.ks8mods.v2.R$drawable: int usb2
+com.boostermbkking.ks8mods.v2.R$drawable: int vibration
 com.boostermbkking.ks8mods.v2.R$drawable: int wifi
 com.boostermbkking.ks8mods.v2.R$drawable: int wifistyle1
 com.boostermbkking.ks8mods.v2.R$drawable: int wifistyle10
@@ -7049,6 +7052,7 @@ com.boostermbkking.ks8mods.v2.R$string: int DisplaydatainBytes
 com.boostermbkking.ks8mods.v2.R$string: int DisplayedinBits
 com.boostermbkking.ks8mods.v2.R$string: int DisplayedinBytes
 com.boostermbkking.ks8mods.v2.R$string: int Displayedtrafficinfo
+com.boostermbkking.ks8mods.v2.R$string: int Doubleclickplay
 com.boostermbkking.ks8mods.v2.R$string: int Downloadtextcolor
 com.boostermbkking.ks8mods.v2.R$string: int EMERGENCY_MODE_TOGGLE
 com.boostermbkking.ks8mods.v2.R$string: int EdgesGradientColor
@@ -7061,6 +7065,7 @@ com.boostermbkking.ks8mods.v2.R$string: int FreeRAMTextColorpro
 com.boostermbkking.ks8mods.v2.R$string: int Globalcolor
 com.boostermbkking.ks8mods.v2.R$string: int Globalcolorallelements
 com.boostermbkking.ks8mods.v2.R$string: int Gradientorientation
+com.boostermbkking.ks8mods.v2.R$string: int HapticFeedback
 com.boostermbkking.ks8mods.v2.R$string: int Header
 com.boostermbkking.ks8mods.v2.R$string: int King_Rom_Apps
 com.boostermbkking.ks8mods.v2.R$string: int Launcherblur
@@ -7074,6 +7079,7 @@ com.boostermbkking.ks8mods.v2.R$string: int Lockscreen_Rotation
 com.boostermbkking.ks8mods.v2.R$string: int Lockscreen_RotationTitle
 com.boostermbkking.ks8mods.v2.R$string: int LogoColors
 com.boostermbkking.ks8mods.v2.R$string: int LogoVisibility
+com.boostermbkking.ks8mods.v2.R$string: int LongPressTimeOut
 com.boostermbkking.ks8mods.v2.R$string: int LongpressBackbutton
 com.boostermbkking.ks8mods.v2.R$string: int LongpressRecentsbutton
 com.boostermbkking.ks8mods.v2.R$string: int LowBatteryColorWarning
@@ -7123,6 +7129,7 @@ com.boostermbkking.ks8mods.v2.R$string: int ShowClockandDate
 com.boostermbkking.ks8mods.v2.R$string: int Showtrafficarrows
 com.boostermbkking.ks8mods.v2.R$string: int Signalchooser
 com.boostermbkking.ks8mods.v2.R$string: int Signalchooser2
+com.boostermbkking.ks8mods.v2.R$string: int SkipTracksTitle
 com.boostermbkking.ks8mods.v2.R$string: int Sound_Control
 com.boostermbkking.ks8mods.v2.R$string: int StatusbarAirplaneColor
 com.boostermbkking.ks8mods.v2.R$string: int StatusbarBatteryColor
@@ -7154,6 +7161,7 @@ com.boostermbkking.ks8mods.v2.R$string: int USBPLUGINTITLE
 com.boostermbkking.ks8mods.v2.R$string: int Uploadtextcolor
 com.boostermbkking.ks8mods.v2.R$string: int UppercaseTextClock
 com.boostermbkking.ks8mods.v2.R$string: int UseGradientColor
+com.boostermbkking.ks8mods.v2.R$string: int UseSkipTracksMod
 com.boostermbkking.ks8mods.v2.R$string: int UsedRAMTextColor
 com.boostermbkking.ks8mods.v2.R$string: int UsedRAMTextColorpro
 com.boostermbkking.ks8mods.v2.R$string: int VirtualButtonsHome

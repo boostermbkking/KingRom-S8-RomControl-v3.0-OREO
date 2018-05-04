@@ -167,10 +167,10 @@
                     android:icon="@drawable/pantone" android:title="@string/Separatecolorsforelements" android:key="network_traffic_global_color" android:defaultValue="true" android:summaryOn="@string/Allelementscoloredseparately" android:summaryOff="@string/Globalcolorallelements"/>
                 <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
                     android:icon="@drawable/pantone2" android:title="@string/Globalcolor" android:key="network_traffic_color" android:defaultValue="#ffffff"/>
-                <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
+                <!--com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
                     android:icon="@drawable/pantone6" android:title="@string/Uploadtextcolor" android:defaultValue="#ffffff" android:key="network_traffic_upload_color" android:dependency="network_traffic_global_color"/>
                 <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
-                    android:icon="@drawable/pantone4" android:title="@string/Downloadtextcolor" android:defaultValue="#ffffff" android:key="network_traffic_download_color" android:dependency="network_traffic_global_color"/>
+                    android:icon="@drawable/pantone4" android:title="@string/Downloadtextcolor" android:defaultValue="#ffffff" android:key="network_traffic_download_color" android:dependency="network_traffic_global_color"/-->
                 <com.boostermbkking.ks8mods.v2.prefs.ColorPickerPreference
                     android:icon="@drawable/pantone5" android:title="@string/Trafficarrowscolor" android:key="network_traffic_arrow_color" android:defaultValue="#ffffff" android:dependency="network_traffic_global_color"/>
             </PreferenceCategory>

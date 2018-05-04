@@ -464,7 +464,8 @@
         <item>@drawable/ic_framework</item>
         <item>@drawable/ic_recent</item>
         <item>@drawable/ic_notification_panel</item>
-        
+        <!--<item>@drawable/ic_launcher</item>
+        <item>@drawable/ic_phone</item>-->
         <item>@drawable/link</item>
     </array>
     <string-array name="nav_menu_prefs_titles">
@@ -475,7 +476,8 @@
         <item>@string/framework_prefs</item>
         <item>@string/recents</item>
         <item>@string/lockscreen</item>
-        
+        <!--<item>@string/touchwiz</item>
+        <item>@string/phone</item>-->
         <item>@string/app_links</item>
     </string-array>
     <string-array name="shape_entries">
@@ -818,6 +820,7 @@
     <string name="DisplayedinBits">Mostra in Bits (default)</string>
     <string name="DisplayedinBytes">Mostra in Bytes</string>
     <string name="Displayedtrafficinfo">Informazioni sul traffico Mostrato</string>
+    <string name="Doubleclickplay">Doppio click play/pause</string>
     <string name="Downloadtextcolor">Colore testo di Download</string>
     <string name="EMERGENCY_MODE_TOGGLE">TOGGLE MODALITA\' EMERGENZA</string>
     <string name="EdgesGradientColor">Gradiente di Colore agli Angoli</string>
@@ -830,6 +833,7 @@
     <string name="Globalcolor">Colore globale</string>
     <string name="Globalcolorallelements">Il colore verrà applicato a tutti gli elementi</string>
     <string name="Gradientorientation">Orientazione sfumatura</string>
+    <string name="HapticFeedback">Feedback Vibrazione</string>
     <string name="Header">Intestazione</string>
     <string name="King_Rom_Apps">Applicazioni King Rom</string>
     <string name="Launcherblur">Sfocatura Launcher</string>
@@ -843,6 +847,7 @@
     <string name="Lockscreen_RotationTitle">Rotazione Schermata di blocco\n(Occorre KS8 PRO)</string>
     <string name="LogoColors">Colore Logo</string>
     <string name="LogoVisibility">Visibilit\à Logo</string>
+    <string name="LongPressTimeOut">Tempo Pressione Lunga</string>
     <string name="LongpressBackbutton">Pressione Lunga nel Tasto Indietro</string>
     <string name="LongpressRecentsbutton">Pressione Lunga nel Tasto Recenti</string>
     <string name="LowBatteryColorWarning">Colore Avviso Batteria Scarica</string>
@@ -892,6 +897,7 @@
     <string name="Showtrafficarrows">Mostra frecce data</string>
     <string name="Signalchooser">Scelta Segnale</string>
     <string name="Signalchooser2">Scelta Segnale Sim 2</string>
+    <string name="SkipTracksTitle">Salta Traccia con Tasti Volume</string>
     <string name="Sound_Control">Gestore Suoni</string>
     <string name="StatusbarAirplaneColor">Colore Icona Aereo Barra di Stato</string>
     <string name="StatusbarBatteryColor">Colore Batteria Barra di Stato</string>
@@ -923,6 +929,7 @@
     <string name="Uploadtextcolor">Colore testo di Upload</string>
     <string name="UppercaseTextClock">Testo orologio maiuscolo</string>
     <string name="UseGradientColor">Usa Gradiente di Colore</string>
+    <string name="UseSkipTracksMod">Usa Mods Salta Traccia</string>
     <string name="UsedRAMTextColor">Colore testo ram usata</string>
     <string name="UsedRAMTextColorpro">Colore testo ram usata (Occorre KS8 PRO)</string>
     <string name="VirtualButtonsHome">Tasti virtuali Home</string>
@@ -1070,6 +1077,6 @@
     <string name="welcome">Benvenuto nella KS8 MODS</string>
     <string name="welcomemsg">Benvenuto nell\'app KS8 mods, qui potrai personalizzare la King Rom S8 Edition, ci sono molte funzione e alcune sono bloccate, per avere accesso a tutte le funzioni devi installare l\'app KS8 PRO,\nscaricala cliccando il link in basso,\nGRAZIE per il supporto!!!</string>
     <string name="welcomemsgPRO">Benvenuto nell\'app KS8 mods, qui potrai personalizzare la King Rom S8 Edition,\nTUTTE le funzioni sono Sbloccate,\nGRAZIE per il supporto!!!</string>
-    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V10</string>
+    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V11</string>
     <string name="yes">Si</string>
 </resources>

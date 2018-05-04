@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">KS8 Mods</string>
     <string name="romname">KING ROM</string>
-    <string name="workingversion">THIS VERSION OF ROM CONTROL IS FOR KING OREO ROM V10</string>
+    <string name="workingversion">THIS VERSION OF ROM CONTROL IS FOR KING OREO ROM V11</string>
 
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
@@ -313,5 +313,11 @@
     <string name="StatusbarStatusColor">Statusbar Status Color</string>
     <string name="StatusbarNotificationColor">Statusbar Notification Color</string>
     <string name="StatusbarBatteryColor">Statusbar Battery Color</string>
+
+    <string name="SkipTracksTitle">Skip Tracks with volume button</string>
+    <string name="UseSkipTracksMod">Use Skip Tracks Mod</string>
+    <string name="HapticFeedback">Haptic Feedback</string>
+    <string name="Doubleclickplay">Double click play/pause</string>
+    <string name="LongPressTimeOut">Long Press TimeOut</string>
 
 </resources>

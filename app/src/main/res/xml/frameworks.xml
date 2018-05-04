@@ -72,6 +72,14 @@
             android:icon="@drawable/emergency" android:title="@string/EMERGENCY_MODE_TOGGLE" android:key="power_emergency" android:defaultValue="false" android:summaryOn="@string/on" android:summaryOff="@string/off" />
     </PreferenceCategory>
 
+    <!-- SKIP TRACK -->
+    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/SkipTracksTitle" android:enabled="false">
+        <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference android:icon="@drawable/music" android:title="@string/UseSkipTracksMod" android:key="skip_tracks" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference android:icon="@drawable/vibration" android:title="@string/HapticFeedback" android:key="haptic_feedback_enabled" android:defaultValue="false" android:summaryOn="Enabled" android:summaryOff="Disabled" />
+        <com.boostermbkking.ks8mods.v2.prefs.MyCheckBoxPreference android:icon="@drawable/pause" android:title="@string/Doubleclickplay" android:key="doble_click_skip_tracks" android:defaultValue="true" android:summaryOn="Enabled" android:summaryOff="Disabled" android:dependency="skip_tracks"  />
+        <com.boostermbkking.ks8mods.v2.prefs.MySeekBarPreference android:title="@string/LongPressTimeOut" android:key="timeout_skip_tracks" android:dependency="skip_tracks" android:defaultValue="600" app:minValue="300" app:maxValue="1300" app:unitsValue="mSec" />
+    </PreferenceCategory>
+
     <!-- SCREEN POLICY -->
     <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/USBPLUGIN" >
         <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
