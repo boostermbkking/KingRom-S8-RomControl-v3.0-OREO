@@ -806,6 +806,10 @@
     <string name="CustomLogoTitle">PREFERENZE LOGO PERSONALIZZATO</string>
     <string name="CustomLogoTitlePro">PREFERENZE LOGO PERSONALIZZATO (Occorre KS8 PRO)</string>
     <string name="CustomLogoType">Tipo di Logo Personalizzato</string>
+    <string name="CustomNavbarHigh">Altezza Navbar Personalizzata</string>
+    <string name="CustomNavbarHighSwitch">Switch Altezza Navbar Personalizzata</string>
+    <string name="CustomNavbarIconColor">Colore Personalizzato Tasti Navbar</string>
+    <string name="CustomNavbarIconColorSwitch">Switch Colore Personalizzato Tasti Navbar</string>
     <string name="Customimagepreferences">Scelta immagine personale</string>
     <string name="DATA_MODE_TOGGLE">TOGGLE DATI</string>
     <string name="DATA_MODE_TOGGLETITLE">TOGGLE DATI (Occorre KS8 PRO)</string>
@@ -1077,6 +1081,6 @@
     <string name="welcome">Benvenuto nella KS8 MODS</string>
     <string name="welcomemsg">Benvenuto nell\'app KS8 mods, qui potrai personalizzare la King Rom S8 Edition, ci sono molte funzione e alcune sono bloccate, per avere accesso a tutte le funzioni devi installare l\'app KS8 PRO,\nscaricala cliccando il link in basso,\nGRAZIE per il supporto!!!</string>
     <string name="welcomemsgPRO">Benvenuto nell\'app KS8 mods, qui potrai personalizzare la King Rom S8 Edition,\nTUTTE le funzioni sono Sbloccate,\nGRAZIE per il supporto!!!</string>
-    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V11</string>
+    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V13</string>
     <string name="yes">Si</string>
 </resources>

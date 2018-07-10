@@ -4,7 +4,7 @@
             "outputFile": "C:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-ro\\values-ro.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7b8a66b50ca823e3449babe7695dcbec\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\320a5e1b02e14a5c23a8b2936fa87ae7\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -21,7 +21,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\752bc822148e3ab1f8c1fd3d2eccd4e2\\res\\values-ro\\values-ro.xml",
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\37f1b0560d21186a4ceced5a4caae2b4\\res\\values-ro\\values-ro.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",

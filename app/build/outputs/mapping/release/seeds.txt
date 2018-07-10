@@ -1,3 +1,4 @@
+android.arch.lifecycle.AndroidViewModel
 android.arch.lifecycle.CompositeGeneratedAdaptersObserver
 android.arch.lifecycle.FullLifecycleObserver
 android.arch.lifecycle.FullLifecycleObserverAdapter
@@ -14,8 +15,10 @@ android.arch.lifecycle.Lifecycle$Event: android.arch.lifecycle.Lifecycle$Event[]
 android.arch.lifecycle.Lifecycle$Event: android.arch.lifecycle.Lifecycle$Event valueOf(java.lang.String)
 android.arch.lifecycle.Lifecycle$State: android.arch.lifecycle.Lifecycle$State[] values()
 android.arch.lifecycle.Lifecycle$State: android.arch.lifecycle.Lifecycle$State valueOf(java.lang.String)
+android.arch.lifecycle.LiveData$LifecycleBoundObserver
 android.arch.lifecycle.ReflectiveGenericLifecycleObserver
 android.arch.lifecycle.SingleGeneratedAdapterObserver
+android.arch.lifecycle.ViewModel: ViewModel()
 android.support.annotation.Keep
 android.support.annotation.RestrictTo$Scope: android.support.annotation.RestrictTo$Scope[] values()
 android.support.annotation.RestrictTo$Scope: android.support.annotation.RestrictTo$Scope valueOf(java.lang.String)
@@ -120,6 +123,7 @@ android.support.compat.R$styleable: int FontFamilyFont_android_fontStyle
 android.support.compat.R$styleable: int FontFamilyFont_font
 android.support.compat.R$styleable: int FontFamilyFont_fontStyle
 android.support.compat.R$styleable: int FontFamilyFont_fontWeight
+android.support.coreui.R$attr: int coordinatorLayoutStyle
 android.support.coreui.R$attr: int font
 android.support.coreui.R$attr: int fontProviderAuthority
 android.support.coreui.R$attr: int fontProviderCerts
@@ -129,6 +133,14 @@ android.support.coreui.R$attr: int fontProviderPackage
 android.support.coreui.R$attr: int fontProviderQuery
 android.support.coreui.R$attr: int fontStyle
 android.support.coreui.R$attr: int fontWeight
+android.support.coreui.R$attr: int keylines
+android.support.coreui.R$attr: int layout_anchor
+android.support.coreui.R$attr: int layout_anchorGravity
+android.support.coreui.R$attr: int layout_behavior
+android.support.coreui.R$attr: int layout_dodgeInsetEdges
+android.support.coreui.R$attr: int layout_insetEdge
+android.support.coreui.R$attr: int layout_keyline
+android.support.coreui.R$attr: int statusBarBackground
 android.support.coreui.R$bool: int abc_action_bar_embed_tabs
 android.support.coreui.R$color: int notification_action_color_filter
 android.support.coreui.R$color: int notification_icon_bg_color
@@ -173,25 +185,32 @@ android.support.coreui.R$id: int action_text
 android.support.coreui.R$id: int actions
 android.support.coreui.R$id: int async
 android.support.coreui.R$id: int blocking
+android.support.coreui.R$id: int bottom
 android.support.coreui.R$id: int chronometer
+android.support.coreui.R$id: int end
 android.support.coreui.R$id: int forever
 android.support.coreui.R$id: int icon
 android.support.coreui.R$id: int icon_group
 android.support.coreui.R$id: int info
 android.support.coreui.R$id: int italic
+android.support.coreui.R$id: int left
 android.support.coreui.R$id: int line1
 android.support.coreui.R$id: int line3
+android.support.coreui.R$id: int none
 android.support.coreui.R$id: int normal
 android.support.coreui.R$id: int notification_background
 android.support.coreui.R$id: int notification_main_column
 android.support.coreui.R$id: int notification_main_column_container
+android.support.coreui.R$id: int right
 android.support.coreui.R$id: int right_icon
 android.support.coreui.R$id: int right_side
+android.support.coreui.R$id: int start
 android.support.coreui.R$id: int tag_transition_group
 android.support.coreui.R$id: int text
 android.support.coreui.R$id: int text2
 android.support.coreui.R$id: int time
 android.support.coreui.R$id: int title
+android.support.coreui.R$id: int top
 android.support.coreui.R$integer: int status_bar_notification_info_maxnum
 android.support.coreui.R$layout: int notification_action
 android.support.coreui.R$layout: int notification_action_tombstone
@@ -207,6 +226,18 @@ android.support.coreui.R$style: int TextAppearance_Compat_Notification_Time
 android.support.coreui.R$style: int TextAppearance_Compat_Notification_Title
 android.support.coreui.R$style: int Widget_Compat_NotificationActionContainer
 android.support.coreui.R$style: int Widget_Compat_NotificationActionText
+android.support.coreui.R$style: int Widget_Support_CoordinatorLayout
+android.support.coreui.R$styleable: int[] CoordinatorLayout
+android.support.coreui.R$styleable: int CoordinatorLayout_keylines
+android.support.coreui.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.coreui.R$styleable: int[] CoordinatorLayout_Layout
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.coreui.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.coreui.R$styleable: int[] FontFamily
 android.support.coreui.R$styleable: int FontFamily_fontProviderAuthority
 android.support.coreui.R$styleable: int FontFamily_fontProviderCerts
@@ -332,12 +363,12 @@ android.support.design.R$anim: int abc_slide_in_bottom
 android.support.design.R$anim: int abc_slide_in_top
 android.support.design.R$anim: int abc_slide_out_bottom
 android.support.design.R$anim: int abc_slide_out_top
+android.support.design.R$anim: int abc_tooltip_enter
+android.support.design.R$anim: int abc_tooltip_exit
 android.support.design.R$anim: int design_bottom_sheet_slide_in
 android.support.design.R$anim: int design_bottom_sheet_slide_out
 android.support.design.R$anim: int design_snackbar_in
 android.support.design.R$anim: int design_snackbar_out
-android.support.design.R$anim: int tooltip_enter
-android.support.design.R$anim: int tooltip_exit
 android.support.design.R$animator: int design_appbar_state_list_animator
 android.support.design.R$attr: int actionBarDivider
 android.support.design.R$attr: int actionBarItemBackground
@@ -409,6 +440,7 @@ android.support.design.R$attr: int buttonBarNeutralButtonStyle
 android.support.design.R$attr: int buttonBarPositiveButtonStyle
 android.support.design.R$attr: int buttonBarStyle
 android.support.design.R$attr: int buttonGravity
+android.support.design.R$attr: int buttonIconDimen
 android.support.design.R$attr: int buttonPanelSideLayout
 android.support.design.R$attr: int buttonStyle
 android.support.design.R$attr: int buttonStyleSmall
@@ -443,6 +475,7 @@ android.support.design.R$attr: int contentInsetStart
 android.support.design.R$attr: int contentInsetStartWithNavigation
 android.support.design.R$attr: int contentScrim
 android.support.design.R$attr: int controlBackground
+android.support.design.R$attr: int coordinatorLayoutStyle
 android.support.design.R$attr: int counterEnabled
 android.support.design.R$attr: int counterMaxLength
 android.support.design.R$attr: int counterOverflowTextAppearance
@@ -475,6 +508,7 @@ android.support.design.R$attr: int expandedTitleMarginEnd
 android.support.design.R$attr: int expandedTitleMarginStart
 android.support.design.R$attr: int expandedTitleMarginTop
 android.support.design.R$attr: int expandedTitleTextAppearance
+android.support.design.R$attr: int fabCustomSize
 android.support.design.R$attr: int fabSize
 android.support.design.R$attr: int fastScrollEnabled
 android.support.design.R$attr: int fastScrollHorizontalThumbDrawable
@@ -674,6 +708,7 @@ android.support.design.R$attr: int track
 android.support.design.R$attr: int trackTint
 android.support.design.R$attr: int trackTintMode
 android.support.design.R$attr: int useCompatPadding
+android.support.design.R$attr: int viewInflaterClass
 android.support.design.R$attr: int voiceIcon
 android.support.design.R$attr: int windowActionBar
 android.support.design.R$attr: int windowActionBarOverlay
@@ -688,7 +723,6 @@ android.support.design.R$attr: int windowNoTitle
 android.support.design.R$bool: int abc_action_bar_embed_tabs
 android.support.design.R$bool: int abc_allow_stacked_button_bar
 android.support.design.R$bool: int abc_config_actionMenuItemAllCaps
-android.support.design.R$bool: int abc_config_closeDialogWhenTouchOutside
 android.support.design.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
 android.support.design.R$color: int abc_background_cache_hint_selector_material_dark
 android.support.design.R$color: int abc_background_cache_hint_selector_material_light
@@ -803,6 +837,7 @@ android.support.design.R$dimen: int abc_action_button_min_height_material
 android.support.design.R$dimen: int abc_action_button_min_width_material
 android.support.design.R$dimen: int abc_action_button_min_width_overflow_material
 android.support.design.R$dimen: int abc_alert_dialog_button_bar_height
+android.support.design.R$dimen: int abc_alert_dialog_button_dimen
 android.support.design.R$dimen: int abc_button_inset_horizontal_material
 android.support.design.R$dimen: int abc_button_inset_vertical_material
 android.support.design.R$dimen: int abc_button_padding_horizontal_material
@@ -1165,6 +1200,7 @@ android.support.design.R$id: int status_bar_latest_event_content
 android.support.design.R$id: int submenuarrow
 android.support.design.R$id: int submit_area
 android.support.design.R$id: int tabMode
+android.support.design.R$id: int tag_transition_group
 android.support.design.R$id: int text
 android.support.design.R$id: int text2
 android.support.design.R$id: int textSpacerNoButtons
@@ -1225,6 +1261,7 @@ android.support.design.R$layout: int abc_screen_toolbar
 android.support.design.R$layout: int abc_search_dropdown_item_icons_2line
 android.support.design.R$layout: int abc_search_view
 android.support.design.R$layout: int abc_select_dialog_material
+android.support.design.R$layout: int abc_tooltip
 android.support.design.R$layout: int design_bottom_navigation_item
 android.support.design.R$layout: int design_bottom_sheet_dialog
 android.support.design.R$layout: int design_layout_snackbar
@@ -1258,7 +1295,6 @@ android.support.design.R$layout: int select_dialog_item_material
 android.support.design.R$layout: int select_dialog_multichoice_material
 android.support.design.R$layout: int select_dialog_singlechoice_material
 android.support.design.R$layout: int support_simple_spinner_dropdown_item
-android.support.design.R$layout: int tooltip
 android.support.design.R$string: int abc_action_bar_home_description
 android.support.design.R$string: int abc_action_bar_up_description
 android.support.design.R$string: int abc_action_menu_overflow_description
@@ -1380,11 +1416,6 @@ android.support.design.R$style: int Base_Theme_AppCompat_Light_DialogWhenLarge
 android.support.design.R$style: int Base_Theme_AppCompat_Light_Dialog_Alert
 android.support.design.R$style: int Base_Theme_AppCompat_Light_Dialog_FixedSize
 android.support.design.R$style: int Base_Theme_AppCompat_Light_Dialog_MinWidth
-android.support.design.R$style: int Base_V11_ThemeOverlay_AppCompat_Dialog
-android.support.design.R$style: int Base_V11_Theme_AppCompat_Dialog
-android.support.design.R$style: int Base_V11_Theme_AppCompat_Light_Dialog
-android.support.design.R$style: int Base_V12_Widget_AppCompat_AutoCompleteTextView
-android.support.design.R$style: int Base_V12_Widget_AppCompat_EditText
 android.support.design.R$style: int Base_V14_Widget_Design_AppBarLayout
 android.support.design.R$style: int Base_V21_ThemeOverlay_AppCompat_Dialog
 android.support.design.R$style: int Base_V21_Theme_AppCompat
@@ -1472,10 +1503,6 @@ android.support.design.R$style: int Platform_AppCompat_Light
 android.support.design.R$style: int Platform_ThemeOverlay_AppCompat
 android.support.design.R$style: int Platform_ThemeOverlay_AppCompat_Dark
 android.support.design.R$style: int Platform_ThemeOverlay_AppCompat_Light
-android.support.design.R$style: int Platform_V11_AppCompat
-android.support.design.R$style: int Platform_V11_AppCompat_Light
-android.support.design.R$style: int Platform_V14_AppCompat
-android.support.design.R$style: int Platform_V14_AppCompat_Light
 android.support.design.R$style: int Platform_V21_AppCompat
 android.support.design.R$style: int Platform_V21_AppCompat_Light
 android.support.design.R$style: int Platform_V25_AppCompat
@@ -1682,6 +1709,7 @@ android.support.design.R$style: int Widget_Design_ScrimInsetsFrameLayout
 android.support.design.R$style: int Widget_Design_Snackbar
 android.support.design.R$style: int Widget_Design_TabLayout
 android.support.design.R$style: int Widget_Design_TextInputLayout
+android.support.design.R$style: int Widget_Support_CoordinatorLayout
 android.support.design.R$styleable: int[] ActionBar
 android.support.design.R$styleable: int ActionBar_background
 android.support.design.R$styleable: int ActionBar_backgroundSplit
@@ -1728,6 +1756,7 @@ android.support.design.R$styleable: int ActivityChooserView_expandActivityOverfl
 android.support.design.R$styleable: int ActivityChooserView_initialActivityCount
 android.support.design.R$styleable: int[] AlertDialog
 android.support.design.R$styleable: int AlertDialog_android_layout
+android.support.design.R$styleable: int AlertDialog_buttonIconDimen
 android.support.design.R$styleable: int AlertDialog_buttonPanelSideLayout
 android.support.design.R$styleable: int AlertDialog_listItemLayout
 android.support.design.R$styleable: int AlertDialog_listLayout
@@ -1883,6 +1912,7 @@ android.support.design.R$styleable: int AppCompatTheme_toolbarNavigationButtonSt
 android.support.design.R$styleable: int AppCompatTheme_toolbarStyle
 android.support.design.R$styleable: int AppCompatTheme_tooltipForegroundColor
 android.support.design.R$styleable: int AppCompatTheme_tooltipFrameBackground
+android.support.design.R$styleable: int AppCompatTheme_viewInflaterClass
 android.support.design.R$styleable: int AppCompatTheme_windowActionBar
 android.support.design.R$styleable: int AppCompatTheme_windowActionBarOverlay
 android.support.design.R$styleable: int AppCompatTheme_windowActionModeOverlay
@@ -1962,6 +1992,7 @@ android.support.design.R$styleable: int FloatingActionButton_backgroundTint
 android.support.design.R$styleable: int FloatingActionButton_backgroundTintMode
 android.support.design.R$styleable: int FloatingActionButton_borderWidth
 android.support.design.R$styleable: int FloatingActionButton_elevation
+android.support.design.R$styleable: int FloatingActionButton_fabCustomSize
 android.support.design.R$styleable: int FloatingActionButton_fabSize
 android.support.design.R$styleable: int FloatingActionButton_pressedTranslationZ
 android.support.design.R$styleable: int FloatingActionButton_rippleColor
@@ -2416,6 +2447,8 @@ android.support.design.widget.FloatingActionButton: void setUseCompatPadding(boo
 android.support.design.widget.FloatingActionButton: boolean getUseCompatPadding()
 android.support.design.widget.FloatingActionButton: void setSize(int)
 android.support.design.widget.FloatingActionButton: int getSize()
+android.support.design.widget.FloatingActionButton: void setCustomSize(int)
+android.support.design.widget.FloatingActionButton: int getCustomSize()
 android.support.design.widget.FloatingActionButton: int getSizeDimension()
 android.support.design.widget.FloatingActionButton: android.graphics.drawable.Drawable getContentBackground()
 android.support.design.widget.FloatingActionButton: float getCompatElevation()
@@ -2509,6 +2542,7 @@ android.support.design.widget.VisibilityAwareImageButton: VisibilityAwareImageBu
 android.support.design.widget.VisibilityAwareImageButton: VisibilityAwareImageButton(android.content.Context,android.util.AttributeSet,int)
 android.support.design.widget.VisibilityAwareImageButton: void setVisibility(int)
 android.support.design.widget.VisibilityAwareImageButton: int getUserSetVisibility()
+android.support.fragment.R$attr: int coordinatorLayoutStyle
 android.support.fragment.R$attr: int font
 android.support.fragment.R$attr: int fontProviderAuthority
 android.support.fragment.R$attr: int fontProviderCerts
@@ -2518,6 +2552,14 @@ android.support.fragment.R$attr: int fontProviderPackage
 android.support.fragment.R$attr: int fontProviderQuery
 android.support.fragment.R$attr: int fontStyle
 android.support.fragment.R$attr: int fontWeight
+android.support.fragment.R$attr: int keylines
+android.support.fragment.R$attr: int layout_anchor
+android.support.fragment.R$attr: int layout_anchorGravity
+android.support.fragment.R$attr: int layout_behavior
+android.support.fragment.R$attr: int layout_dodgeInsetEdges
+android.support.fragment.R$attr: int layout_insetEdge
+android.support.fragment.R$attr: int layout_keyline
+android.support.fragment.R$attr: int statusBarBackground
 android.support.fragment.R$bool: int abc_action_bar_embed_tabs
 android.support.fragment.R$color: int notification_action_color_filter
 android.support.fragment.R$color: int notification_icon_bg_color
@@ -2562,25 +2604,32 @@ android.support.fragment.R$id: int action_text
 android.support.fragment.R$id: int actions
 android.support.fragment.R$id: int async
 android.support.fragment.R$id: int blocking
+android.support.fragment.R$id: int bottom
 android.support.fragment.R$id: int chronometer
+android.support.fragment.R$id: int end
 android.support.fragment.R$id: int forever
 android.support.fragment.R$id: int icon
 android.support.fragment.R$id: int icon_group
 android.support.fragment.R$id: int info
 android.support.fragment.R$id: int italic
+android.support.fragment.R$id: int left
 android.support.fragment.R$id: int line1
 android.support.fragment.R$id: int line3
+android.support.fragment.R$id: int none
 android.support.fragment.R$id: int normal
 android.support.fragment.R$id: int notification_background
 android.support.fragment.R$id: int notification_main_column
 android.support.fragment.R$id: int notification_main_column_container
+android.support.fragment.R$id: int right
 android.support.fragment.R$id: int right_icon
 android.support.fragment.R$id: int right_side
+android.support.fragment.R$id: int start
 android.support.fragment.R$id: int tag_transition_group
 android.support.fragment.R$id: int text
 android.support.fragment.R$id: int text2
 android.support.fragment.R$id: int time
 android.support.fragment.R$id: int title
+android.support.fragment.R$id: int top
 android.support.fragment.R$integer: int status_bar_notification_info_maxnum
 android.support.fragment.R$layout: int notification_action
 android.support.fragment.R$layout: int notification_action_tombstone
@@ -2596,6 +2645,18 @@ android.support.fragment.R$style: int TextAppearance_Compat_Notification_Time
 android.support.fragment.R$style: int TextAppearance_Compat_Notification_Title
 android.support.fragment.R$style: int Widget_Compat_NotificationActionContainer
 android.support.fragment.R$style: int Widget_Compat_NotificationActionText
+android.support.fragment.R$style: int Widget_Support_CoordinatorLayout
+android.support.fragment.R$styleable: int[] CoordinatorLayout
+android.support.fragment.R$styleable: int CoordinatorLayout_keylines
+android.support.fragment.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.fragment.R$styleable: int[] CoordinatorLayout_Layout
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.fragment.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.fragment.R$styleable: int[] FontFamily
 android.support.fragment.R$styleable: int FontFamily_fontProviderAuthority
 android.support.fragment.R$styleable: int FontFamily_fontProviderCerts
@@ -2752,6 +2813,7 @@ android.support.graphics.drawable.VectorDrawableCompat$VPathRenderer: void setAl
 android.support.graphics.drawable.VectorDrawableCompat$VPathRenderer: float getAlpha()
 android.support.graphics.drawable.VectorDrawableCompat$VectorDrawableCompatState: int getChangingConfigurations()
 android.support.graphics.drawable.VectorDrawableCompat$VectorDrawableDelegateState: int getChangingConfigurations()
+android.support.graphics.drawable.animated.R$attr: int coordinatorLayoutStyle
 android.support.graphics.drawable.animated.R$attr: int font
 android.support.graphics.drawable.animated.R$attr: int fontProviderAuthority
 android.support.graphics.drawable.animated.R$attr: int fontProviderCerts
@@ -2761,6 +2823,14 @@ android.support.graphics.drawable.animated.R$attr: int fontProviderPackage
 android.support.graphics.drawable.animated.R$attr: int fontProviderQuery
 android.support.graphics.drawable.animated.R$attr: int fontStyle
 android.support.graphics.drawable.animated.R$attr: int fontWeight
+android.support.graphics.drawable.animated.R$attr: int keylines
+android.support.graphics.drawable.animated.R$attr: int layout_anchor
+android.support.graphics.drawable.animated.R$attr: int layout_anchorGravity
+android.support.graphics.drawable.animated.R$attr: int layout_behavior
+android.support.graphics.drawable.animated.R$attr: int layout_dodgeInsetEdges
+android.support.graphics.drawable.animated.R$attr: int layout_insetEdge
+android.support.graphics.drawable.animated.R$attr: int layout_keyline
+android.support.graphics.drawable.animated.R$attr: int statusBarBackground
 android.support.graphics.drawable.animated.R$bool: int abc_action_bar_embed_tabs
 android.support.graphics.drawable.animated.R$color: int notification_action_color_filter
 android.support.graphics.drawable.animated.R$color: int notification_icon_bg_color
@@ -2805,25 +2875,32 @@ android.support.graphics.drawable.animated.R$id: int action_text
 android.support.graphics.drawable.animated.R$id: int actions
 android.support.graphics.drawable.animated.R$id: int async
 android.support.graphics.drawable.animated.R$id: int blocking
+android.support.graphics.drawable.animated.R$id: int bottom
 android.support.graphics.drawable.animated.R$id: int chronometer
+android.support.graphics.drawable.animated.R$id: int end
 android.support.graphics.drawable.animated.R$id: int forever
 android.support.graphics.drawable.animated.R$id: int icon
 android.support.graphics.drawable.animated.R$id: int icon_group
 android.support.graphics.drawable.animated.R$id: int info
 android.support.graphics.drawable.animated.R$id: int italic
+android.support.graphics.drawable.animated.R$id: int left
 android.support.graphics.drawable.animated.R$id: int line1
 android.support.graphics.drawable.animated.R$id: int line3
+android.support.graphics.drawable.animated.R$id: int none
 android.support.graphics.drawable.animated.R$id: int normal
 android.support.graphics.drawable.animated.R$id: int notification_background
 android.support.graphics.drawable.animated.R$id: int notification_main_column
 android.support.graphics.drawable.animated.R$id: int notification_main_column_container
+android.support.graphics.drawable.animated.R$id: int right
 android.support.graphics.drawable.animated.R$id: int right_icon
 android.support.graphics.drawable.animated.R$id: int right_side
+android.support.graphics.drawable.animated.R$id: int start
 android.support.graphics.drawable.animated.R$id: int tag_transition_group
 android.support.graphics.drawable.animated.R$id: int text
 android.support.graphics.drawable.animated.R$id: int text2
 android.support.graphics.drawable.animated.R$id: int time
 android.support.graphics.drawable.animated.R$id: int title
+android.support.graphics.drawable.animated.R$id: int top
 android.support.graphics.drawable.animated.R$integer: int status_bar_notification_info_maxnum
 android.support.graphics.drawable.animated.R$layout: int notification_action
 android.support.graphics.drawable.animated.R$layout: int notification_action_tombstone
@@ -2839,6 +2916,18 @@ android.support.graphics.drawable.animated.R$style: int TextAppearance_Compat_No
 android.support.graphics.drawable.animated.R$style: int TextAppearance_Compat_Notification_Title
 android.support.graphics.drawable.animated.R$style: int Widget_Compat_NotificationActionContainer
 android.support.graphics.drawable.animated.R$style: int Widget_Compat_NotificationActionText
+android.support.graphics.drawable.animated.R$style: int Widget_Support_CoordinatorLayout
+android.support.graphics.drawable.animated.R$styleable: int[] CoordinatorLayout
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_keylines
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.graphics.drawable.animated.R$styleable: int[] CoordinatorLayout_Layout
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.graphics.drawable.animated.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.graphics.drawable.animated.R$styleable: int[] FontFamily
 android.support.graphics.drawable.animated.R$styleable: int FontFamily_fontProviderAuthority
 android.support.graphics.drawable.animated.R$styleable: int FontFamily_fontProviderCerts
@@ -2928,6 +3017,7 @@ android.support.mediacompat.R$id: int notification_main_column_container
 android.support.mediacompat.R$id: int right_icon
 android.support.mediacompat.R$id: int right_side
 android.support.mediacompat.R$id: int status_bar_latest_event_content
+android.support.mediacompat.R$id: int tag_transition_group
 android.support.mediacompat.R$id: int text
 android.support.mediacompat.R$id: int text2
 android.support.mediacompat.R$id: int time
@@ -2976,6 +3066,8 @@ android.support.mediacompat.R$styleable: int FontFamilyFont_android_fontStyle
 android.support.mediacompat.R$styleable: int FontFamilyFont_font
 android.support.mediacompat.R$styleable: int FontFamilyFont_fontStyle
 android.support.mediacompat.R$styleable: int FontFamilyFont_fontWeight
+android.support.transition.ChangeBounds$7: android.support.transition.ChangeBounds$ViewBounds mViewBounds
+android.support.transition.FragmentTransitionSupport
 android.support.transition.R$attr: int font
 android.support.transition.R$attr: int fontProviderAuthority
 android.support.transition.R$attr: int fontProviderCerts
@@ -2988,10 +3080,7 @@ android.support.transition.R$attr: int fontWeight
 android.support.transition.R$bool: int abc_action_bar_embed_tabs
 android.support.transition.R$color: int notification_action_color_filter
 android.support.transition.R$color: int notification_icon_bg_color
-android.support.transition.R$color: int notification_material_background_media_default_color
-android.support.transition.R$color: int primary_text_default_material_dark
 android.support.transition.R$color: int ripple_material_light
-android.support.transition.R$color: int secondary_text_default_material_dark
 android.support.transition.R$color: int secondary_text_default_material_light
 android.support.transition.R$dimen: int compat_button_inset_horizontal_material
 android.support.transition.R$dimen: int compat_button_inset_vertical_material
@@ -3025,7 +3114,6 @@ android.support.transition.R$drawable: int notification_template_icon_bg
 android.support.transition.R$drawable: int notification_template_icon_low_bg
 android.support.transition.R$drawable: int notification_tile_bg
 android.support.transition.R$drawable: int notify_panel_notification_icon_bg
-android.support.transition.R$id: int action0
 android.support.transition.R$id: int action_container
 android.support.transition.R$id: int action_divider
 android.support.transition.R$id: int action_image
@@ -3033,9 +3121,7 @@ android.support.transition.R$id: int action_text
 android.support.transition.R$id: int actions
 android.support.transition.R$id: int async
 android.support.transition.R$id: int blocking
-android.support.transition.R$id: int cancel_action
 android.support.transition.R$id: int chronometer
-android.support.transition.R$id: int end_padder
 android.support.transition.R$id: int forever
 android.support.transition.R$id: int ghost_view
 android.support.transition.R$id: int icon
@@ -3044,7 +3130,6 @@ android.support.transition.R$id: int info
 android.support.transition.R$id: int italic
 android.support.transition.R$id: int line1
 android.support.transition.R$id: int line3
-android.support.transition.R$id: int media_actions
 android.support.transition.R$id: int normal
 android.support.transition.R$id: int notification_background
 android.support.transition.R$id: int notification_main_column
@@ -3055,7 +3140,7 @@ android.support.transition.R$id: int right_side
 android.support.transition.R$id: int save_image_matrix
 android.support.transition.R$id: int save_non_transition_alpha
 android.support.transition.R$id: int save_scale_type
-android.support.transition.R$id: int status_bar_latest_event_content
+android.support.transition.R$id: int tag_transition_group
 android.support.transition.R$id: int text
 android.support.transition.R$id: int text2
 android.support.transition.R$id: int time
@@ -3065,34 +3150,19 @@ android.support.transition.R$id: int transition_layout_save
 android.support.transition.R$id: int transition_position
 android.support.transition.R$id: int transition_scene_layoutid_cache
 android.support.transition.R$id: int transition_transform
-android.support.transition.R$integer: int cancel_button_image_alpha
 android.support.transition.R$integer: int status_bar_notification_info_maxnum
 android.support.transition.R$layout: int notification_action
 android.support.transition.R$layout: int notification_action_tombstone
-android.support.transition.R$layout: int notification_media_action
-android.support.transition.R$layout: int notification_media_cancel_action
-android.support.transition.R$layout: int notification_template_big_media
-android.support.transition.R$layout: int notification_template_big_media_custom
-android.support.transition.R$layout: int notification_template_big_media_narrow
-android.support.transition.R$layout: int notification_template_big_media_narrow_custom
 android.support.transition.R$layout: int notification_template_custom_big
 android.support.transition.R$layout: int notification_template_icon_group
-android.support.transition.R$layout: int notification_template_lines_media
-android.support.transition.R$layout: int notification_template_media
-android.support.transition.R$layout: int notification_template_media_custom
 android.support.transition.R$layout: int notification_template_part_chronometer
 android.support.transition.R$layout: int notification_template_part_time
 android.support.transition.R$string: int status_bar_notification_info_overflow
 android.support.transition.R$style: int TextAppearance_Compat_Notification
 android.support.transition.R$style: int TextAppearance_Compat_Notification_Info
-android.support.transition.R$style: int TextAppearance_Compat_Notification_Info_Media
 android.support.transition.R$style: int TextAppearance_Compat_Notification_Line2
-android.support.transition.R$style: int TextAppearance_Compat_Notification_Line2_Media
-android.support.transition.R$style: int TextAppearance_Compat_Notification_Media
 android.support.transition.R$style: int TextAppearance_Compat_Notification_Time
-android.support.transition.R$style: int TextAppearance_Compat_Notification_Time_Media
 android.support.transition.R$style: int TextAppearance_Compat_Notification_Title
-android.support.transition.R$style: int TextAppearance_Compat_Notification_Title_Media
 android.support.transition.R$style: int Widget_Compat_NotificationActionContainer
 android.support.transition.R$style: int Widget_Compat_NotificationActionText
 android.support.transition.R$styleable: int[] FontFamily
@@ -3109,6 +3179,7 @@ android.support.transition.R$styleable: int FontFamilyFont_android_fontStyle
 android.support.transition.R$styleable: int FontFamilyFont_font
 android.support.transition.R$styleable: int FontFamilyFont_fontStyle
 android.support.transition.R$styleable: int FontFamilyFont_fontWeight
+android.support.v4.R$attr: int coordinatorLayoutStyle
 android.support.v4.R$attr: int font
 android.support.v4.R$attr: int fontProviderAuthority
 android.support.v4.R$attr: int fontProviderCerts
@@ -3118,6 +3189,14 @@ android.support.v4.R$attr: int fontProviderPackage
 android.support.v4.R$attr: int fontProviderQuery
 android.support.v4.R$attr: int fontStyle
 android.support.v4.R$attr: int fontWeight
+android.support.v4.R$attr: int keylines
+android.support.v4.R$attr: int layout_anchor
+android.support.v4.R$attr: int layout_anchorGravity
+android.support.v4.R$attr: int layout_behavior
+android.support.v4.R$attr: int layout_dodgeInsetEdges
+android.support.v4.R$attr: int layout_insetEdge
+android.support.v4.R$attr: int layout_keyline
+android.support.v4.R$attr: int statusBarBackground
 android.support.v4.R$bool: int abc_action_bar_embed_tabs
 android.support.v4.R$color: int notification_action_color_filter
 android.support.v4.R$color: int notification_icon_bg_color
@@ -3166,28 +3245,36 @@ android.support.v4.R$id: int action_text
 android.support.v4.R$id: int actions
 android.support.v4.R$id: int async
 android.support.v4.R$id: int blocking
+android.support.v4.R$id: int bottom
 android.support.v4.R$id: int cancel_action
 android.support.v4.R$id: int chronometer
+android.support.v4.R$id: int end
 android.support.v4.R$id: int end_padder
 android.support.v4.R$id: int forever
 android.support.v4.R$id: int icon
 android.support.v4.R$id: int icon_group
 android.support.v4.R$id: int info
 android.support.v4.R$id: int italic
+android.support.v4.R$id: int left
 android.support.v4.R$id: int line1
 android.support.v4.R$id: int line3
 android.support.v4.R$id: int media_actions
+android.support.v4.R$id: int none
 android.support.v4.R$id: int normal
 android.support.v4.R$id: int notification_background
 android.support.v4.R$id: int notification_main_column
 android.support.v4.R$id: int notification_main_column_container
+android.support.v4.R$id: int right
 android.support.v4.R$id: int right_icon
 android.support.v4.R$id: int right_side
+android.support.v4.R$id: int start
 android.support.v4.R$id: int status_bar_latest_event_content
+android.support.v4.R$id: int tag_transition_group
 android.support.v4.R$id: int text
 android.support.v4.R$id: int text2
 android.support.v4.R$id: int time
 android.support.v4.R$id: int title
+android.support.v4.R$id: int top
 android.support.v4.R$integer: int cancel_button_image_alpha
 android.support.v4.R$integer: int status_bar_notification_info_maxnum
 android.support.v4.R$layout: int notification_action
@@ -3218,6 +3305,18 @@ android.support.v4.R$style: int TextAppearance_Compat_Notification_Title
 android.support.v4.R$style: int TextAppearance_Compat_Notification_Title_Media
 android.support.v4.R$style: int Widget_Compat_NotificationActionContainer
 android.support.v4.R$style: int Widget_Compat_NotificationActionText
+android.support.v4.R$style: int Widget_Support_CoordinatorLayout
+android.support.v4.R$styleable: int[] CoordinatorLayout
+android.support.v4.R$styleable: int CoordinatorLayout_keylines
+android.support.v4.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.v4.R$styleable: int[] CoordinatorLayout_Layout
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.v4.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.v4.R$styleable: int[] FontFamily
 android.support.v4.R$styleable: int FontFamily_fontProviderAuthority
 android.support.v4.R$styleable: int FontFamily_fontProviderCerts
@@ -3241,6 +3340,8 @@ android.support.v4.app.FragmentManagerState: android.os.Parcelable$Creator CREAT
 android.support.v4.app.FragmentState: android.os.Parcelable$Creator CREATOR
 android.support.v4.app.FragmentTabHost: void setOnTabChangedListener(android.widget.TabHost$OnTabChangeListener)
 android.support.v4.app.FragmentTabHost$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v4.app.LoaderManagerImpl$LoaderViewModel
+android.support.v4.app.LoaderManagerImpl$LoaderViewModel: LoaderManagerImpl$LoaderViewModel()
 android.support.v4.app.SupportActivity: SupportActivity()
 android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status[] values()
 android.support.v4.content.ModernAsyncTask$Status: android.support.v4.content.ModernAsyncTask$Status valueOf(java.lang.String)
@@ -3347,10 +3448,6 @@ android.support.v4.widget.SlidingPaneLayout: void setShadowResource(int)
 android.support.v4.widget.SlidingPaneLayout: void setShadowResourceLeft(int)
 android.support.v4.widget.SlidingPaneLayout: void setShadowResourceRight(int)
 android.support.v4.widget.SlidingPaneLayout$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v4.widget.Space
-android.support.v4.widget.Space: Space(android.content.Context,android.util.AttributeSet,int)
-android.support.v4.widget.Space: Space(android.content.Context,android.util.AttributeSet)
-android.support.v4.widget.Space: Space(android.content.Context)
 android.support.v4.widget.SwipeRefreshLayout: void setEnabled(boolean)
 android.support.v4.widget.SwipeRefreshLayout: void setColorViewAlpha(int)
 android.support.v4.widget.SwipeRefreshLayout: int getProgressViewStartOffset()
@@ -3379,6 +3476,7 @@ android.support.v7.app.AlertController$RecycleListView: AlertController$RecycleL
 android.support.v7.app.AppCompatActivity: AppCompatActivity()
 android.support.v7.app.AppCompatActivity: void setContentView(android.view.View)
 android.support.v7.app.AppCompatDelegateImplV9$PanelFeatureState$SavedState: android.os.Parcelable$Creator CREATOR
+android.support.v7.app.AppCompatViewInflater
 android.support.v7.app.AppCompatViewInflater$DeclaredOnClickListener: void onClick(android.view.View)
 android.support.v7.appcompat.R$anim: int abc_fade_in
 android.support.v7.appcompat.R$anim: int abc_fade_out
@@ -3390,8 +3488,8 @@ android.support.v7.appcompat.R$anim: int abc_slide_in_bottom
 android.support.v7.appcompat.R$anim: int abc_slide_in_top
 android.support.v7.appcompat.R$anim: int abc_slide_out_bottom
 android.support.v7.appcompat.R$anim: int abc_slide_out_top
-android.support.v7.appcompat.R$anim: int tooltip_enter
-android.support.v7.appcompat.R$anim: int tooltip_exit
+android.support.v7.appcompat.R$anim: int abc_tooltip_enter
+android.support.v7.appcompat.R$anim: int abc_tooltip_exit
 android.support.v7.appcompat.R$attr: int actionBarDivider
 android.support.v7.appcompat.R$attr: int actionBarItemBackground
 android.support.v7.appcompat.R$attr: int actionBarPopupTheme
@@ -3454,6 +3552,7 @@ android.support.v7.appcompat.R$attr: int buttonBarNeutralButtonStyle
 android.support.v7.appcompat.R$attr: int buttonBarPositiveButtonStyle
 android.support.v7.appcompat.R$attr: int buttonBarStyle
 android.support.v7.appcompat.R$attr: int buttonGravity
+android.support.v7.appcompat.R$attr: int buttonIconDimen
 android.support.v7.appcompat.R$attr: int buttonPanelSideLayout
 android.support.v7.appcompat.R$attr: int buttonStyle
 android.support.v7.appcompat.R$attr: int buttonStyleSmall
@@ -3485,6 +3584,7 @@ android.support.v7.appcompat.R$attr: int contentInsetRight
 android.support.v7.appcompat.R$attr: int contentInsetStart
 android.support.v7.appcompat.R$attr: int contentInsetStartWithNavigation
 android.support.v7.appcompat.R$attr: int controlBackground
+android.support.v7.appcompat.R$attr: int coordinatorLayoutStyle
 android.support.v7.appcompat.R$attr: int customNavigationLayout
 android.support.v7.appcompat.R$attr: int defaultQueryHint
 android.support.v7.appcompat.R$attr: int dialogPreferredPadding
@@ -3528,7 +3628,14 @@ android.support.v7.appcompat.R$attr: int indeterminateProgressStyle
 android.support.v7.appcompat.R$attr: int initialActivityCount
 android.support.v7.appcompat.R$attr: int isLightTheme
 android.support.v7.appcompat.R$attr: int itemPadding
+android.support.v7.appcompat.R$attr: int keylines
 android.support.v7.appcompat.R$attr: int layout
+android.support.v7.appcompat.R$attr: int layout_anchor
+android.support.v7.appcompat.R$attr: int layout_anchorGravity
+android.support.v7.appcompat.R$attr: int layout_behavior
+android.support.v7.appcompat.R$attr: int layout_dodgeInsetEdges
+android.support.v7.appcompat.R$attr: int layout_insetEdge
+android.support.v7.appcompat.R$attr: int layout_keyline
 android.support.v7.appcompat.R$attr: int listChoiceBackgroundIndicator
 android.support.v7.appcompat.R$attr: int listDividerAlertDialog
 android.support.v7.appcompat.R$attr: int listItemLayout
@@ -3586,6 +3693,7 @@ android.support.v7.appcompat.R$attr: int spinnerStyle
 android.support.v7.appcompat.R$attr: int splitTrack
 android.support.v7.appcompat.R$attr: int srcCompat
 android.support.v7.appcompat.R$attr: int state_above_anchor
+android.support.v7.appcompat.R$attr: int statusBarBackground
 android.support.v7.appcompat.R$attr: int subMenuArrow
 android.support.v7.appcompat.R$attr: int submitBackground
 android.support.v7.appcompat.R$attr: int subtitle
@@ -3636,6 +3744,7 @@ android.support.v7.appcompat.R$attr: int tooltipText
 android.support.v7.appcompat.R$attr: int track
 android.support.v7.appcompat.R$attr: int trackTint
 android.support.v7.appcompat.R$attr: int trackTintMode
+android.support.v7.appcompat.R$attr: int viewInflaterClass
 android.support.v7.appcompat.R$attr: int voiceIcon
 android.support.v7.appcompat.R$attr: int windowActionBar
 android.support.v7.appcompat.R$attr: int windowActionBarOverlay
@@ -3650,7 +3759,6 @@ android.support.v7.appcompat.R$attr: int windowNoTitle
 android.support.v7.appcompat.R$bool: int abc_action_bar_embed_tabs
 android.support.v7.appcompat.R$bool: int abc_allow_stacked_button_bar
 android.support.v7.appcompat.R$bool: int abc_config_actionMenuItemAllCaps
-android.support.v7.appcompat.R$bool: int abc_config_closeDialogWhenTouchOutside
 android.support.v7.appcompat.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
 android.support.v7.appcompat.R$color: int abc_background_cache_hint_selector_material_dark
 android.support.v7.appcompat.R$color: int abc_background_cache_hint_selector_material_light
@@ -3753,6 +3861,7 @@ android.support.v7.appcompat.R$dimen: int abc_action_button_min_height_material
 android.support.v7.appcompat.R$dimen: int abc_action_button_min_width_material
 android.support.v7.appcompat.R$dimen: int abc_action_button_min_width_overflow_material
 android.support.v7.appcompat.R$dimen: int abc_alert_dialog_button_bar_height
+android.support.v7.appcompat.R$dimen: int abc_alert_dialog_button_dimen
 android.support.v7.appcompat.R$dimen: int abc_button_inset_horizontal_material
 android.support.v7.appcompat.R$dimen: int abc_button_inset_vertical_material
 android.support.v7.appcompat.R$dimen: int abc_button_padding_horizontal_material
@@ -3966,6 +4075,7 @@ android.support.v7.appcompat.R$id: int add
 android.support.v7.appcompat.R$id: int alertTitle
 android.support.v7.appcompat.R$id: int async
 android.support.v7.appcompat.R$id: int blocking
+android.support.v7.appcompat.R$id: int bottom
 android.support.v7.appcompat.R$id: int buttonPanel
 android.support.v7.appcompat.R$id: int checkbox
 android.support.v7.appcompat.R$id: int chronometer
@@ -3975,6 +4085,7 @@ android.support.v7.appcompat.R$id: int customPanel
 android.support.v7.appcompat.R$id: int decor_content_parent
 android.support.v7.appcompat.R$id: int default_activity_button
 android.support.v7.appcompat.R$id: int edit_query
+android.support.v7.appcompat.R$id: int end
 android.support.v7.appcompat.R$id: int expand_activities_button
 android.support.v7.appcompat.R$id: int expanded_menu
 android.support.v7.appcompat.R$id: int forever
@@ -3984,6 +4095,7 @@ android.support.v7.appcompat.R$id: int icon_group
 android.support.v7.appcompat.R$id: int image
 android.support.v7.appcompat.R$id: int info
 android.support.v7.appcompat.R$id: int italic
+android.support.v7.appcompat.R$id: int left
 android.support.v7.appcompat.R$id: int line1
 android.support.v7.appcompat.R$id: int line3
 android.support.v7.appcompat.R$id: int listMode
@@ -3999,6 +4111,7 @@ android.support.v7.appcompat.R$id: int parentPanel
 android.support.v7.appcompat.R$id: int progress_circular
 android.support.v7.appcompat.R$id: int progress_horizontal
 android.support.v7.appcompat.R$id: int radio
+android.support.v7.appcompat.R$id: int right
 android.support.v7.appcompat.R$id: int right_icon
 android.support.v7.appcompat.R$id: int right_side
 android.support.v7.appcompat.R$id: int screen
@@ -4022,6 +4135,7 @@ android.support.v7.appcompat.R$id: int split_action_bar
 android.support.v7.appcompat.R$id: int src_atop
 android.support.v7.appcompat.R$id: int src_in
 android.support.v7.appcompat.R$id: int src_over
+android.support.v7.appcompat.R$id: int start
 android.support.v7.appcompat.R$id: int submenuarrow
 android.support.v7.appcompat.R$id: int submit_area
 android.support.v7.appcompat.R$id: int tabMode
@@ -4034,6 +4148,7 @@ android.support.v7.appcompat.R$id: int time
 android.support.v7.appcompat.R$id: int title
 android.support.v7.appcompat.R$id: int titleDividerNoCustom
 android.support.v7.appcompat.R$id: int title_template
+android.support.v7.appcompat.R$id: int top
 android.support.v7.appcompat.R$id: int topPanel
 android.support.v7.appcompat.R$id: int uniform
 android.support.v7.appcompat.R$id: int up
@@ -4069,6 +4184,7 @@ android.support.v7.appcompat.R$layout: int abc_screen_toolbar
 android.support.v7.appcompat.R$layout: int abc_search_dropdown_item_icons_2line
 android.support.v7.appcompat.R$layout: int abc_search_view
 android.support.v7.appcompat.R$layout: int abc_select_dialog_material
+android.support.v7.appcompat.R$layout: int abc_tooltip
 android.support.v7.appcompat.R$layout: int notification_action
 android.support.v7.appcompat.R$layout: int notification_action_tombstone
 android.support.v7.appcompat.R$layout: int notification_template_custom_big
@@ -4079,7 +4195,6 @@ android.support.v7.appcompat.R$layout: int select_dialog_item_material
 android.support.v7.appcompat.R$layout: int select_dialog_multichoice_material
 android.support.v7.appcompat.R$layout: int select_dialog_singlechoice_material
 android.support.v7.appcompat.R$layout: int support_simple_spinner_dropdown_item
-android.support.v7.appcompat.R$layout: int tooltip
 android.support.v7.appcompat.R$string: int abc_action_bar_home_description
 android.support.v7.appcompat.R$string: int abc_action_bar_up_description
 android.support.v7.appcompat.R$string: int abc_action_menu_overflow_description
@@ -4192,11 +4307,6 @@ android.support.v7.appcompat.R$style: int Base_Theme_AppCompat_Light_DialogWhenL
 android.support.v7.appcompat.R$style: int Base_Theme_AppCompat_Light_Dialog_Alert
 android.support.v7.appcompat.R$style: int Base_Theme_AppCompat_Light_Dialog_FixedSize
 android.support.v7.appcompat.R$style: int Base_Theme_AppCompat_Light_Dialog_MinWidth
-android.support.v7.appcompat.R$style: int Base_V11_ThemeOverlay_AppCompat_Dialog
-android.support.v7.appcompat.R$style: int Base_V11_Theme_AppCompat_Dialog
-android.support.v7.appcompat.R$style: int Base_V11_Theme_AppCompat_Light_Dialog
-android.support.v7.appcompat.R$style: int Base_V12_Widget_AppCompat_AutoCompleteTextView
-android.support.v7.appcompat.R$style: int Base_V12_Widget_AppCompat_EditText
 android.support.v7.appcompat.R$style: int Base_V21_ThemeOverlay_AppCompat_Dialog
 android.support.v7.appcompat.R$style: int Base_V21_Theme_AppCompat
 android.support.v7.appcompat.R$style: int Base_V21_Theme_AppCompat_Dialog
@@ -4279,10 +4389,6 @@ android.support.v7.appcompat.R$style: int Platform_AppCompat_Light
 android.support.v7.appcompat.R$style: int Platform_ThemeOverlay_AppCompat
 android.support.v7.appcompat.R$style: int Platform_ThemeOverlay_AppCompat_Dark
 android.support.v7.appcompat.R$style: int Platform_ThemeOverlay_AppCompat_Light
-android.support.v7.appcompat.R$style: int Platform_V11_AppCompat
-android.support.v7.appcompat.R$style: int Platform_V11_AppCompat_Light
-android.support.v7.appcompat.R$style: int Platform_V14_AppCompat
-android.support.v7.appcompat.R$style: int Platform_V14_AppCompat_Light
 android.support.v7.appcompat.R$style: int Platform_V21_AppCompat
 android.support.v7.appcompat.R$style: int Platform_V21_AppCompat_Light
 android.support.v7.appcompat.R$style: int Platform_V25_AppCompat
@@ -4460,6 +4566,7 @@ android.support.v7.appcompat.R$style: int Widget_AppCompat_Toolbar
 android.support.v7.appcompat.R$style: int Widget_AppCompat_Toolbar_Button_Navigation
 android.support.v7.appcompat.R$style: int Widget_Compat_NotificationActionContainer
 android.support.v7.appcompat.R$style: int Widget_Compat_NotificationActionText
+android.support.v7.appcompat.R$style: int Widget_Support_CoordinatorLayout
 android.support.v7.appcompat.R$styleable: int[] ActionBar
 android.support.v7.appcompat.R$styleable: int ActionBar_background
 android.support.v7.appcompat.R$styleable: int ActionBar_backgroundSplit
@@ -4506,6 +4613,7 @@ android.support.v7.appcompat.R$styleable: int ActivityChooserView_expandActivity
 android.support.v7.appcompat.R$styleable: int ActivityChooserView_initialActivityCount
 android.support.v7.appcompat.R$styleable: int[] AlertDialog
 android.support.v7.appcompat.R$styleable: int AlertDialog_android_layout
+android.support.v7.appcompat.R$styleable: int AlertDialog_buttonIconDimen
 android.support.v7.appcompat.R$styleable: int AlertDialog_buttonPanelSideLayout
 android.support.v7.appcompat.R$styleable: int AlertDialog_listItemLayout
 android.support.v7.appcompat.R$styleable: int AlertDialog_listLayout
@@ -4649,6 +4757,7 @@ android.support.v7.appcompat.R$styleable: int AppCompatTheme_toolbarNavigationBu
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_toolbarStyle
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_tooltipForegroundColor
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_tooltipFrameBackground
+android.support.v7.appcompat.R$styleable: int AppCompatTheme_viewInflaterClass
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_windowActionBar
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_windowActionBarOverlay
 android.support.v7.appcompat.R$styleable: int AppCompatTheme_windowActionModeOverlay
@@ -4669,6 +4778,17 @@ android.support.v7.appcompat.R$styleable: int[] CompoundButton
 android.support.v7.appcompat.R$styleable: int CompoundButton_android_button
 android.support.v7.appcompat.R$styleable: int CompoundButton_buttonTint
 android.support.v7.appcompat.R$styleable: int CompoundButton_buttonTintMode
+android.support.v7.appcompat.R$styleable: int[] CoordinatorLayout
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_keylines
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.v7.appcompat.R$styleable: int[] CoordinatorLayout_Layout
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.v7.appcompat.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.v7.appcompat.R$styleable: int[] DrawerArrowToggle
 android.support.v7.appcompat.R$styleable: int DrawerArrowToggle_arrowHeadLength
 android.support.v7.appcompat.R$styleable: int DrawerArrowToggle_arrowShaftLength
@@ -4863,6 +4983,7 @@ android.support.v7.cardview.R$attr: int cardElevation
 android.support.v7.cardview.R$attr: int cardMaxElevation
 android.support.v7.cardview.R$attr: int cardPreventCornerOverlap
 android.support.v7.cardview.R$attr: int cardUseCompatPadding
+android.support.v7.cardview.R$attr: int cardViewStyle
 android.support.v7.cardview.R$attr: int contentPadding
 android.support.v7.cardview.R$attr: int contentPaddingBottom
 android.support.v7.cardview.R$attr: int contentPaddingLeft
@@ -4893,6 +5014,7 @@ android.support.v7.cardview.R$styleable: int CardView_contentPaddingBottom
 android.support.v7.cardview.R$styleable: int CardView_contentPaddingLeft
 android.support.v7.cardview.R$styleable: int CardView_contentPaddingRight
 android.support.v7.cardview.R$styleable: int CardView_contentPaddingTop
+android.support.v7.recyclerview.R$attr: int coordinatorLayoutStyle
 android.support.v7.recyclerview.R$attr: int fastScrollEnabled
 android.support.v7.recyclerview.R$attr: int fastScrollHorizontalThumbDrawable
 android.support.v7.recyclerview.R$attr: int fastScrollHorizontalTrackDrawable
@@ -4907,10 +5029,18 @@ android.support.v7.recyclerview.R$attr: int fontProviderPackage
 android.support.v7.recyclerview.R$attr: int fontProviderQuery
 android.support.v7.recyclerview.R$attr: int fontStyle
 android.support.v7.recyclerview.R$attr: int fontWeight
+android.support.v7.recyclerview.R$attr: int keylines
 android.support.v7.recyclerview.R$attr: int layoutManager
+android.support.v7.recyclerview.R$attr: int layout_anchor
+android.support.v7.recyclerview.R$attr: int layout_anchorGravity
+android.support.v7.recyclerview.R$attr: int layout_behavior
+android.support.v7.recyclerview.R$attr: int layout_dodgeInsetEdges
+android.support.v7.recyclerview.R$attr: int layout_insetEdge
+android.support.v7.recyclerview.R$attr: int layout_keyline
 android.support.v7.recyclerview.R$attr: int reverseLayout
 android.support.v7.recyclerview.R$attr: int spanCount
 android.support.v7.recyclerview.R$attr: int stackFromEnd
+android.support.v7.recyclerview.R$attr: int statusBarBackground
 android.support.v7.recyclerview.R$bool: int abc_action_bar_embed_tabs
 android.support.v7.recyclerview.R$color: int notification_action_color_filter
 android.support.v7.recyclerview.R$color: int notification_icon_bg_color
@@ -4961,25 +5091,33 @@ android.support.v7.recyclerview.R$id: int action_text
 android.support.v7.recyclerview.R$id: int actions
 android.support.v7.recyclerview.R$id: int async
 android.support.v7.recyclerview.R$id: int blocking
+android.support.v7.recyclerview.R$id: int bottom
 android.support.v7.recyclerview.R$id: int chronometer
+android.support.v7.recyclerview.R$id: int end
 android.support.v7.recyclerview.R$id: int forever
 android.support.v7.recyclerview.R$id: int icon
 android.support.v7.recyclerview.R$id: int icon_group
 android.support.v7.recyclerview.R$id: int info
 android.support.v7.recyclerview.R$id: int italic
 android.support.v7.recyclerview.R$id: int item_touch_helper_previous_elevation
+android.support.v7.recyclerview.R$id: int left
 android.support.v7.recyclerview.R$id: int line1
 android.support.v7.recyclerview.R$id: int line3
+android.support.v7.recyclerview.R$id: int none
 android.support.v7.recyclerview.R$id: int normal
 android.support.v7.recyclerview.R$id: int notification_background
 android.support.v7.recyclerview.R$id: int notification_main_column
 android.support.v7.recyclerview.R$id: int notification_main_column_container
+android.support.v7.recyclerview.R$id: int right
 android.support.v7.recyclerview.R$id: int right_icon
 android.support.v7.recyclerview.R$id: int right_side
+android.support.v7.recyclerview.R$id: int start
+android.support.v7.recyclerview.R$id: int tag_transition_group
 android.support.v7.recyclerview.R$id: int text
 android.support.v7.recyclerview.R$id: int text2
 android.support.v7.recyclerview.R$id: int time
 android.support.v7.recyclerview.R$id: int title
+android.support.v7.recyclerview.R$id: int top
 android.support.v7.recyclerview.R$integer: int status_bar_notification_info_maxnum
 android.support.v7.recyclerview.R$layout: int notification_action
 android.support.v7.recyclerview.R$layout: int notification_action_tombstone
@@ -4995,6 +5133,18 @@ android.support.v7.recyclerview.R$style: int TextAppearance_Compat_Notification_
 android.support.v7.recyclerview.R$style: int TextAppearance_Compat_Notification_Title
 android.support.v7.recyclerview.R$style: int Widget_Compat_NotificationActionContainer
 android.support.v7.recyclerview.R$style: int Widget_Compat_NotificationActionText
+android.support.v7.recyclerview.R$style: int Widget_Support_CoordinatorLayout
+android.support.v7.recyclerview.R$styleable: int[] CoordinatorLayout
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_keylines
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_statusBarBackground
+android.support.v7.recyclerview.R$styleable: int[] CoordinatorLayout_Layout
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+android.support.v7.recyclerview.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 android.support.v7.recyclerview.R$styleable: int[] FontFamily
 android.support.v7.recyclerview.R$styleable: int FontFamily_fontProviderAuthority
 android.support.v7.recyclerview.R$styleable: int FontFamily_fontProviderCerts
@@ -5289,6 +5439,8 @@ android.support.v7.widget.DialogTitle
 android.support.v7.widget.DialogTitle: DialogTitle(android.content.Context,android.util.AttributeSet,int)
 android.support.v7.widget.DialogTitle: DialogTitle(android.content.Context,android.util.AttributeSet)
 android.support.v7.widget.DialogTitle: DialogTitle(android.content.Context)
+android.support.v7.widget.DropDownListView: void setSelector(android.graphics.drawable.Drawable)
+android.support.v7.widget.DropDownListView: void setSelectorEnabled(boolean)
 android.support.v7.widget.DropDownListView: void setListSelectionHidden(boolean)
 android.support.v7.widget.FitWindowsFrameLayout
 android.support.v7.widget.FitWindowsFrameLayout: FitWindowsFrameLayout(android.content.Context)
@@ -5331,9 +5483,8 @@ android.support.v7.widget.LinearLayoutManager: LinearLayoutManager(android.conte
 android.support.v7.widget.LinearLayoutManager: LinearLayoutManager(android.content.Context,int,boolean)
 android.support.v7.widget.LinearLayoutManager: LinearLayoutManager(android.content.Context,android.util.AttributeSet,int,int)
 android.support.v7.widget.LinearLayoutManager$SavedState: android.os.Parcelable$Creator CREATOR
-android.support.v7.widget.ListViewCompat: void setSelector(android.graphics.drawable.Drawable)
-android.support.v7.widget.ListViewCompat: void setSelectorEnabled(boolean)
 android.support.v7.widget.MenuPopupWindow$MenuDropDownListView: void setHoverListener(android.support.v7.widget.MenuItemHoverListener)
+android.support.v7.widget.MenuPopupWindow$MenuDropDownListView: void setSelector(android.graphics.drawable.Drawable)
 android.support.v7.widget.RecyclerView
 android.support.v7.widget.RecyclerView: RecyclerView(android.content.Context)
 android.support.v7.widget.RecyclerView: RecyclerView(android.content.Context,android.util.AttributeSet)
@@ -5358,11 +5509,14 @@ android.support.v7.widget.RecyclerView: void setViewCacheExtension(android.suppo
 android.support.v7.widget.RecyclerView: void setItemViewCacheSize(int)
 android.support.v7.widget.RecyclerView: int getScrollState()
 android.support.v7.widget.RecyclerView: void setScrollState(int)
+android.support.v7.widget.RecyclerView: int getItemDecorationCount()
 android.support.v7.widget.RecyclerView: void setChildDrawingOrderCallback(android.support.v7.widget.RecyclerView$ChildDrawingOrderCallback)
 android.support.v7.widget.RecyclerView: void setOnScrollListener(android.support.v7.widget.RecyclerView$OnScrollListener)
 android.support.v7.widget.RecyclerView: void setLayoutFrozen(boolean)
 android.support.v7.widget.RecyclerView: int getMinFlingVelocity()
 android.support.v7.widget.RecyclerView: int getMaxFlingVelocity()
+android.support.v7.widget.RecyclerView: void setEdgeEffectFactory(android.support.v7.widget.RecyclerView$EdgeEffectFactory)
+android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$EdgeEffectFactory getEdgeEffectFactory()
 android.support.v7.widget.RecyclerView: void setItemAnimator(android.support.v7.widget.RecyclerView$ItemAnimator)
 android.support.v7.widget.RecyclerView: android.support.v7.widget.RecyclerView$ItemAnimator getItemAnimator()
 android.support.v7.widget.RecyclerView: boolean getPreserveFocusAfterLayout()
@@ -5546,14 +5700,14 @@ com.boostermbkking.ks8mods.v2.R$anim: int abc_slide_in_bottom
 com.boostermbkking.ks8mods.v2.R$anim: int abc_slide_in_top
 com.boostermbkking.ks8mods.v2.R$anim: int abc_slide_out_bottom
 com.boostermbkking.ks8mods.v2.R$anim: int abc_slide_out_top
+com.boostermbkking.ks8mods.v2.R$anim: int abc_tooltip_enter
+com.boostermbkking.ks8mods.v2.R$anim: int abc_tooltip_exit
 com.boostermbkking.ks8mods.v2.R$anim: int design_bottom_sheet_slide_in
 com.boostermbkking.ks8mods.v2.R$anim: int design_bottom_sheet_slide_out
 com.boostermbkking.ks8mods.v2.R$anim: int design_snackbar_in
 com.boostermbkking.ks8mods.v2.R$anim: int design_snackbar_out
 com.boostermbkking.ks8mods.v2.R$anim: int fade_in
 com.boostermbkking.ks8mods.v2.R$anim: int fade_out
-com.boostermbkking.ks8mods.v2.R$anim: int tooltip_enter
-com.boostermbkking.ks8mods.v2.R$anim: int tooltip_exit
 com.boostermbkking.ks8mods.v2.R$animator: int design_appbar_state_list_animator
 com.boostermbkking.ks8mods.v2.R$animator: int fadein
 com.boostermbkking.ks8mods.v2.R$animator: int fadeout
@@ -5733,6 +5887,7 @@ com.boostermbkking.ks8mods.v2.R$attr: int buttonBarNeutralButtonStyle
 com.boostermbkking.ks8mods.v2.R$attr: int buttonBarPositiveButtonStyle
 com.boostermbkking.ks8mods.v2.R$attr: int buttonBarStyle
 com.boostermbkking.ks8mods.v2.R$attr: int buttonGravity
+com.boostermbkking.ks8mods.v2.R$attr: int buttonIconDimen
 com.boostermbkking.ks8mods.v2.R$attr: int buttonPanelSideLayout
 com.boostermbkking.ks8mods.v2.R$attr: int buttonStyle
 com.boostermbkking.ks8mods.v2.R$attr: int buttonStyleSmall
@@ -5744,6 +5899,7 @@ com.boostermbkking.ks8mods.v2.R$attr: int cardElevation
 com.boostermbkking.ks8mods.v2.R$attr: int cardMaxElevation
 com.boostermbkking.ks8mods.v2.R$attr: int cardPreventCornerOverlap
 com.boostermbkking.ks8mods.v2.R$attr: int cardUseCompatPadding
+com.boostermbkking.ks8mods.v2.R$attr: int cardViewStyle
 com.boostermbkking.ks8mods.v2.R$attr: int checkboxStyle
 com.boostermbkking.ks8mods.v2.R$attr: int checkedTextViewStyle
 com.boostermbkking.ks8mods.v2.R$attr: int choiceSelector
@@ -5784,6 +5940,7 @@ com.boostermbkking.ks8mods.v2.R$attr: int contentPaddingRight
 com.boostermbkking.ks8mods.v2.R$attr: int contentPaddingTop
 com.boostermbkking.ks8mods.v2.R$attr: int contentScrim
 com.boostermbkking.ks8mods.v2.R$attr: int controlBackground
+com.boostermbkking.ks8mods.v2.R$attr: int coordinatorLayoutStyle
 com.boostermbkking.ks8mods.v2.R$attr: int counterEnabled
 com.boostermbkking.ks8mods.v2.R$attr: int counterMaxLength
 com.boostermbkking.ks8mods.v2.R$attr: int counterOverflowTextAppearance
@@ -5820,6 +5977,7 @@ com.boostermbkking.ks8mods.v2.R$attr: int expandedTitleMarginEnd
 com.boostermbkking.ks8mods.v2.R$attr: int expandedTitleMarginStart
 com.boostermbkking.ks8mods.v2.R$attr: int expandedTitleMarginTop
 com.boostermbkking.ks8mods.v2.R$attr: int expandedTitleTextAppearance
+com.boostermbkking.ks8mods.v2.R$attr: int fabCustomSize
 com.boostermbkking.ks8mods.v2.R$attr: int fabSize
 com.boostermbkking.ks8mods.v2.R$attr: int fastScrollEnabled
 com.boostermbkking.ks8mods.v2.R$attr: int fastScrollHorizontalThumbDrawable
@@ -6045,6 +6203,7 @@ com.boostermbkking.ks8mods.v2.R$attr: int trackTintMode
 com.boostermbkking.ks8mods.v2.R$attr: int unitsValue
 com.boostermbkking.ks8mods.v2.R$attr: int useCompatPadding
 com.boostermbkking.ks8mods.v2.R$attr: int valuesList
+com.boostermbkking.ks8mods.v2.R$attr: int viewInflaterClass
 com.boostermbkking.ks8mods.v2.R$attr: int voiceIcon
 com.boostermbkking.ks8mods.v2.R$attr: int windowActionBar
 com.boostermbkking.ks8mods.v2.R$attr: int windowActionBarOverlay
@@ -6059,7 +6218,6 @@ com.boostermbkking.ks8mods.v2.R$attr: int windowNoTitle
 com.boostermbkking.ks8mods.v2.R$bool: int abc_action_bar_embed_tabs
 com.boostermbkking.ks8mods.v2.R$bool: int abc_allow_stacked_button_bar
 com.boostermbkking.ks8mods.v2.R$bool: int abc_config_actionMenuItemAllCaps
-com.boostermbkking.ks8mods.v2.R$bool: int abc_config_closeDialogWhenTouchOutside
 com.boostermbkking.ks8mods.v2.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
 com.boostermbkking.ks8mods.v2.R$color: int abc_background_cache_hint_selector_material_dark
 com.boostermbkking.ks8mods.v2.R$color: int abc_background_cache_hint_selector_material_light
@@ -6186,6 +6344,7 @@ com.boostermbkking.ks8mods.v2.R$dimen: int abc_action_button_min_height_material
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_action_button_min_width_material
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_action_button_min_width_overflow_material
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_alert_dialog_button_bar_height
+com.boostermbkking.ks8mods.v2.R$dimen: int abc_alert_dialog_button_dimen
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_button_inset_horizontal_material
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_button_inset_vertical_material
 com.boostermbkking.ks8mods.v2.R$dimen: int abc_button_padding_horizontal_material
@@ -6922,6 +7081,7 @@ com.boostermbkking.ks8mods.v2.R$layout: int abc_screen_toolbar
 com.boostermbkking.ks8mods.v2.R$layout: int abc_search_dropdown_item_icons_2line
 com.boostermbkking.ks8mods.v2.R$layout: int abc_search_view
 com.boostermbkking.ks8mods.v2.R$layout: int abc_select_dialog_material
+com.boostermbkking.ks8mods.v2.R$layout: int abc_tooltip
 com.boostermbkking.ks8mods.v2.R$layout: int about_activity_content
 com.boostermbkking.ks8mods.v2.R$layout: int about_contact_us_item
 com.boostermbkking.ks8mods.v2.R$layout: int about_people_item
@@ -6985,7 +7145,6 @@ com.boostermbkking.ks8mods.v2.R$layout: int support_simple_spinner_dropdown_item
 com.boostermbkking.ks8mods.v2.R$layout: int thumbnail_item_view
 com.boostermbkking.ks8mods.v2.R$layout: int thumbnail_preference_dialog_view
 com.boostermbkking.ks8mods.v2.R$layout: int thumbnail_preference_icon
-com.boostermbkking.ks8mods.v2.R$layout: int tooltip
 com.boostermbkking.ks8mods.v2.R$menu: int activity_main_drawer
 com.boostermbkking.ks8mods.v2.R$menu: int main
 com.boostermbkking.ks8mods.v2.R$mipmap: int ic_launcher
@@ -7038,6 +7197,10 @@ com.boostermbkking.ks8mods.v2.R$string: int CustomLogo
 com.boostermbkking.ks8mods.v2.R$string: int CustomLogoTitle
 com.boostermbkking.ks8mods.v2.R$string: int CustomLogoTitlePro
 com.boostermbkking.ks8mods.v2.R$string: int CustomLogoType
+com.boostermbkking.ks8mods.v2.R$string: int CustomNavbarHigh
+com.boostermbkking.ks8mods.v2.R$string: int CustomNavbarHighSwitch
+com.boostermbkking.ks8mods.v2.R$string: int CustomNavbarIconColor
+com.boostermbkking.ks8mods.v2.R$string: int CustomNavbarIconColorSwitch
 com.boostermbkking.ks8mods.v2.R$string: int Customimagepreferences
 com.boostermbkking.ks8mods.v2.R$string: int DATA_MODE_TOGGLE
 com.boostermbkking.ks8mods.v2.R$string: int DATA_MODE_TOGGLETITLE
@@ -7436,11 +7599,6 @@ com.boostermbkking.ks8mods.v2.R$style: int Base_ThemeOverlay_AppCompat_Dark_Acti
 com.boostermbkking.ks8mods.v2.R$style: int Base_ThemeOverlay_AppCompat_Dialog
 com.boostermbkking.ks8mods.v2.R$style: int Base_ThemeOverlay_AppCompat_Dialog_Alert
 com.boostermbkking.ks8mods.v2.R$style: int Base_ThemeOverlay_AppCompat_Light
-com.boostermbkking.ks8mods.v2.R$style: int Base_V11_Theme_AppCompat_Dialog
-com.boostermbkking.ks8mods.v2.R$style: int Base_V11_Theme_AppCompat_Light_Dialog
-com.boostermbkking.ks8mods.v2.R$style: int Base_V11_ThemeOverlay_AppCompat_Dialog
-com.boostermbkking.ks8mods.v2.R$style: int Base_V12_Widget_AppCompat_AutoCompleteTextView
-com.boostermbkking.ks8mods.v2.R$style: int Base_V12_Widget_AppCompat_EditText
 com.boostermbkking.ks8mods.v2.R$style: int Base_V14_Widget_Design_AppBarLayout
 com.boostermbkking.ks8mods.v2.R$style: int Base_V21_Theme_AppCompat
 com.boostermbkking.ks8mods.v2.R$style: int Base_V21_Theme_AppCompat_Dialog
@@ -7535,10 +7693,6 @@ com.boostermbkking.ks8mods.v2.R$style: int Platform_AppCompat_Light
 com.boostermbkking.ks8mods.v2.R$style: int Platform_ThemeOverlay_AppCompat
 com.boostermbkking.ks8mods.v2.R$style: int Platform_ThemeOverlay_AppCompat_Dark
 com.boostermbkking.ks8mods.v2.R$style: int Platform_ThemeOverlay_AppCompat_Light
-com.boostermbkking.ks8mods.v2.R$style: int Platform_V11_AppCompat
-com.boostermbkking.ks8mods.v2.R$style: int Platform_V11_AppCompat_Light
-com.boostermbkking.ks8mods.v2.R$style: int Platform_V14_AppCompat
-com.boostermbkking.ks8mods.v2.R$style: int Platform_V14_AppCompat_Light
 com.boostermbkking.ks8mods.v2.R$style: int Platform_V21_AppCompat
 com.boostermbkking.ks8mods.v2.R$style: int Platform_V21_AppCompat_Light
 com.boostermbkking.ks8mods.v2.R$style: int Platform_V25_AppCompat
@@ -7746,6 +7900,7 @@ com.boostermbkking.ks8mods.v2.R$style: int Widget_Design_ScrimInsetsFrameLayout
 com.boostermbkking.ks8mods.v2.R$style: int Widget_Design_Snackbar
 com.boostermbkking.ks8mods.v2.R$style: int Widget_Design_TabLayout
 com.boostermbkking.ks8mods.v2.R$style: int Widget_Design_TextInputLayout
+com.boostermbkking.ks8mods.v2.R$style: int Widget_Support_CoordinatorLayout
 com.boostermbkking.ks8mods.v2.R$styleable: int[] ActionBar
 com.boostermbkking.ks8mods.v2.R$styleable: int ActionBar_background
 com.boostermbkking.ks8mods.v2.R$styleable: int ActionBar_backgroundSplit
@@ -7793,6 +7948,7 @@ com.boostermbkking.ks8mods.v2.R$styleable: int ActivityChooserView_expandActivit
 com.boostermbkking.ks8mods.v2.R$styleable: int ActivityChooserView_initialActivityCount
 com.boostermbkking.ks8mods.v2.R$styleable: int[] AlertDialog
 com.boostermbkking.ks8mods.v2.R$styleable: int AlertDialog_android_layout
+com.boostermbkking.ks8mods.v2.R$styleable: int AlertDialog_buttonIconDimen
 com.boostermbkking.ks8mods.v2.R$styleable: int AlertDialog_buttonPanelSideLayout
 com.boostermbkking.ks8mods.v2.R$styleable: int AlertDialog_listItemLayout
 com.boostermbkking.ks8mods.v2.R$styleable: int AlertDialog_listLayout
@@ -7948,6 +8104,7 @@ com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_toolbarNavigationB
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_toolbarStyle
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_tooltipForegroundColor
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_tooltipFrameBackground
+com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_viewInflaterClass
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_windowActionBar
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_windowActionBarOverlay
 com.boostermbkking.ks8mods.v2.R$styleable: int AppCompatTheme_windowActionModeOverlay
@@ -8046,6 +8203,7 @@ com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_backgroundTi
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_backgroundTintMode
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_borderWidth
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_elevation
+com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_fabCustomSize
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_fabSize
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_pressedTranslationZ
 com.boostermbkking.ks8mods.v2.R$styleable: int FloatingActionButton_rippleColor
@@ -8486,8 +8644,8 @@ com.github.javiersantos.piracychecker.R$anim: int abc_slide_in_bottom
 com.github.javiersantos.piracychecker.R$anim: int abc_slide_in_top
 com.github.javiersantos.piracychecker.R$anim: int abc_slide_out_bottom
 com.github.javiersantos.piracychecker.R$anim: int abc_slide_out_top
-com.github.javiersantos.piracychecker.R$anim: int tooltip_enter
-com.github.javiersantos.piracychecker.R$anim: int tooltip_exit
+com.github.javiersantos.piracychecker.R$anim: int abc_tooltip_enter
+com.github.javiersantos.piracychecker.R$anim: int abc_tooltip_exit
 com.github.javiersantos.piracychecker.R$attr
 com.github.javiersantos.piracychecker.R$attr: int actionBarDivider
 com.github.javiersantos.piracychecker.R$attr: int actionBarItemBackground
@@ -8551,6 +8709,7 @@ com.github.javiersantos.piracychecker.R$attr: int buttonBarNeutralButtonStyle
 com.github.javiersantos.piracychecker.R$attr: int buttonBarPositiveButtonStyle
 com.github.javiersantos.piracychecker.R$attr: int buttonBarStyle
 com.github.javiersantos.piracychecker.R$attr: int buttonGravity
+com.github.javiersantos.piracychecker.R$attr: int buttonIconDimen
 com.github.javiersantos.piracychecker.R$attr: int buttonPanelSideLayout
 com.github.javiersantos.piracychecker.R$attr: int buttonStyle
 com.github.javiersantos.piracychecker.R$attr: int buttonStyleSmall
@@ -8582,6 +8741,7 @@ com.github.javiersantos.piracychecker.R$attr: int contentInsetRight
 com.github.javiersantos.piracychecker.R$attr: int contentInsetStart
 com.github.javiersantos.piracychecker.R$attr: int contentInsetStartWithNavigation
 com.github.javiersantos.piracychecker.R$attr: int controlBackground
+com.github.javiersantos.piracychecker.R$attr: int coordinatorLayoutStyle
 com.github.javiersantos.piracychecker.R$attr: int customNavigationLayout
 com.github.javiersantos.piracychecker.R$attr: int defaultQueryHint
 com.github.javiersantos.piracychecker.R$attr: int dialogPreferredPadding
@@ -8625,7 +8785,14 @@ com.github.javiersantos.piracychecker.R$attr: int indeterminateProgressStyle
 com.github.javiersantos.piracychecker.R$attr: int initialActivityCount
 com.github.javiersantos.piracychecker.R$attr: int isLightTheme
 com.github.javiersantos.piracychecker.R$attr: int itemPadding
+com.github.javiersantos.piracychecker.R$attr: int keylines
 com.github.javiersantos.piracychecker.R$attr: int layout
+com.github.javiersantos.piracychecker.R$attr: int layout_anchor
+com.github.javiersantos.piracychecker.R$attr: int layout_anchorGravity
+com.github.javiersantos.piracychecker.R$attr: int layout_behavior
+com.github.javiersantos.piracychecker.R$attr: int layout_dodgeInsetEdges
+com.github.javiersantos.piracychecker.R$attr: int layout_insetEdge
+com.github.javiersantos.piracychecker.R$attr: int layout_keyline
 com.github.javiersantos.piracychecker.R$attr: int listChoiceBackgroundIndicator
 com.github.javiersantos.piracychecker.R$attr: int listDividerAlertDialog
 com.github.javiersantos.piracychecker.R$attr: int listItemLayout
@@ -8683,6 +8850,7 @@ com.github.javiersantos.piracychecker.R$attr: int spinnerStyle
 com.github.javiersantos.piracychecker.R$attr: int splitTrack
 com.github.javiersantos.piracychecker.R$attr: int srcCompat
 com.github.javiersantos.piracychecker.R$attr: int state_above_anchor
+com.github.javiersantos.piracychecker.R$attr: int statusBarBackground
 com.github.javiersantos.piracychecker.R$attr: int subMenuArrow
 com.github.javiersantos.piracychecker.R$attr: int submitBackground
 com.github.javiersantos.piracychecker.R$attr: int subtitle
@@ -8733,6 +8901,7 @@ com.github.javiersantos.piracychecker.R$attr: int tooltipText
 com.github.javiersantos.piracychecker.R$attr: int track
 com.github.javiersantos.piracychecker.R$attr: int trackTint
 com.github.javiersantos.piracychecker.R$attr: int trackTintMode
+com.github.javiersantos.piracychecker.R$attr: int viewInflaterClass
 com.github.javiersantos.piracychecker.R$attr: int voiceIcon
 com.github.javiersantos.piracychecker.R$attr: int windowActionBar
 com.github.javiersantos.piracychecker.R$attr: int windowActionBarOverlay
@@ -8748,7 +8917,6 @@ com.github.javiersantos.piracychecker.R$bool
 com.github.javiersantos.piracychecker.R$bool: int abc_action_bar_embed_tabs
 com.github.javiersantos.piracychecker.R$bool: int abc_allow_stacked_button_bar
 com.github.javiersantos.piracychecker.R$bool: int abc_config_actionMenuItemAllCaps
-com.github.javiersantos.piracychecker.R$bool: int abc_config_closeDialogWhenTouchOutside
 com.github.javiersantos.piracychecker.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
 com.github.javiersantos.piracychecker.R$color
 com.github.javiersantos.piracychecker.R$color: int abc_background_cache_hint_selector_material_dark
@@ -8856,6 +9024,7 @@ com.github.javiersantos.piracychecker.R$dimen: int abc_action_button_min_height_
 com.github.javiersantos.piracychecker.R$dimen: int abc_action_button_min_width_material
 com.github.javiersantos.piracychecker.R$dimen: int abc_action_button_min_width_overflow_material
 com.github.javiersantos.piracychecker.R$dimen: int abc_alert_dialog_button_bar_height
+com.github.javiersantos.piracychecker.R$dimen: int abc_alert_dialog_button_dimen
 com.github.javiersantos.piracychecker.R$dimen: int abc_button_inset_horizontal_material
 com.github.javiersantos.piracychecker.R$dimen: int abc_button_inset_vertical_material
 com.github.javiersantos.piracychecker.R$dimen: int abc_button_padding_horizontal_material
@@ -9071,6 +9240,7 @@ com.github.javiersantos.piracychecker.R$id: int add
 com.github.javiersantos.piracychecker.R$id: int alertTitle
 com.github.javiersantos.piracychecker.R$id: int async
 com.github.javiersantos.piracychecker.R$id: int blocking
+com.github.javiersantos.piracychecker.R$id: int bottom
 com.github.javiersantos.piracychecker.R$id: int buttonPanel
 com.github.javiersantos.piracychecker.R$id: int checkbox
 com.github.javiersantos.piracychecker.R$id: int chronometer
@@ -9080,6 +9250,7 @@ com.github.javiersantos.piracychecker.R$id: int customPanel
 com.github.javiersantos.piracychecker.R$id: int decor_content_parent
 com.github.javiersantos.piracychecker.R$id: int default_activity_button
 com.github.javiersantos.piracychecker.R$id: int edit_query
+com.github.javiersantos.piracychecker.R$id: int end
 com.github.javiersantos.piracychecker.R$id: int expand_activities_button
 com.github.javiersantos.piracychecker.R$id: int expanded_menu
 com.github.javiersantos.piracychecker.R$id: int forever
@@ -9089,6 +9260,7 @@ com.github.javiersantos.piracychecker.R$id: int icon_group
 com.github.javiersantos.piracychecker.R$id: int image
 com.github.javiersantos.piracychecker.R$id: int info
 com.github.javiersantos.piracychecker.R$id: int italic
+com.github.javiersantos.piracychecker.R$id: int left
 com.github.javiersantos.piracychecker.R$id: int line1
 com.github.javiersantos.piracychecker.R$id: int line3
 com.github.javiersantos.piracychecker.R$id: int listMode
@@ -9106,6 +9278,7 @@ com.github.javiersantos.piracychecker.R$id: int piracy_checker_description
 com.github.javiersantos.piracychecker.R$id: int progress_circular
 com.github.javiersantos.piracychecker.R$id: int progress_horizontal
 com.github.javiersantos.piracychecker.R$id: int radio
+com.github.javiersantos.piracychecker.R$id: int right
 com.github.javiersantos.piracychecker.R$id: int right_icon
 com.github.javiersantos.piracychecker.R$id: int right_side
 com.github.javiersantos.piracychecker.R$id: int screen
@@ -9129,6 +9302,7 @@ com.github.javiersantos.piracychecker.R$id: int split_action_bar
 com.github.javiersantos.piracychecker.R$id: int src_atop
 com.github.javiersantos.piracychecker.R$id: int src_in
 com.github.javiersantos.piracychecker.R$id: int src_over
+com.github.javiersantos.piracychecker.R$id: int start
 com.github.javiersantos.piracychecker.R$id: int submenuarrow
 com.github.javiersantos.piracychecker.R$id: int submit_area
 com.github.javiersantos.piracychecker.R$id: int tabMode
@@ -9142,6 +9316,7 @@ com.github.javiersantos.piracychecker.R$id: int title
 com.github.javiersantos.piracychecker.R$id: int titleDividerNoCustom
 com.github.javiersantos.piracychecker.R$id: int title_template
 com.github.javiersantos.piracychecker.R$id: int toolbar
+com.github.javiersantos.piracychecker.R$id: int top
 com.github.javiersantos.piracychecker.R$id: int topPanel
 com.github.javiersantos.piracychecker.R$id: int uniform
 com.github.javiersantos.piracychecker.R$id: int up
@@ -9179,6 +9354,7 @@ com.github.javiersantos.piracychecker.R$layout: int abc_screen_toolbar
 com.github.javiersantos.piracychecker.R$layout: int abc_search_dropdown_item_icons_2line
 com.github.javiersantos.piracychecker.R$layout: int abc_search_view
 com.github.javiersantos.piracychecker.R$layout: int abc_select_dialog_material
+com.github.javiersantos.piracychecker.R$layout: int abc_tooltip
 com.github.javiersantos.piracychecker.R$layout: int activity_license
 com.github.javiersantos.piracychecker.R$layout: int activity_license_default
 com.github.javiersantos.piracychecker.R$layout: int notification_action
@@ -9191,7 +9367,6 @@ com.github.javiersantos.piracychecker.R$layout: int select_dialog_item_material
 com.github.javiersantos.piracychecker.R$layout: int select_dialog_multichoice_material
 com.github.javiersantos.piracychecker.R$layout: int select_dialog_singlechoice_material
 com.github.javiersantos.piracychecker.R$layout: int support_simple_spinner_dropdown_item
-com.github.javiersantos.piracychecker.R$layout: int tooltip
 com.github.javiersantos.piracychecker.R$string
 com.github.javiersantos.piracychecker.R$string: int abc_action_bar_home_description
 com.github.javiersantos.piracychecker.R$string: int abc_action_bar_up_description
@@ -9320,11 +9495,6 @@ com.github.javiersantos.piracychecker.R$style: int Base_Theme_AppCompat_Light_Di
 com.github.javiersantos.piracychecker.R$style: int Base_Theme_AppCompat_Light_Dialog_Alert
 com.github.javiersantos.piracychecker.R$style: int Base_Theme_AppCompat_Light_Dialog_FixedSize
 com.github.javiersantos.piracychecker.R$style: int Base_Theme_AppCompat_Light_Dialog_MinWidth
-com.github.javiersantos.piracychecker.R$style: int Base_V11_ThemeOverlay_AppCompat_Dialog
-com.github.javiersantos.piracychecker.R$style: int Base_V11_Theme_AppCompat_Dialog
-com.github.javiersantos.piracychecker.R$style: int Base_V11_Theme_AppCompat_Light_Dialog
-com.github.javiersantos.piracychecker.R$style: int Base_V12_Widget_AppCompat_AutoCompleteTextView
-com.github.javiersantos.piracychecker.R$style: int Base_V12_Widget_AppCompat_EditText
 com.github.javiersantos.piracychecker.R$style: int Base_V21_ThemeOverlay_AppCompat_Dialog
 com.github.javiersantos.piracychecker.R$style: int Base_V21_Theme_AppCompat
 com.github.javiersantos.piracychecker.R$style: int Base_V21_Theme_AppCompat_Dialog
@@ -9408,10 +9578,6 @@ com.github.javiersantos.piracychecker.R$style: int Platform_AppCompat_Light
 com.github.javiersantos.piracychecker.R$style: int Platform_ThemeOverlay_AppCompat
 com.github.javiersantos.piracychecker.R$style: int Platform_ThemeOverlay_AppCompat_Dark
 com.github.javiersantos.piracychecker.R$style: int Platform_ThemeOverlay_AppCompat_Light
-com.github.javiersantos.piracychecker.R$style: int Platform_V11_AppCompat
-com.github.javiersantos.piracychecker.R$style: int Platform_V11_AppCompat_Light
-com.github.javiersantos.piracychecker.R$style: int Platform_V14_AppCompat
-com.github.javiersantos.piracychecker.R$style: int Platform_V14_AppCompat_Light
 com.github.javiersantos.piracychecker.R$style: int Platform_V21_AppCompat
 com.github.javiersantos.piracychecker.R$style: int Platform_V21_AppCompat_Light
 com.github.javiersantos.piracychecker.R$style: int Platform_V25_AppCompat
@@ -9589,6 +9755,7 @@ com.github.javiersantos.piracychecker.R$style: int Widget_AppCompat_Toolbar
 com.github.javiersantos.piracychecker.R$style: int Widget_AppCompat_Toolbar_Button_Navigation
 com.github.javiersantos.piracychecker.R$style: int Widget_Compat_NotificationActionContainer
 com.github.javiersantos.piracychecker.R$style: int Widget_Compat_NotificationActionText
+com.github.javiersantos.piracychecker.R$style: int Widget_Support_CoordinatorLayout
 com.github.javiersantos.piracychecker.R$styleable
 com.github.javiersantos.piracychecker.R$styleable: int[] ActionBar
 com.github.javiersantos.piracychecker.R$styleable: int ActionBar_background
@@ -9636,6 +9803,7 @@ com.github.javiersantos.piracychecker.R$styleable: int ActivityChooserView_expan
 com.github.javiersantos.piracychecker.R$styleable: int ActivityChooserView_initialActivityCount
 com.github.javiersantos.piracychecker.R$styleable: int[] AlertDialog
 com.github.javiersantos.piracychecker.R$styleable: int AlertDialog_android_layout
+com.github.javiersantos.piracychecker.R$styleable: int AlertDialog_buttonIconDimen
 com.github.javiersantos.piracychecker.R$styleable: int AlertDialog_buttonPanelSideLayout
 com.github.javiersantos.piracychecker.R$styleable: int AlertDialog_listItemLayout
 com.github.javiersantos.piracychecker.R$styleable: int AlertDialog_listLayout
@@ -9779,6 +9947,7 @@ com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_toolbarNav
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_toolbarStyle
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_tooltipForegroundColor
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_tooltipFrameBackground
+com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_viewInflaterClass
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_windowActionBar
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_windowActionBarOverlay
 com.github.javiersantos.piracychecker.R$styleable: int AppCompatTheme_windowActionModeOverlay
@@ -9799,6 +9968,17 @@ com.github.javiersantos.piracychecker.R$styleable: int[] CompoundButton
 com.github.javiersantos.piracychecker.R$styleable: int CompoundButton_android_button
 com.github.javiersantos.piracychecker.R$styleable: int CompoundButton_buttonTint
 com.github.javiersantos.piracychecker.R$styleable: int CompoundButton_buttonTintMode
+com.github.javiersantos.piracychecker.R$styleable: int[] CoordinatorLayout
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_keylines
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_statusBarBackground
+com.github.javiersantos.piracychecker.R$styleable: int[] CoordinatorLayout_Layout
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_android_layout_gravity
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_anchor
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_anchorGravity
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_behavior
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_dodgeInsetEdges
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_insetEdge
+com.github.javiersantos.piracychecker.R$styleable: int CoordinatorLayout_Layout_layout_keyline
 com.github.javiersantos.piracychecker.R$styleable: int[] DrawerArrowToggle
 com.github.javiersantos.piracychecker.R$styleable: int DrawerArrowToggle_arrowHeadLength
 com.github.javiersantos.piracychecker.R$styleable: int DrawerArrowToggle_arrowShaftLength
@@ -9987,6 +10167,7 @@ com.github.javiersantos.piracychecker.R$styleable: int[] ViewStubCompat
 com.github.javiersantos.piracychecker.R$styleable: int ViewStubCompat_android_id
 com.github.javiersantos.piracychecker.R$styleable: int ViewStubCompat_android_layout
 com.github.javiersantos.piracychecker.R$styleable: int ViewStubCompat_android_inflatedId
+com.github.javiersantos.piracychecker.SaltUtils
 com.github.javiersantos.piracychecker.activities.ActivityUtils
 com.github.javiersantos.piracychecker.activities.LicenseActivity
 com.github.javiersantos.piracychecker.activities.LicenseActivity: LicenseActivity()
@@ -10246,7 +10427,6 @@ com.karan.churi.PermissionManager.R$attr: int windowNoTitle
 com.karan.churi.PermissionManager.R$bool: int abc_action_bar_embed_tabs
 com.karan.churi.PermissionManager.R$bool: int abc_allow_stacked_button_bar
 com.karan.churi.PermissionManager.R$bool: int abc_config_actionMenuItemAllCaps
-com.karan.churi.PermissionManager.R$bool: int abc_config_closeDialogWhenTouchOutside
 com.karan.churi.PermissionManager.R$bool: int abc_config_showMenuShortcutsWhenKeyboardPresent
 com.karan.churi.PermissionManager.R$color: int abc_background_cache_hint_selector_material_dark
 com.karan.churi.PermissionManager.R$color: int abc_background_cache_hint_selector_material_light
@@ -10790,11 +10970,6 @@ com.karan.churi.PermissionManager.R$style: int Base_Theme_AppCompat_Light_Dialog
 com.karan.churi.PermissionManager.R$style: int Base_Theme_AppCompat_Light_Dialog_Alert
 com.karan.churi.PermissionManager.R$style: int Base_Theme_AppCompat_Light_Dialog_FixedSize
 com.karan.churi.PermissionManager.R$style: int Base_Theme_AppCompat_Light_Dialog_MinWidth
-com.karan.churi.PermissionManager.R$style: int Base_V11_ThemeOverlay_AppCompat_Dialog
-com.karan.churi.PermissionManager.R$style: int Base_V11_Theme_AppCompat_Dialog
-com.karan.churi.PermissionManager.R$style: int Base_V11_Theme_AppCompat_Light_Dialog
-com.karan.churi.PermissionManager.R$style: int Base_V12_Widget_AppCompat_AutoCompleteTextView
-com.karan.churi.PermissionManager.R$style: int Base_V12_Widget_AppCompat_EditText
 com.karan.churi.PermissionManager.R$style: int Base_V21_ThemeOverlay_AppCompat_Dialog
 com.karan.churi.PermissionManager.R$style: int Base_V21_Theme_AppCompat
 com.karan.churi.PermissionManager.R$style: int Base_V21_Theme_AppCompat_Dialog
@@ -10873,10 +11048,6 @@ com.karan.churi.PermissionManager.R$style: int Platform_AppCompat_Light
 com.karan.churi.PermissionManager.R$style: int Platform_ThemeOverlay_AppCompat
 com.karan.churi.PermissionManager.R$style: int Platform_ThemeOverlay_AppCompat_Dark
 com.karan.churi.PermissionManager.R$style: int Platform_ThemeOverlay_AppCompat_Light
-com.karan.churi.PermissionManager.R$style: int Platform_V11_AppCompat
-com.karan.churi.PermissionManager.R$style: int Platform_V11_AppCompat_Light
-com.karan.churi.PermissionManager.R$style: int Platform_V14_AppCompat
-com.karan.churi.PermissionManager.R$style: int Platform_V14_AppCompat_Light
 com.karan.churi.PermissionManager.R$style: int Platform_V21_AppCompat
 com.karan.churi.PermissionManager.R$style: int Platform_V21_AppCompat_Light
 com.karan.churi.PermissionManager.R$style: int Platform_V25_AppCompat
@@ -11093,6 +11264,7 @@ com.karan.churi.PermissionManager.R$styleable: int ActivityChooserView_expandAct
 com.karan.churi.PermissionManager.R$styleable: int ActivityChooserView_initialActivityCount
 com.karan.churi.PermissionManager.R$styleable: int[] AlertDialog
 com.karan.churi.PermissionManager.R$styleable: int AlertDialog_android_layout
+com.karan.churi.PermissionManager.R$styleable: int AlertDialog_buttonIconDimen
 com.karan.churi.PermissionManager.R$styleable: int AlertDialog_buttonPanelSideLayout
 com.karan.churi.PermissionManager.R$styleable: int AlertDialog_listItemLayout
 com.karan.churi.PermissionManager.R$styleable: int AlertDialog_listLayout
@@ -11236,6 +11408,7 @@ com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_toolbarNavigat
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_toolbarStyle
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_tooltipForegroundColor
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_tooltipFrameBackground
+com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_viewInflaterClass
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_windowActionBar
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_windowActionBarOverlay
 com.karan.churi.PermissionManager.R$styleable: int AppCompatTheme_windowActionModeOverlay

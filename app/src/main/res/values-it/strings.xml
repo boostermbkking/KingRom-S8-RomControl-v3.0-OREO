@@ -1,7 +1,7 @@
 <resources>
     <string name="app_name">KS8 Mods</string>
     <string name="romname">KING ROM</string>
-    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V11</string>
+    <string name="workingversion">QUESTA VERSIONE DI ROM CONTROL E\' PER LA KING OREO ROM V13</string>
 
     <string name="navigation_drawer_open">Apri menu navigazione</string>
     <string name="navigation_drawer_close">Chiudi menu navigazione</string>
@@ -315,5 +315,10 @@
     <string name="HapticFeedback">Feedback Vibrazione</string>
     <string name="Doubleclickplay">Doppio click play/pause</string>
     <string name="LongPressTimeOut">Tempo Pressione Lunga</string>
+
+    <string name="CustomNavbarHighSwitch">Switch Altezza Navbar Personalizzata</string>
+    <string name="CustomNavbarHigh">Altezza Navbar Personalizzata</string>
+    <string name="CustomNavbarIconColorSwitch">Switch Colore Personalizzato Tasti Navbar</string>
+    <string name="CustomNavbarIconColor">Colore Personalizzato Tasti Navbar</string>
 
 </resources>

@@ -4,17 +4,7 @@
             "outputFile": "C:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-uz\\values-uz.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\752bc822148e3ab1f8c1fd3d2eccd4e2\\res\\values-uz\\values-uz.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
-                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "105,210,314,428,514,625,741,821,900,984,1093,1200,1301,1409,1514,1621,1782,1881",
-                        "endColumns": "104,103,113,85,110,115,79,78,83,108,106,100,107,104,106,160,98,83",
-                        "endOffsets": "205,309,423,509,620,736,816,895,979,1088,1195,1296,1404,1509,1616,1777,1876,1960"
-                    }
-                },
-                {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.0.2.aar\\7b8a66b50ca823e3449babe7695dcbec\\res\\values-uz\\values-uz.xml",
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\support-compat-27.1.1.aar\\320a5e1b02e14a5c23a8b2936fa87ae7\\res\\values-uz\\values-uz.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",
@@ -28,6 +18,16 @@
                         "startOffsets": "1965",
                         "endColumns": "100",
                         "endOffsets": "2061"
+                    }
+                },
+                {
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\37f1b0560d21186a4ceced5a4caae2b4\\res\\values-uz\\values-uz.xml",
+                    "from": {
+                        "startLines": "2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19",
+                        "startColumns": "4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4,4",
+                        "startOffsets": "105,210,314,428,514,625,741,821,900,984,1093,1200,1301,1409,1514,1621,1782,1881",
+                        "endColumns": "104,103,113,85,110,115,79,78,83,108,106,100,107,104,106,160,98,83",
+                        "endOffsets": "205,309,423,509,620,736,816,895,979,1088,1195,1296,1404,1509,1616,1777,1876,1960"
                     }
                 }
             ]

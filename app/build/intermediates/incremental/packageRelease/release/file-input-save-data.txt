@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Fri May 04 23:09:41 CEST 2018
+#Fri Jun 29 15:29:53 CEST 2018
 1.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dex\\release\\0
 0.baseType=DIRECTORY
 1.baseType=DIRECTORY

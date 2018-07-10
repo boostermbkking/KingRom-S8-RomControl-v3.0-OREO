@@ -1,26 +1,26 @@
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_bottom_navigation_item.xml:26
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_bottom_navigation_item.xml:26
 -keep class android.support.design.internal.BaselineLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_navigation_item.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_navigation_item.xml:17
 -keep class android.support.design.internal.NavigationMenuItemView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_navigation_menu.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_navigation_menu.xml:17
 -keep class android.support.design.internal.NavigationMenuView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_layout_snackbar_include.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_layout_snackbar_include.xml:18
 -keep class android.support.design.internal.SnackbarContentLayout { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_about.xml:23
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\app_bar_main.xml:24
 -keep class android.support.design.widget.AppBarLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_text_input_password_icon.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_text_input_password_icon.xml:18
 -keep class android.support.design.widget.CheckableImageButton { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_about.xml:31
 -keep class android.support.design.widget.CollapsingToolbarLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_bottom_sheet_dialog.xml:26
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_bottom_sheet_dialog.xml:26
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_about.xml:15
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\app_bar_main.xml:15
 -keep class android.support.design.widget.CoordinatorLayout { <init>(...); }
@@ -31,95 +31,98 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_main.xml:17
 -keep class android.support.design.widget.NavigationView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout-sw600dp-v13\design_layout_snackbar.xml:18
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\acedb7b454998575d504dd454b7b67c5\res\layout\design_layout_snackbar.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout-sw600dp-v13\design_layout_snackbar.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\design-27.1.1.aar\6fa2ce372ffa909ca4da29785daab92c\res\layout\design_layout_snackbar.xml:18
 -keep class android.support.design.widget.Snackbar$SnackbarLayout { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_main.xml:2
 -keep class android.support.v4.widget.DrawerLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_material.xml:41
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_material.xml:41
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\about_activity_content.xml:15
 -keep class android.support.v4.widget.NestedScrollView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_button_bar_material.xml:43
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_material.xml:52
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_material.xml:66
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_title_material.xml:56
--keep class android.support.v4.widget.Space { <init>(...); }
-
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_select_dialog_material.xml:23
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_select_dialog_material.xml:23
 -keep class android.support.v7.app.AlertController$RecycleListView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_action_menu_item_layout.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_action_menu_item_layout.xml:17
 -keep class android.support.v7.view.menu.ActionMenuItemView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_expanded_menu_layout.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_expanded_menu_layout.xml:17
 -keep class android.support.v7.view.menu.ExpandedMenuView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_list_menu_item_layout.xml:17
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_popup_menu_item_layout.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_list_menu_item_layout.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_popup_menu_item_layout.xml:17
 -keep class android.support.v7.view.menu.ListMenuItemView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout-v26\abc_screen_toolbar.xml:27
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_toolbar.xml:27
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-v26\abc_screen_toolbar.xml:27
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_toolbar.xml:27
 -keep class android.support.v7.widget.ActionBarContainer { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout-v26\abc_screen_toolbar.xml:44
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_action_mode_bar.xml:19
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_toolbar.xml:43
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-v26\abc_screen_toolbar.xml:44
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_action_mode_bar.xml:19
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_toolbar.xml:43
 -keep class android.support.v7.widget.ActionBarContextView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout-v26\abc_screen_toolbar.xml:17
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_toolbar.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-v26\abc_screen_toolbar.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_toolbar.xml:17
 -keep class android.support.v7.widget.ActionBarOverlayLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_action_menu_layout.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_action_menu_layout.xml:17
 -keep class android.support.v7.widget.ActionMenuView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_activity_chooser_view.xml:19
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_activity_chooser_view.xml:19
 -keep class android.support.v7.widget.ActivityChooserView$InnerLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_material.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_material.xml:18
 -keep class android.support.v7.widget.AlertDialogLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_button_bar_material.xml:26
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-watch-v20\abc_alert_dialog_button_bar_material.xml:18
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_button_bar_material.xml:26
 -keep class android.support.v7.widget.ButtonBarLayout { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\about_activity_content.xml:32
 -keep class android.support.v7.widget.CardView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_content_include.xml:19
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_content_include.xml:19
 -keep class android.support.v7.widget.ContentFrameLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_alert_dialog_title_material.xml:45
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-watch-v20\abc_alert_dialog_title_material.xml:44
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_title_material.xml:45
 -keep class android.support.v7.widget.DialogTitle { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_simple_overlay_action_mode.xml:23
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_simple_overlay_action_mode.xml:23
 -keep class android.support.v7.widget.FitWindowsFrameLayout { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_dialog_title_material.xml:22
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_simple.xml:17
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_dialog_title_material.xml:22
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_simple.xml:17
 -keep class android.support.v7.widget.FitWindowsLinearLayout { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\multi_select_preference_dialog_layout.xml:26
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\multiple_choice_preference_dialog_layout.xml:29
 -keep class android.support.v7.widget.RecyclerView { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_search_view.xml:75
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_search_view.xml:75
 -keep class android.support.v7.widget.SearchView$SearchAutoComplete { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\PiracyChecker-1.2.2.aar\8dc6a7e81e32e87157f2a7919738c0f1\res\layout\activity_license.xml:9
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout-v26\abc_screen_toolbar.xml:37
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_toolbar.xml:36
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\PiracyChecker-1.2.3.aar\7fe2ad7c83e85a281bf2792d30cf2de8\res\layout\activity_license.xml:9
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-v26\abc_screen_toolbar.xml:37
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_toolbar.xml:36
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\activity_about.xml:57
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\app_bar_main.xml:29
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\nested_preference_toolbar_layout.xml:15
 -keep class android.support.v7.widget.Toolbar { <init>(...); }
 
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_simple.xml:25
-# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.0.2.aar\752bc822148e3ab1f8c1fd3d2eccd4e2\res\layout\abc_screen_simple_overlay_action_mode.xml:32
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_simple.xml:25
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_screen_simple_overlay_action_mode.xml:32
 -keep class android.support.v7.widget.ViewStubCompat { <init>(...); }
+
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout-watch-v20\abc_alert_dialog_title_material.xml:53
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_button_bar_material.xml:43
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_material.xml:52
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_material.xml:66
+# Referenced at C:\Users\boost\.gradle\caches\transforms-1\files-1.1\appcompat-v7-27.1.1.aar\37f1b0560d21186a4ceced5a4caae2b4\res\layout\abc_alert_dialog_title_material.xml:56
+-keep class android.widget.Space { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\build\intermediates\manifests\full\release\AndroidManifest.xml:46
 -keep class com.boostermbkking.ks8mods.v2.AboutActivity { <init>(...); }
@@ -136,8 +139,8 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\dialog_color_picker.xml:82
 -keep class com.boostermbkking.ks8mods.v2.prefs.ColorPickerPanelView { <init>(...); }
 
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:103
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:110
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:81
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:81
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\phone_prefs.xml:43
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\phone_prefs.xml:47
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\recent.xml:11
@@ -150,14 +153,12 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:114
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:168
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:174
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:204
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:106
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:108
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:110
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:114
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:168
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:174
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:204
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:89
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:96
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:105
@@ -187,10 +188,10 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:244
 -keep class com.boostermbkking.ks8mods.v2.prefs.IntentDialogPreference { <init>(...); }
 
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:78
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:79
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:85
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:86
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:56
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:57
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:56
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:57
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:122
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:124
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:126
@@ -226,21 +227,19 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:149
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:155
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:161
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:187
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:98
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:102
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:104
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:149
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:155
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:161
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:187
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:156
 -keep class com.boostermbkking.ks8mods.v2.prefs.MyListPreference { <init>(...); }
 
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:80
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:99
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:87
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:106
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:58
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:77
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:58
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:77
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\phone_prefs.xml:57
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:159
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:163
@@ -251,24 +250,40 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:136
 -keep class com.boostermbkking.ks8mods.v2.prefs.MySeekBarPreference { <init>(...); }
 
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:59
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:16
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:20
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:23
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:26
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:29
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:32
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:35
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:38
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:41
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:44
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:47
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:50
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:55
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:63
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:67
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:71
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:77
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:85
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:91
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:97
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:101
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:66
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:70
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:74
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:78
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:84
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:92
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:98
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:104
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:108
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:69
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:75
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks.xml:79
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:16
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:20
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:23
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:26
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:29
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:32
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:35
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:38
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:41
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:44
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:47
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:50
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:55
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:63
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:69
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:75
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\frameworks_pro.xml:79
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\lockscreen.xml:5
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\lockscreen_pro.xml:5
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\phone_prefs.xml:17
@@ -289,7 +304,6 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:153
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:157
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:166
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:181
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:65
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:71
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:73
@@ -305,7 +319,6 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:153
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:157
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:166
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:181
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:6
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui.xml:11
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\systemui_pro.xml:6
@@ -362,8 +375,6 @@
 -keep class com.boostermbkking.ks8mods.v2.prefs.ThumbnailListPreference { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\phone_prefs.xml:33
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar.xml:199
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\statusbar_pro.xml:199
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:274
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:277
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\xml\ui_prefs.xml:280
@@ -381,7 +392,7 @@
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\reboot_layout.xml:58
 -keep class com.boostermbkking.ks8mods.v2.views.RebootView { <init>(...); }
 
-# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\build\intermediates\manifests\full\release\AndroidManifest.xml:63
+# Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\build\intermediates\manifests\full\release\AndroidManifest.xml:60
 -keep class com.github.javiersantos.piracychecker.activities.LicenseActivity { <init>(...); }
 
 # Referenced at C:\Users\boost\StudioProjects\KingRom-S8-RomControl-v3.0-OREO\app\src\main\res\layout\about_contact_us_item.xml:24

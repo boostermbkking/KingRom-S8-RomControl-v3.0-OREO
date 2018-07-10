@@ -177,7 +177,7 @@
         </PreferenceScreen>
     </PreferenceCategory>
 
-    <PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomLogoTitlePro" android:enabled="false">
+    <!--<PreferenceCategory android:layout="@layout/preferences_category" android:title="@string/CustomLogoTitlePro" android:enabled="false">
         <com.boostermbkking.ks8mods.v2.prefs.MySwitchPreference
             android:defaultValue="true"
             android:key="z_logo_hide"
@@ -208,6 +208,6 @@
             android:dependency="z_logo_type"
             android:key="z_logo_Color"
             android:title="@string/LogoColors" />
-    </PreferenceCategory>
+    </PreferenceCategory>-->
 
 </PreferenceScreen>

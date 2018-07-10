@@ -1,4 +1,4 @@
-#Thu May 03 14:02:39 CEST 2018
-base.0=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\5
+#Wed May 30 19:34:57 CEST 2018
+base.0=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\24
 path.0=classes.dex
 renamed.0=classes.dex

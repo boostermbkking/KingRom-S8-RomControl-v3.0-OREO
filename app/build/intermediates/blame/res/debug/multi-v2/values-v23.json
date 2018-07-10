@@ -39,7 +39,7 @@
             "outputFile": "C:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-v23\\values-v23.xml",
             "map": [
                 {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.0.2.aar\\752bc822148e3ab1f8c1fd3d2eccd4e2\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-27.1.1.aar\\37f1b0560d21186a4ceced5a4caae2b4\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,19,32,33,34,35,36",
                         "startColumns": "4,4,4,4,4,4,4,4,4,4,4",
@@ -50,7 +50,7 @@
                     }
                 },
                 {
-                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-26.1.0.aar\\451ab6552c0ecc3e0f5834ee0f690de8\\res\\values-v23\\values-v23.xml",
+                    "source": "C:\\Users\\boost\\.gradle\\caches\\transforms-1\\files-1.1\\cardview-v7-27.1.1.aar\\c4d2509f0f234d78a72ab948afd1644f\\res\\values-v23\\values-v23.xml",
                     "from": {
                         "startLines": "2",
                         "startColumns": "4",

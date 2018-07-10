@@ -1,20 +1,20 @@
 #Internal package file, do not edit.
-#Thu May 03 14:05:28 CEST 2018
-2.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\16
+#Wed May 30 19:34:58 CEST 2018
+2.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\assets\\debug
 5.set=DEX
-0.path=scripts/simple_test.sh
+0.path=classes.dex
 2.baseType=DIRECTORY
-3.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\12
-2.set=DEX
+3.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\35
+2.set=ASSET
 1.path=classes.dex
-4.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\15
+4.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\31
 count=7
 5.baseType=DIRECTORY
-2.path=classes.dex
-5.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\14
+2.path=scripts/simple_test.sh
+5.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\34
 4.set=DEX
 3.path=classes.dex
-6.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\17
+6.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\36
 3.baseType=DIRECTORY
 1.set=DEX
 4.path=classes.dex
@@ -22,10 +22,10 @@ count=7
 1.baseType=DIRECTORY
 6.baseType=DIRECTORY
 5.path=classes.dex
-0.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\assets\\debug
+0.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\33
 0.baseType=DIRECTORY
 3.set=DEX
 6.path=classes.dex
-1.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\13
+1.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\32
 4.baseType=DIRECTORY
-0.set=ASSET
+0.set=DEX

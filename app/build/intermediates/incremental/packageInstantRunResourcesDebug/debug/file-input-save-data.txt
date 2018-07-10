@@ -1,5 +1,5 @@
 #Internal package file, do not edit.
-#Thu May 03 14:05:27 CEST 2018
+#Wed May 30 19:34:52 CEST 2018
 0.baseType=DIRECTORY
 0.base=C\:\\Users\\boost\\StudioProjects\\KingRom-S8-RomControl-v3.0-OREO\\app\\build\\intermediates\\assets\\debug
 0.path=scripts/simple_test.sh
